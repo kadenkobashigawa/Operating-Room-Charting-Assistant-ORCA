@@ -1,0 +1,737 @@
+{
+    "summary": {
+        "total_fields": 80,
+        "correct": 76,
+        "incorrect": 4,
+        "review_needed": 0,
+        "accuracy_pct": 95.0
+    },
+    "fields": {
+        "closure.closure_layers": {
+            "verdict": "correct",
+            "answer_key_raw": [
+                "fascial layer, subcutaneous layer, skin"
+            ],
+            "extracted_raw": [
+                "Fascia closed with PDS, Subcutaneous layer Vicryl, Skin staples."
+            ]
+        },
+        "closure.closure_method": {
+            "verdict": "correct",
+            "answer_key_raw": [
+                "pds (fascia); vicryl (subcutaneous); staples (skin)"
+            ],
+            "extracted_raw": [
+                "PDS for fascia closure, Vicryl for subcutaneous layer (skin staples)."
+            ]
+        },
+        "closure.post_op_skin_care": {
+            "verdict": "correct",
+            "answer_key_raw": [
+                "sterile gauze dressing"
+            ],
+            "extracted_raw": [
+                "Sterile gauze was applied to the closed incision."
+            ]
+        },
+        "closure.wound_classification": {
+            "verdict": "correct",
+            "answer_key_raw": [
+                "clean-contaminated"
+            ],
+            "extracted_raw": [
+                "Clean contaminated (according to the transcript)"
+            ]
+        },
+        "intra_op.complication_management": {
+            "verdict": "correct",
+            "answer_key_raw": [
+                "cautery and suture ligation"
+            ],
+            "extracted_raw": [
+                "Complication managed with cautery and suture ligation (minor bleeding from mesenteric vessel)."
+            ]
+        },
+        "intra_op.complications": {
+            "verdict": "correct",
+            "answer_key_raw": [
+                "minor bleeding from mesenteric vessel"
+            ],
+            "extracted_raw": [
+                "Minor bleeding from mesenteric vessel."
+            ]
+        },
+        "intra_op.drain_location": {
+            "verdict": "correct",
+            "answer_key_raw": [
+                "<none>"
+            ],
+            "extracted_raw": [
+                "<none>"
+            ]
+        },
+        "intra_op.drain_placed": {
+            "verdict": "correct",
+            "answer_key_raw": [
+                "no"
+            ],
+            "extracted_raw": [
+                "NO"
+            ]
+        },
+        "intra_op.drain_type": {
+            "verdict": "correct",
+            "answer_key_raw": [
+                "<none>"
+            ],
+            "extracted_raw": [
+                "<none>"
+            ]
+        },
+        "intra_op.electrosurgery_type": {
+            "verdict": "correct",
+            "answer_key_raw": [
+                "bovie and ligasure"
+            ],
+            "extracted_raw": [
+                "Bovie and LigaSure were used."
+            ]
+        },
+        "intra_op.electrosurgery_used": {
+            "verdict": "correct",
+            "answer_key_raw": [
+                "yes"
+            ],
+            "extracted_raw": [
+                "Yes (Bovie and LigaSure)"
+            ]
+        },
+        "intra_op.estimated_blood_loss": {
+            "verdict": "correct",
+            "answer_key_raw": [
+                "150 ml"
+            ],
+            "extracted_raw": [
+                "Estimated blood loss: 150 milliliters"
+            ]
+        },
+        "intra_op.findings": {
+            "verdict": "incorrect",
+            "answer_key_raw": [
+                "mass in ascending colon; no metastasis"
+            ],
+            "extracted_raw": [
+                "Mass in ascending colon (carcinoma)."
+            ]
+        },
+        "intra_op.fluid_in": {
+            "verdict": "correct",
+            "answer_key_raw": [
+                "1.5 liters lactated ringer's"
+            ],
+            "extracted_raw": [
+                "1.5 liters lactated Ringer's"
+            ]
+        },
+        "intra_op.incision_location": {
+            "verdict": "correct",
+            "answer_key_raw": [
+                "midline abdomen"
+            ],
+            "extracted_raw": [
+                "Midline abdomen"
+            ]
+        },
+        "intra_op.incision_type": {
+            "verdict": "incorrect",
+            "answer_key_raw": [
+                "midline laparotomy"
+            ],
+            "extracted_raw": [
+                "<none>"
+            ]
+        },
+        "intra_op.intra_op_handoff": {
+            "verdict": "correct",
+            "answer_key_raw": [
+                "no"
+            ],
+            "extracted_raw": [
+                "<none>"
+            ]
+        },
+        "intra_op.intra_op_imaging": {
+            "verdict": "correct",
+            "answer_key_raw": [
+                "no"
+            ],
+            "extracted_raw": [
+                "No imaging used"
+            ]
+        },
+        "intra_op.intra_op_imaging_type": {
+            "verdict": "correct",
+            "answer_key_raw": [
+                "<none>"
+            ],
+            "extracted_raw": [
+                "<none>"
+            ]
+        },
+        "intra_op.tourniquet_inflation_time": {
+            "verdict": "correct",
+            "answer_key_raw": [
+                "<none>"
+            ],
+            "extracted_raw": [
+                "<none>"
+            ]
+        },
+        "intra_op.tourniquet_pressure": {
+            "verdict": "correct",
+            "answer_key_raw": [
+                "<none>"
+            ],
+            "extracted_raw": [
+                "<none>"
+            ]
+        },
+        "intra_op.tourniquet_used": {
+            "verdict": "correct",
+            "answer_key_raw": [
+                "no"
+            ],
+            "extracted_raw": [
+                "<none>"
+            ]
+        },
+        "intra_op.urine_output": {
+            "verdict": "correct",
+            "answer_key_raw": [
+                "200 ml"
+            ],
+            "extracted_raw": [
+                "Two hundred milliliters"
+            ]
+        },
+        "medications.anesthesia_type": {
+            "verdict": "correct",
+            "answer_key_raw": [
+                "general"
+            ],
+            "extracted_raw": [
+                "General anesthesia"
+            ]
+        },
+        "medications.intra_op_medications": {
+            "verdict": "correct",
+            "answer_key_raw": [
+                "propofol, fentanyl, rocuronium, cefazolin 2g iv (prophylactic), phenylephrine"
+            ],
+            "extracted_raw": [
+                "Propofol, Fentanyl, Rocuronium, Cefazolin, Phenylephrine, Packed Red Blood Cells."
+            ]
+        },
+        "medications.local_anesthetic_agent": {
+            "verdict": "correct",
+            "answer_key_raw": [
+                "<none>"
+            ],
+            "extracted_raw": [
+                "<none>"
+            ]
+        },
+        "medications.local_anesthetic_site": {
+            "verdict": "correct",
+            "answer_key_raw": [
+                "<none>"
+            ],
+            "extracted_raw": [
+                "<none>"
+            ]
+        },
+        "medications.local_anesthetic_used": {
+            "verdict": "correct",
+            "answer_key_raw": [
+                "no"
+            ],
+            "extracted_raw": [
+                "<none>"
+            ]
+        },
+        "medications.transfusion_given": {
+            "verdict": "correct",
+            "answer_key_raw": [
+                "yes"
+            ],
+            "extracted_raw": [
+                "Yes"
+            ]
+        },
+        "medications.transfusion_product": {
+            "verdict": "correct",
+            "answer_key_raw": [
+                "packed red blood cells (prbc)"
+            ],
+            "extracted_raw": [
+                "One unit of packed red blood cells (PRBCs)"
+            ]
+        },
+        "medications.transfusion_volume": {
+            "verdict": "correct",
+            "answer_key_raw": [
+                "300 ml (1 unit)"
+            ],
+            "extracted_raw": [
+                "One unit of packed red blood cells (300 mL)"
+            ]
+        },
+        "medications.vasopressor_agent": {
+            "verdict": "correct",
+            "answer_key_raw": [
+                "phenylephrine (intermittent boluses)"
+            ],
+            "extracted_raw": [
+                "Phenylephrine"
+            ]
+        },
+        "medications.vasopressor_used": {
+            "verdict": "correct",
+            "answer_key_raw": [
+                "yes"
+            ],
+            "extracted_raw": [
+                "Yes"
+            ]
+        },
+        "patient_info.date_of_birth": {
+            "verdict": "correct",
+            "answer_key_raw": [
+                "august 14, 1960"
+            ],
+            "extracted_raw": [
+                "August fourteenth, nineteen sixty"
+            ]
+        },
+        "patient_info.date_of_surgery": {
+            "verdict": "correct",
+            "answer_key_raw": [
+                "february 22, 2026"
+            ],
+            "extracted_raw": [
+                "February 22, 2026"
+            ]
+        },
+        "patient_info.end_time": {
+            "verdict": "correct",
+            "answer_key_raw": [
+                "9:28 am"
+            ],
+            "extracted_raw": [
+                "Procedure end time: 9:28 AM."
+            ]
+        },
+        "patient_info.patient_id": {
+            "verdict": "correct",
+            "answer_key_raw": [
+                "5902341"
+            ],
+            "extracted_raw": [
+                "Medical Record Number: 5902341"
+            ]
+        },
+        "patient_info.patient_name": {
+            "verdict": "correct",
+            "answer_key_raw": [
+                "robert jenkins"
+            ],
+            "extracted_raw": [
+                "Robert Jenkins"
+            ]
+        },
+        "patient_info.start_time": {
+            "verdict": "correct",
+            "answer_key_raw": [
+                "7:45 am"
+            ],
+            "extracted_raw": [
+                "The surgery began at 7:45 AM."
+            ]
+        },
+        "post_op.extubated_in_or": {
+            "verdict": "correct",
+            "answer_key_raw": [
+                "yes"
+            ],
+            "extracted_raw": [
+                "Yes"
+            ]
+        },
+        "post_op.patient_condition": {
+            "verdict": "correct",
+            "answer_key_raw": [
+                "stable"
+            ],
+            "extracted_raw": [
+                "Stable"
+            ]
+        },
+        "post_op.post_op_orders": {
+            "verdict": "correct",
+            "answer_key_raw": [
+                "npo, iv fluids, pain control, monitor hemoglobin, follow-up in clinic"
+            ],
+            "extracted_raw": [
+                "Post operative orders: NPO, IV fluids, pain control, monitor hemoglobin, follow up in clinic."
+            ]
+        },
+        "post_op.transfer_destination": {
+            "verdict": "correct",
+            "answer_key_raw": [
+                "pacu"
+            ],
+            "extracted_raw": [
+                "Transferred to PACU."
+            ]
+        },
+        "pre_op.antibiotic_prophylaxis_agent": {
+            "verdict": "correct",
+            "answer_key_raw": [
+                "cefazolin 2g iv"
+            ],
+            "extracted_raw": [
+                "Cefazolin 2 grams IV at 7:36 AM"
+            ]
+        },
+        "pre_op.antibiotic_prophylaxis_time": {
+            "verdict": "correct",
+            "answer_key_raw": [
+                "7:36 am"
+            ],
+            "extracted_raw": [
+                "Cefazolin was administered at 7:36 AM."
+            ]
+        },
+        "pre_op.draping": {
+            "verdict": "correct",
+            "answer_key_raw": [
+                "standard sterile fashion"
+            ],
+            "extracted_raw": [
+                "Standard sterile fashion (chest to mid-thigh)."
+            ]
+        },
+        "pre_op.dvt_prophylaxis": {
+            "verdict": "correct",
+            "answer_key_raw": [
+                "sequential compression devices (scds)"
+            ],
+            "extracted_raw": [
+                "Sequential compression devices on and functioning for DVT prophylaxis."
+            ]
+        },
+        "pre_op.grounding_pad_location": {
+            "verdict": "correct",
+            "answer_key_raw": [
+                "left thigh"
+            ],
+            "extracted_raw": [
+                "The grounding pad was placed on left thigh."
+            ]
+        },
+        "pre_op.grounding_pad_placed": {
+            "verdict": "correct",
+            "answer_key_raw": [
+                "yes"
+            ],
+            "extracted_raw": [
+                "Yes"
+            ]
+        },
+        "pre_op.patient_positioning": {
+            "verdict": "correct",
+            "answer_key_raw": [
+                "supine, arms extended on padded armboards"
+            ],
+            "extracted_raw": [
+                "The patient was positioned supine with arms extended on padded armboards, safety strap secured across thighs, and sequential compression devices on for DVT prophylaxis."
+            ]
+        },
+        "pre_op.positioning_aids": {
+            "verdict": "correct",
+            "answer_key_raw": [
+                "gel pads and foam padding"
+            ],
+            "extracted_raw": [
+                "Padded armboards, gel pads, foam padding"
+            ]
+        },
+        "pre_op.pre_op_skin_prep_area": {
+            "verdict": "correct",
+            "answer_key_raw": [
+                "abdomen from chest to mid-thigh"
+            ],
+            "extracted_raw": [
+                "Abdomen (from chest to mid thigh)"
+            ]
+        },
+        "pre_op.pre_op_skin_prep_solution": {
+            "verdict": "incorrect",
+            "answer_key_raw": [
+                "chlorhexidine gluconate"
+            ],
+            "extracted_raw": [
+                "Chlorhexidine"
+            ]
+        },
+        "pre_op.safety_strap_applied": {
+            "verdict": "correct",
+            "answer_key_raw": [
+                "yes"
+            ],
+            "extracted_raw": [
+                "Yes"
+            ]
+        },
+        "pre_op.timeout_performed": {
+            "verdict": "correct",
+            "answer_key_raw": [
+                "yes"
+            ],
+            "extracted_raw": [
+                "Yes"
+            ]
+        },
+        "pre_op.timeout_verified": {
+            "verdict": "correct",
+            "answer_key_raw": [
+                "patient identity, procedure, site, consent, antibiotics, imaging availability"
+            ],
+            "extracted_raw": [
+                "Patient: Robert Jenkins, Procedure: Open right colectomy, Site marked, Consent signed and verified, Antibiotics given."
+            ]
+        },
+        "procedure.approach": {
+            "verdict": "correct",
+            "answer_key_raw": [
+                "open"
+            ],
+            "extracted_raw": [
+                "Open approach"
+            ]
+        },
+        "procedure.laterality": {
+            "verdict": "correct",
+            "answer_key_raw": [
+                "right"
+            ],
+            "extracted_raw": [
+                "Right side"
+            ]
+        },
+        "procedure.primary_diagnosis": {
+            "verdict": "correct",
+            "answer_key_raw": [
+                "ascending colon carcinoma"
+            ],
+            "extracted_raw": [
+                "Ascending colon carcinoma"
+            ]
+        },
+        "procedure.procedure_name": {
+            "verdict": "correct",
+            "answer_key_raw": [
+                "open right colectomy"
+            ],
+            "extracted_raw": [
+                "Open right colectomy (ascending colon carcinoma resection)"
+            ]
+        },
+        "procedure.procedure_type": {
+            "verdict": "correct",
+            "answer_key_raw": [
+                "elective"
+            ],
+            "extracted_raw": [
+                "Elective"
+            ]
+        },
+        "procedure.secondary_procedure": {
+            "verdict": "correct",
+            "answer_key_raw": [
+                "no"
+            ],
+            "extracted_raw": [
+                "<none>"
+            ]
+        },
+        "specimens.specimen_description": {
+            "verdict": "correct",
+            "answer_key_raw": [
+                "right colon"
+            ],
+            "extracted_raw": [
+                "Right colon (specimen)"
+            ]
+        },
+        "specimens.specimen_label_verified": {
+            "verdict": "correct",
+            "answer_key_raw": [
+                "yes"
+            ],
+            "extracted_raw": [
+                "Yes"
+            ]
+        },
+        "specimens.specimen_laterality": {
+            "verdict": "correct",
+            "answer_key_raw": [
+                "right"
+            ],
+            "extracted_raw": [
+                "The specimen was taken from the right side (right colon)."
+            ]
+        },
+        "specimens.specimen_removed": {
+            "verdict": "correct",
+            "answer_key_raw": [
+                "yes"
+            ],
+            "extracted_raw": [
+                "Yes, right colon was removed."
+            ]
+        },
+        "specimens.specimen_sent_to_pathology": {
+            "verdict": "correct",
+            "answer_key_raw": [
+                "yes"
+            ],
+            "extracted_raw": [
+                "Yes"
+            ]
+        },
+        "supplies_and_equipment.implant_lot_number": {
+            "verdict": "correct",
+            "answer_key_raw": [
+                "<none>"
+            ],
+            "extracted_raw": [
+                "<none>"
+            ]
+        },
+        "supplies_and_equipment.implant_manufacturer": {
+            "verdict": "correct",
+            "answer_key_raw": [
+                "<none>"
+            ],
+            "extracted_raw": [
+                "<none>"
+            ]
+        },
+        "supplies_and_equipment.implants": {
+            "verdict": "correct",
+            "answer_key_raw": [
+                "<none>"
+            ],
+            "extracted_raw": [
+                "<none>"
+            ]
+        },
+        "supplies_and_equipment.instrument_count_correct": {
+            "verdict": "correct",
+            "answer_key_raw": [
+                "yes"
+            ],
+            "extracted_raw": [
+                "Yes"
+            ]
+        },
+        "supplies_and_equipment.instruments": {
+            "verdict": "correct",
+            "answer_key_raw": [
+                "scalpel, ligasure, bovie, retractors, stapler"
+            ],
+            "extracted_raw": [
+                "Scalpel, LigaSure, Bovie, retractors, stapler"
+            ]
+        },
+        "supplies_and_equipment.sharps_count_correct": {
+            "verdict": "correct",
+            "answer_key_raw": [
+                "yes"
+            ],
+            "extracted_raw": [
+                "YES"
+            ]
+        },
+        "supplies_and_equipment.sponge_count_correct": {
+            "verdict": "correct",
+            "answer_key_raw": [
+                "yes"
+            ],
+            "extracted_raw": [
+                "YES"
+            ]
+        },
+        "surgical_team.anesthesiologist": {
+            "verdict": "correct",
+            "answer_key_raw": [
+                "dr. andrew collins"
+            ],
+            "extracted_raw": [
+                "Anesthesia Doctor Andrew Collins"
+            ]
+        },
+        "surgical_team.assistant_surgeon": {
+            "verdict": "correct",
+            "answer_key_raw": [
+                "dr. kevin ross"
+            ],
+            "extracted_raw": [
+                "Doctor Kevin Ross"
+            ]
+        },
+        "surgical_team.circulating_nurse": {
+            "verdict": "correct",
+            "answer_key_raw": [
+                "jason kim"
+            ],
+            "extracted_raw": [
+                "Circulating nurse Jason Kim."
+            ]
+        },
+        "surgical_team.crna": {
+            "verdict": "correct",
+            "answer_key_raw": [
+                "sarah nguyen"
+            ],
+            "extracted_raw": [
+                "Sarah Nguyen"
+            ]
+        },
+        "surgical_team.primary_surgeon": {
+            "verdict": "correct",
+            "answer_key_raw": [
+                "dr. priya shah"
+            ],
+            "extracted_raw": [
+                "Doctor Priya Shah"
+            ]
+        },
+        "surgical_team.scrub_tech": {
+            "verdict": "correct",
+            "answer_key_raw": [
+                "maria lopez"
+            ],
+            "extracted_raw": [
+                "The scrub technician is Maria Lopez."
+            ]
+        }
+    },
+    "meta": {
+        "model": "mistral:7b-instruct",
+        "transcript_id": 2,
+        "graded_at": "2026-04-08 13:53:31",
+        "source_report": "cde_val/val_reports/mistral-7b-instruct/extracted_report_08-04-2026_132500.json"
+    }
+}

@@ -1,0 +1,262 @@
+{
+    "patient_info": {
+        "patient_name": [
+            "Margaret Collins"
+        ],
+        "patient_id": [
+            "Medical Record Number: 4821903"
+        ],
+        "date_of_birth": [
+            "March third, ninete0five eight."
+        ],
+        "date_of_surgery": [
+            "February twenty second, twenty twenty six"
+        ],
+        "start_time": [
+            "Surgery began at 8:00 A.M. on February twentisnd, twenty-sixth (2026). Answer exactly as written without alterations. The information is directly provided in the transcript and requires no inference or interpretation beyond what's explicitly stated; therefore, \""
+        ],
+        "end_time": [
+            "Surgery ended at nine twelve A.M. (9:00 PM) on February twentith, twenty twenty-six."
+        ]
+    },
+    "surgical_team": {
+        "primary_surgeon": [
+            "Dr. Samuel Lee"
+        ],
+        "assistant_surgeon": [
+            "No assistant present; Samuel Lee as primary surgeon only. Answer: Dr. Samuel Lee alone."
+        ],
+        "scrub_tech": [
+            "James Okafor"
+        ],
+        "circulating_nurse": [
+            "Linda Tran (not more than 15 words)"
+        ],
+        "anesthesiologist": [
+            "Dr. Patricia Moore (General Anesthesia) and CRNA Kevin Hwang are involved; Dr. Samuel Lee assisting as primary surgeon without an assistant present today. The specific role of the solely named individual is not clearly defined in terms of leading or supervisory responsibilities over"
+        ],
+        "crna": [
+            "Kevin Hwang (CRNA) stable and effective during surgery without complications."
+        ]
+    },
+    "procedure": {
+        "procedure_name": [
+            "Laparoscopic right inguinal hernia repair with mesh implantation"
+        ],
+        "procedure_type": [
+            "Elective procedure as stated at beginning and end of transcript. Answer: Elective procedure."
+        ],
+        "approach": [
+            "Open Laparoscopic Surgery Used"
+        ],
+        "laterality": [
+            "Right inguinal hernia repair with mesh placement. Side is right.\n\nTo provide a direct answer from the transcript above, we can see that \"site secured and marked\" for surgery on Margaret Collins's body was identified as her 'right side'. The procedure involved in addressing this"
+        ],
+        "primary_diagnosis": [
+            "Symptomatic right inguinal hernia repair with mesh placement."
+        ],
+        "secondary_procedure": [
+            "No additional procedures were performed; end of primary procedure only. Answer: NO - Only laparoscopic right inguinal hernia repair with mesh was done without further interventions. (Understood) No extra operations during the same surgery session for Margaret Collins, as clearly stated at various points in"
+        ]
+    },
+    "pre_op": {
+        "patient_positioning": [
+            "Patient is supine with right arm tucked and left arm supported by an armboard."
+        ],
+        "positioning_aids": [
+            "Sequential compression devices and grounding pad on the left thigh."
+        ],
+        "safety_strap_applied": [
+            "Safety strap secured across thighs; YES answer is confirmed from transcript details."
+        ],
+        "grounding_pad_placed": [
+            "Grounding pad placed on the left thigh. YES."
+        ],
+        "grounding_pad_location": [
+            "Grounding pad placed on patient's left thigh."
+        ],
+        "pre_op_skin_prep_solution": [
+            "Chlorhexidine gluconate isolated for skin preparation before operation."
+        ],
+        "pre_op_skin_prep_area": [
+            "Right inguinal region (down to mid-thigh) on the right side."
+        ],
+        "draping": [
+            "Sterile laparoscopic fashion for inguinal hernia repair with mesh placement."
+        ],
+        "timeout_performed": [
+            "Timeout requested and completed as indicated by \"Okay team, timeout please.\" Answer is YES. No additional details provided, hence the specific timing isn't stated beyond this confirmation of action taken for a safety measure in preparation to start surgery."
+        ],
+        "timeout_verified": [
+            "Right inguinal hernia repair with mesh indicated for symptomatic right side condition. No secondary procedures planned. General anesthesia to be used without complications anticipated. All surgical team members informed and prepared. Procedure start time at eight-oh-five A.M., estimated end by"
+        ],
+        "antibiotic_prophylaxis_agent": [
+            "Cefazolin IV administered pre-incision."
+        ],
+        "antibiotic_prophylaxis_time": [
+            "Seven forty-two A.M. on February twentieth, twenty twenty-six."
+        ],
+        "dvt_prophylaxis": [
+            "<none>"
+        ]
+    },
+    "intra_op": {
+        "incision_location": [
+            "Skin prep and closure on right thigh where trocar sites were placed"
+        ],
+        "incision_type": [
+            "<none>"
+        ],
+        "findings": [
+            "Small lipoma of the cord found; no bowel involvement.\nNo other complications noted. Answer is \"small lipoma only.\""
+        ],
+        "complications": [
+            "<none>"
+        ],
+        "complication_management": [
+            "<none>"
+        ],
+        "estimated_blood_loss": [
+            "Estimated blood loss is minimal \u2014 about five milliliters."
+        ],
+        "urine_output": [
+            "Urine output one hundred twenty milliliters during surgery."
+        ],
+        "fluid_in": [
+            "One liter lactated Ringer's solution administered. No other types specified."
+        ],
+        "drain_placed": [
+            "No surgical drain was placed during the procedure; thus, my answer is NO - No drains used post-operationally.<|end_of_answer|> \n\nIn this transcript of a laparoscopic right inguinal hernia repair with mesh using cefazolin"
+        ],
+        "drain_type": [
+            "No drain was placed during the procedure."
+        ],
+        "drain_location": [
+            "<none>"
+        ],
+        "tourniquet_used": [
+            "<none>"
+        ],
+        "tourniquet_inflation_time": [
+            "<none>"
+        ],
+        "tourniquet_pressure": [
+            "<none>"
+        ],
+        "electrosurgery_used": [
+            "YES Bovie and harmonic scalpel were utilized during the procedure."
+        ],
+        "electrosurgery_type": [
+            "Bovie and Harmonic Scalpel utilized during surgery."
+        ],
+        "intra_op_handoff": [
+            "<none>"
+        ],
+        "intra_op_imaging": [
+            "<none>"
+        ],
+        "intra_op_imaging_type": [
+            "<none>"
+        ]
+    },
+    "medications": {
+        "anesthesia_type": [
+            "General Anesthesia with Propofol, Fentanyl, Desflurane; Local Bupivacaine Infiltration at Trocar Sites."
+        ],
+        "intra_op_medications": [
+            "Propofol, fentanyl, desflurane; bupivacaine for local anesthesia at trocar sites."
+        ],
+        "local_anesthetic_used": [
+            "Bupivacaine point two five percent used for trocar sites. Answer: YES."
+        ],
+        "local_anesthetic_agent": [
+            "Bupivacaine point two five percent injected at trocar sites."
+        ],
+        "local_anesthetic_site": [
+            "Local anesthetic injected at trocar sites on right side."
+        ],
+        "vasopressor_used": [
+            "<none>"
+        ],
+        "vasopressor_agent": [
+            "<none>"
+        ],
+        "transfusion_given": [
+            "<none>"
+        ],
+        "transfusion_product": [
+            "<none>"
+        ],
+        "transfusion_volume": [
+            "<none>"
+        ]
+    },
+    "supplies_and_equipment": {
+        "implants": [
+            "Self-fixating ProGrip mesh (Medtronic) size ten by fifteen centims. No other permanent items listed. Answer: ProGrip mesh only."
+        ],
+        "implant_manufacturer": [
+            "Medtronic (MDT)"
+        ],
+        "implant_lot_number": [
+            "<none>"
+        ],
+        "instruments": [
+            "<none>"
+        ],
+        "sponge_count_correct": [
+            "Yes, as indicated by \"Sponge count correct.\""
+        ],
+        "instrument_count_correct": [
+            "<none>"
+        ],
+        "sharps_count_correct": [
+            "<none>"
+        ]
+    },
+    "specimens": {
+        "specimen_removed": [
+            "<none>"
+        ],
+        "specimen_description": [
+            "<none>"
+        ],
+        "specimen_sent_to_pathology": [
+            "<none>"
+        ],
+        "specimen_label_verified": [
+            "<none>"
+        ],
+        "specimen_laterality": [
+            "<none>"
+        ]
+    },
+    "closure": {
+        "closure_method": [
+            "<none>"
+        ],
+        "closure_layers": [
+            "Fascial layer (Vicryl), subcutaneous layer (three-oh Vicryl), skin (Monocryl)"
+        ],
+        "post_op_skin_care": [
+            "<none>"
+        ],
+        "wound_classification": [
+            "<none>"
+        ]
+    },
+    "post_op": {
+        "patient_condition": [
+            "Patient tolerated well; no complications post-extubation."
+        ],
+        "extubated_in_or": [
+            "<none>"
+        ],
+        "transfer_destination": [
+            "<none>"
+        ],
+        "post_op_orders": [
+            "Resume diet as tolerated; follow up in two weeks' time."
+        ]
+    }
+}

@@ -1,0 +1,737 @@
+{
+    "summary": {
+        "total_fields": 80,
+        "correct": 70,
+        "incorrect": 10,
+        "review_needed": 0,
+        "accuracy_pct": 87.5
+    },
+    "fields": {
+        "closure.closure_layers": {
+            "verdict": "correct",
+            "answer_key_raw": [
+                "fascial layer, subcutaneous layer, skin"
+            ],
+            "extracted_raw": [
+                "Fascial layer with zero Vicryl, figure-of-eight; subcutaneous with three-oh Vicryl; skin with four-oh Monocryl."
+            ]
+        },
+        "closure.closure_method": {
+            "verdict": "correct",
+            "answer_key_raw": [
+                "0-vicryl figure-of-eight (fascia); 3-0 vicryl (subcutaneous); 4-0 monocryl running subcuticular (skin)"
+            ],
+            "extracted_raw": [
+                "Fascial layer with zero Vicryl, figure-of-eight; subcutaneous with three-oh Vicryl; skin with four-oh Monocryl, running subcuticular."
+            ]
+        },
+        "closure.post_op_skin_care": {
+            "verdict": "correct",
+            "answer_key_raw": [
+                "dermabond applied to all three port sites"
+            ],
+            "extracted_raw": [
+                "Dermabond applied to all three port sites."
+            ]
+        },
+        "closure.wound_classification": {
+            "verdict": "correct",
+            "answer_key_raw": [
+                "clean"
+            ],
+            "extracted_raw": [
+                "Clean."
+            ]
+        },
+        "intra_op.complication_management": {
+            "verdict": "incorrect",
+            "answer_key_raw": [
+                "<none>"
+            ],
+            "extracted_raw": [
+                "No complications encountered."
+            ]
+        },
+        "intra_op.complications": {
+            "verdict": "correct",
+            "answer_key_raw": [
+                "<none>"
+            ],
+            "extracted_raw": [
+                "<none>"
+            ]
+        },
+        "intra_op.drain_location": {
+            "verdict": "incorrect",
+            "answer_key_raw": [
+                "<none>"
+            ],
+            "extracted_raw": [
+                "No drain placed."
+            ]
+        },
+        "intra_op.drain_placed": {
+            "verdict": "correct",
+            "answer_key_raw": [
+                "no"
+            ],
+            "extracted_raw": [
+                ">No"
+            ]
+        },
+        "intra_op.drain_type": {
+            "verdict": "incorrect",
+            "answer_key_raw": [
+                "<none>"
+            ],
+            "extracted_raw": [
+                "No drain placed."
+            ]
+        },
+        "intra_op.electrosurgery_type": {
+            "verdict": "correct",
+            "answer_key_raw": [
+                "bovie and harmonic scalpel"
+            ],
+            "extracted_raw": [
+                "Bovie and harmonic scalpel."
+            ]
+        },
+        "intra_op.electrosurgery_used": {
+            "verdict": "correct",
+            "answer_key_raw": [
+                "yes"
+            ],
+            "extracted_raw": [
+                "Yes, Bovie and harmonic scalpel were used."
+            ]
+        },
+        "intra_op.estimated_blood_loss": {
+            "verdict": "correct",
+            "answer_key_raw": [
+                "5 ml"
+            ],
+            "extracted_raw": [
+                "Estimated blood loss is minimal \u2014 about five milliliters."
+            ]
+        },
+        "intra_op.findings": {
+            "verdict": "incorrect",
+            "answer_key_raw": [
+                "moderate-sized indirect right inguinal hernia with small lipoma of the cord; no bowel involvement; no additional abnormalities"
+            ],
+            "extracted_raw": [
+                "Moderate-sized indirect right inguinal hernia with a small lipoma of the cord."
+            ]
+        },
+        "intra_op.fluid_in": {
+            "verdict": "correct",
+            "answer_key_raw": [
+                "1 liter lactated ringer's"
+            ],
+            "extracted_raw": [
+                "Total fluids administered \u2014 one liter lactated Ringer's."
+            ]
+        },
+        "intra_op.incision_location": {
+            "verdict": "incorrect",
+            "answer_key_raw": [
+                "infra-umbilical and right lower quadrant"
+            ],
+            "extracted_raw": [
+                "Infra-umbilical."
+            ]
+        },
+        "intra_op.incision_type": {
+            "verdict": "correct",
+            "answer_key_raw": [
+                "trocar"
+            ],
+            "extracted_raw": [
+                "Trocar incisions were made."
+            ]
+        },
+        "intra_op.intra_op_handoff": {
+            "verdict": "correct",
+            "answer_key_raw": [
+                "no"
+            ],
+            "extracted_raw": [
+                "<none>"
+            ]
+        },
+        "intra_op.intra_op_imaging": {
+            "verdict": "correct",
+            "answer_key_raw": [
+                "no"
+            ],
+            "extracted_raw": [
+                "<none>"
+            ]
+        },
+        "intra_op.intra_op_imaging_type": {
+            "verdict": "correct",
+            "answer_key_raw": [
+                "<none>"
+            ],
+            "extracted_raw": [
+                "<none>"
+            ]
+        },
+        "intra_op.tourniquet_inflation_time": {
+            "verdict": "correct",
+            "answer_key_raw": [
+                "<none>"
+            ],
+            "extracted_raw": [
+                "<none>"
+            ]
+        },
+        "intra_op.tourniquet_pressure": {
+            "verdict": "correct",
+            "answer_key_raw": [
+                "<none>"
+            ],
+            "extracted_raw": [
+                "<none>"
+            ]
+        },
+        "intra_op.tourniquet_used": {
+            "verdict": "correct",
+            "answer_key_raw": [
+                "no"
+            ],
+            "extracted_raw": [
+                "<none>"
+            ]
+        },
+        "intra_op.urine_output": {
+            "verdict": "correct",
+            "answer_key_raw": [
+                "120 ml"
+            ],
+            "extracted_raw": [
+                "Urine output one hundred twenty milliliters."
+            ]
+        },
+        "medications.anesthesia_type": {
+            "verdict": "correct",
+            "answer_key_raw": [
+                "general"
+            ],
+            "extracted_raw": [
+                "General anesthesia."
+            ]
+        },
+        "medications.intra_op_medications": {
+            "verdict": "incorrect",
+            "answer_key_raw": [
+                "propofol, fentanyl, desflurane, cefazolin 2g iv (prophylactic), bupivacaine 0.25% (local)"
+            ],
+            "extracted_raw": [
+                "Propofol, fentanyl, desflurane, bupivacaine."
+            ]
+        },
+        "medications.local_anesthetic_agent": {
+            "verdict": "correct",
+            "answer_key_raw": [
+                "bupivacaine 0.25%"
+            ],
+            "extracted_raw": [
+                "Bupivacaine point two five percent."
+            ]
+        },
+        "medications.local_anesthetic_site": {
+            "verdict": "correct",
+            "answer_key_raw": [
+                "trocar sites"
+            ],
+            "extracted_raw": [
+                "Trocar sites."
+            ]
+        },
+        "medications.local_anesthetic_used": {
+            "verdict": "correct",
+            "answer_key_raw": [
+                "yes"
+            ],
+            "extracted_raw": [
+                "Local anesthetic used - YES"
+            ]
+        },
+        "medications.transfusion_given": {
+            "verdict": "correct",
+            "answer_key_raw": [
+                "no"
+            ],
+            "extracted_raw": [
+                "<none>"
+            ]
+        },
+        "medications.transfusion_product": {
+            "verdict": "correct",
+            "answer_key_raw": [
+                "<none>"
+            ],
+            "extracted_raw": [
+                "<none>"
+            ]
+        },
+        "medications.transfusion_volume": {
+            "verdict": "correct",
+            "answer_key_raw": [
+                "<none>"
+            ],
+            "extracted_raw": [
+                "<none>"
+            ]
+        },
+        "medications.vasopressor_agent": {
+            "verdict": "correct",
+            "answer_key_raw": [
+                "<none>"
+            ],
+            "extracted_raw": [
+                "<none>"
+            ]
+        },
+        "medications.vasopressor_used": {
+            "verdict": "correct",
+            "answer_key_raw": [
+                "no"
+            ],
+            "extracted_raw": [
+                "<none>"
+            ]
+        },
+        "patient_info.date_of_birth": {
+            "verdict": "correct",
+            "answer_key_raw": [
+                "march 3, 1958"
+            ],
+            "extracted_raw": [
+                "March third, nineteen fifty-eight."
+            ]
+        },
+        "patient_info.date_of_surgery": {
+            "verdict": "correct",
+            "answer_key_raw": [
+                "february 20, 2026"
+            ],
+            "extracted_raw": [
+                "Today is February twentieth, twenty twenty-six."
+            ]
+        },
+        "patient_info.end_time": {
+            "verdict": "correct",
+            "answer_key_raw": [
+                "9:12 am"
+            ],
+            "extracted_raw": [
+                "Procedure end time nine twelve A.M."
+            ]
+        },
+        "patient_info.patient_id": {
+            "verdict": "correct",
+            "answer_key_raw": [
+                "4821903"
+            ],
+            "extracted_raw": [
+                "4821903"
+            ]
+        },
+        "patient_info.patient_name": {
+            "verdict": "correct",
+            "answer_key_raw": [
+                "margaret collins"
+            ],
+            "extracted_raw": [
+                "Margaret Collins"
+            ]
+        },
+        "patient_info.start_time": {
+            "verdict": "correct",
+            "answer_key_raw": [
+                "8:05 am"
+            ],
+            "extracted_raw": [
+                "Procedure start time eight-oh-five A.M."
+            ]
+        },
+        "post_op.extubated_in_or": {
+            "verdict": "correct",
+            "answer_key_raw": [
+                "yes"
+            ],
+            "extracted_raw": [
+                "Yes."
+            ]
+        },
+        "post_op.patient_condition": {
+            "verdict": "correct",
+            "answer_key_raw": [
+                "tolerated procedure well, extubated without complication"
+            ],
+            "extracted_raw": [
+                "Patient tolerated the procedure well; extubated without complication."
+            ]
+        },
+        "post_op.post_op_orders": {
+            "verdict": "incorrect",
+            "answer_key_raw": [
+                "resume diet as tolerated; pain management per protocol; follow-up in clinic in two weeks"
+            ],
+            "extracted_raw": [
+                "Resume diet as tolerated. Pain management per protocol."
+            ]
+        },
+        "post_op.transfer_destination": {
+            "verdict": "correct",
+            "answer_key_raw": [
+                "pacu"
+            ],
+            "extracted_raw": [
+                "Transferring patient to PACU."
+            ]
+        },
+        "pre_op.antibiotic_prophylaxis_agent": {
+            "verdict": "correct",
+            "answer_key_raw": [
+                "cefazolin 2g iv"
+            ],
+            "extracted_raw": [
+                "Two grams cefazolin IV administered at 7:42 A.M."
+            ]
+        },
+        "pre_op.antibiotic_prophylaxis_time": {
+            "verdict": "correct",
+            "answer_key_raw": [
+                "7:42 am"
+            ],
+            "extracted_raw": [
+                "Administered at seven forty-two A.M."
+            ]
+        },
+        "pre_op.draping": {
+            "verdict": "correct",
+            "answer_key_raw": [
+                "standard sterile laparoscopic fashion"
+            ],
+            "extracted_raw": [
+                "Sterile laparoscopic fashion."
+            ]
+        },
+        "pre_op.dvt_prophylaxis": {
+            "verdict": "correct",
+            "answer_key_raw": [
+                "sequential compression devices (scds)"
+            ],
+            "extracted_raw": [
+                "Sequential compression devices for DVT prophylaxis."
+            ]
+        },
+        "pre_op.grounding_pad_location": {
+            "verdict": "correct",
+            "answer_key_raw": [
+                "left thigh"
+            ],
+            "extracted_raw": [
+                "Grounding pad placed on the left thigh."
+            ]
+        },
+        "pre_op.grounding_pad_placed": {
+            "verdict": "incorrect",
+            "answer_key_raw": [
+                "yes"
+            ],
+            "extracted_raw": [
+                "<none>"
+            ]
+        },
+        "pre_op.patient_positioning": {
+            "verdict": "correct",
+            "answer_key_raw": [
+                "supine, right arm tucked, left arm on armboard"
+            ],
+            "extracted_raw": [
+                "Right arm tucked, left arm on armboard, safety strap secured."
+            ]
+        },
+        "pre_op.positioning_aids": {
+            "verdict": "correct",
+            "answer_key_raw": [
+                "<none>"
+            ],
+            "extracted_raw": [
+                "<none>"
+            ]
+        },
+        "pre_op.pre_op_skin_prep_area": {
+            "verdict": "correct",
+            "answer_key_raw": [
+                "umbilicus down to mid-thigh on the right side"
+            ],
+            "extracted_raw": [
+                "Right side from umbilicus to mid-thigh."
+            ]
+        },
+        "pre_op.pre_op_skin_prep_solution": {
+            "verdict": "correct",
+            "answer_key_raw": [
+                "chlorhexidine gluconate"
+            ],
+            "extracted_raw": [
+                "Chlorhexidine gluconate."
+            ]
+        },
+        "pre_op.safety_strap_applied": {
+            "verdict": "correct",
+            "answer_key_raw": [
+                "yes"
+            ],
+            "extracted_raw": [
+                "Yes. Safety strap secured across the thighs."
+            ]
+        },
+        "pre_op.timeout_performed": {
+            "verdict": "correct",
+            "answer_key_raw": [
+                "yes"
+            ],
+            "extracted_raw": [
+                "Yes."
+            ]
+        },
+        "pre_op.timeout_verified": {
+            "verdict": "incorrect",
+            "answer_key_raw": [
+                "patient identity, procedure name, correct side, site marking, consent"
+            ],
+            "extracted_raw": [
+                "Patient Margaret Collins confirmed for right inguinal hernia repair."
+            ]
+        },
+        "procedure.approach": {
+            "verdict": "correct",
+            "answer_key_raw": [
+                "laparoscopic"
+            ],
+            "extracted_raw": [
+                "Laparoscopic."
+            ]
+        },
+        "procedure.laterality": {
+            "verdict": "correct",
+            "answer_key_raw": [
+                "right"
+            ],
+            "extracted_raw": [
+                "Right side."
+            ]
+        },
+        "procedure.primary_diagnosis": {
+            "verdict": "correct",
+            "answer_key_raw": [
+                "symptomatic right inguinal hernia"
+            ],
+            "extracted_raw": [
+                "Symptomatic right inguinal hernia."
+            ]
+        },
+        "procedure.procedure_name": {
+            "verdict": "correct",
+            "answer_key_raw": [
+                "laparoscopic right inguinal hernia repair with mesh"
+            ],
+            "extracted_raw": [
+                "Laparoscopic right inguinal hernia repair with mesh."
+            ]
+        },
+        "procedure.procedure_type": {
+            "verdict": "correct",
+            "answer_key_raw": [
+                "elective"
+            ],
+            "extracted_raw": [
+                "Elective."
+            ]
+        },
+        "procedure.secondary_procedure": {
+            "verdict": "correct",
+            "answer_key_raw": [
+                "no"
+            ],
+            "extracted_raw": [
+                "NO"
+            ]
+        },
+        "specimens.specimen_description": {
+            "verdict": "correct",
+            "answer_key_raw": [
+                "<none>"
+            ],
+            "extracted_raw": [
+                "<none>"
+            ]
+        },
+        "specimens.specimen_label_verified": {
+            "verdict": "correct",
+            "answer_key_raw": [
+                "<none>"
+            ],
+            "extracted_raw": [
+                "<none>"
+            ]
+        },
+        "specimens.specimen_laterality": {
+            "verdict": "incorrect",
+            "answer_key_raw": [
+                "<none>"
+            ],
+            "extracted_raw": [
+                "Right side."
+            ]
+        },
+        "specimens.specimen_removed": {
+            "verdict": "correct",
+            "answer_key_raw": [
+                "no"
+            ],
+            "extracted_raw": [
+                "No."
+            ]
+        },
+        "specimens.specimen_sent_to_pathology": {
+            "verdict": "correct",
+            "answer_key_raw": [
+                "no"
+            ],
+            "extracted_raw": [
+                "<none>"
+            ]
+        },
+        "supplies_and_equipment.implant_lot_number": {
+            "verdict": "correct",
+            "answer_key_raw": [
+                "mdt-2024-88321"
+            ],
+            "extracted_raw": [
+                "Lot number MDT-2024-88321."
+            ]
+        },
+        "supplies_and_equipment.implant_manufacturer": {
+            "verdict": "correct",
+            "answer_key_raw": [
+                "medtronic"
+            ],
+            "extracted_raw": [
+                "Medtronic."
+            ]
+        },
+        "supplies_and_equipment.implants": {
+            "verdict": "correct",
+            "answer_key_raw": [
+                "progrip self-fixating mesh, 10x15 cm"
+            ],
+            "extracted_raw": [
+                "ProGrip self-fixating mesh, size ten by fifteen centimeters."
+            ]
+        },
+        "supplies_and_equipment.instrument_count_correct": {
+            "verdict": "correct",
+            "answer_key_raw": [
+                "yes"
+            ],
+            "extracted_raw": [
+                "YES"
+            ]
+        },
+        "supplies_and_equipment.instruments": {
+            "verdict": "correct",
+            "answer_key_raw": [
+                "harmonic scalpel, bovie electrosurgical unit, trocars"
+            ],
+            "extracted_raw": [
+                "Bovie, harmonic scalpel, trocars, mesh."
+            ]
+        },
+        "supplies_and_equipment.sharps_count_correct": {
+            "verdict": "correct",
+            "answer_key_raw": [
+                "yes"
+            ],
+            "extracted_raw": [
+                "YES"
+            ]
+        },
+        "supplies_and_equipment.sponge_count_correct": {
+            "verdict": "correct",
+            "answer_key_raw": [
+                "yes"
+            ],
+            "extracted_raw": [
+                "Yes."
+            ]
+        },
+        "surgical_team.anesthesiologist": {
+            "verdict": "correct",
+            "answer_key_raw": [
+                "dr. patricia moore"
+            ],
+            "extracted_raw": [
+                "Doctor Patricia Moore."
+            ]
+        },
+        "surgical_team.assistant_surgeon": {
+            "verdict": "correct",
+            "answer_key_raw": [
+                "<none>"
+            ],
+            "extracted_raw": [
+                "<none>"
+            ]
+        },
+        "surgical_team.circulating_nurse": {
+            "verdict": "correct",
+            "answer_key_raw": [
+                "linda tran"
+            ],
+            "extracted_raw": [
+                "Circulating nurse Linda Tran."
+            ]
+        },
+        "surgical_team.crna": {
+            "verdict": "correct",
+            "answer_key_raw": [
+                "kevin hwang"
+            ],
+            "extracted_raw": [
+                "CRNA Kevin Hwang."
+            ]
+        },
+        "surgical_team.primary_surgeon": {
+            "verdict": "correct",
+            "answer_key_raw": [
+                "dr. samuel lee"
+            ],
+            "extracted_raw": [
+                "Doctor Samuel Lee."
+            ]
+        },
+        "surgical_team.scrub_tech": {
+            "verdict": "correct",
+            "answer_key_raw": [
+                "james okafor"
+            ],
+            "extracted_raw": [
+                "Scrub tech today is James Okafor."
+            ]
+        }
+    },
+    "meta": {
+        "model": "qwen2.5:7b",
+        "transcript_id": 1,
+        "graded_at": "2026-04-08 13:53:31",
+        "source_report": "cde_val/val_reports/qwen2_5-7b/extracted_report_08-04-2026_132045.json"
+    }
+}

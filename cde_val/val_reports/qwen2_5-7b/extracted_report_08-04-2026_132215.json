@@ -1,0 +1,262 @@
+{
+    "patient_info": {
+        "patient_name": [
+            "Angela Morris"
+        ],
+        "patient_id": [
+            "MRN 7319982"
+        ],
+        "date_of_birth": [
+            "December ninth nineteen seventy-two."
+        ],
+        "date_of_surgery": [
+            "February twenty-second twenty twenty-six."
+        ],
+        "start_time": [
+            "Start time ten twenty."
+        ],
+        "end_time": [
+            "End time eleven forty-two."
+        ]
+    },
+    "surgical_team": {
+        "primary_surgeon": [
+            "Primary surgeon Doctor Laura Chen."
+        ],
+        "assistant_surgeon": [
+            "Doctor Nina Patel."
+        ],
+        "scrub_tech": [
+            "Scrub tech Daniel Ortiz."
+        ],
+        "circulating_nurse": [
+            "Circulating nurse Emily Park."
+        ],
+        "anesthesiologist": [
+            "Anesthesia Doctor Helen Brooks."
+        ],
+        "crna": [
+            "CRNA Mark Feldman."
+        ]
+    },
+    "procedure": {
+        "procedure_name": [
+            "Laparoscopic hysterectomy."
+        ],
+        "procedure_type": [
+            "Procedure type elective."
+        ],
+        "approach": [
+            "Laparoscopic"
+        ],
+        "laterality": [
+            "<none>"
+        ],
+        "primary_diagnosis": [
+            "Uterine fibroids."
+        ],
+        "secondary_procedure": [
+            "Bilateral salpingectomy."
+        ]
+    },
+    "pre_op": {
+        "patient_positioning": [
+            "Patient positioned lithotomy with stirrups."
+        ],
+        "positioning_aids": [
+            "Gel padding and foam supports."
+        ],
+        "safety_strap_applied": [
+            "Safety strap applied yes."
+        ],
+        "grounding_pad_placed": [
+            "<none>"
+        ],
+        "grounding_pad_location": [
+            "Grounding pad right thigh."
+        ],
+        "pre_op_skin_prep_solution": [
+            "Chlorhexidine."
+        ],
+        "pre_op_skin_prep_area": [
+            "Abdomen and vaginal area were prepared."
+        ],
+        "draping": [
+            "Sterile laparoscopic fashion."
+        ],
+        "timeout_performed": [
+            "Timeout please. NO"
+        ],
+        "timeout_verified": [
+            "Patient identity, procedure, and secondary procedure confirmed."
+        ],
+        "antibiotic_prophylaxis_agent": [
+            "Cefazolin two grams IV at ten twelve A M."
+        ],
+        "antibiotic_prophylaxis_time": [
+            "Cefazolin administered at 10:12 AM."
+        ],
+        "dvt_prophylaxis": [
+            "SCDs in place for DVT prophylaxis."
+        ]
+    },
+    "intra_op": {
+        "incision_location": [
+            "Umbilical trocar incision type trocar."
+        ],
+        "incision_type": [
+            "Umbilical trocar incision type trocar."
+        ],
+        "findings": [
+            "Enlarged fibroid uterus."
+        ],
+        "complications": [
+            "<none>"
+        ],
+        "complication_management": [
+            "<none>"
+        ],
+        "estimated_blood_loss": [
+            "Estimated blood loss seventy milliliters."
+        ],
+        "urine_output": [
+            "One hundred fifty milliliters."
+        ],
+        "fluid_in": [
+            "Lactated Ringer's solution, 1 liter."
+        ],
+        "drain_placed": [
+            "No."
+        ],
+        "drain_type": [
+            "No drain placed."
+        ],
+        "drain_location": [
+            "No drain placed."
+        ],
+        "tourniquet_used": [
+            "No"
+        ],
+        "tourniquet_inflation_time": [
+            "<none>"
+        ],
+        "tourniquet_pressure": [
+            "<none>"
+        ],
+        "electrosurgery_used": [
+            "YES"
+        ],
+        "electrosurgery_type": [
+            "Harmonic scalpel."
+        ],
+        "intra_op_handoff": [
+            "<none>"
+        ],
+        "intra_op_imaging": [
+            "<none>"
+        ],
+        "intra_op_imaging_type": [
+            "<none>"
+        ]
+    },
+    "medications": {
+        "anesthesia_type": [
+            "General anesthesia was used."
+        ],
+        "intra_op_medications": [
+            "Cefazolin, propofol, sevoflurane, fentanyl, bupivacaine."
+        ],
+        "local_anesthetic_used": [
+            "Yes, bupivacaine at port sites abdomen."
+        ],
+        "local_anesthetic_agent": [
+            "Bupivacaine."
+        ],
+        "local_anesthetic_site": [
+            "Port sites abdomen."
+        ],
+        "vasopressor_used": [
+            "NO"
+        ],
+        "vasopressor_agent": [
+            "<none>"
+        ],
+        "transfusion_given": [
+            "<none>"
+        ],
+        "transfusion_product": [
+            "<none>"
+        ],
+        "transfusion_volume": [
+            "<none>"
+        ]
+    },
+    "supplies_and_equipment": {
+        "implants": [
+            "<none>"
+        ],
+        "implant_manufacturer": [
+            "<none>"
+        ],
+        "implant_lot_number": [
+            "<none>"
+        ],
+        "instruments": [
+            "Laparoscope, harmonic scalpel, graspers."
+        ],
+        "sponge_count_correct": [
+            "<none>"
+        ],
+        "instrument_count_correct": [
+            "YES"
+        ],
+        "sharps_count_correct": [
+            "<none>"
+        ]
+    },
+    "specimens": {
+        "specimen_removed": [
+            "YES, uterus and fallopian tubes removed."
+        ],
+        "specimen_description": [
+            "Uterus and fallopian tubes were removed."
+        ],
+        "specimen_sent_to_pathology": [
+            "YES, uterus and tubes sent to pathology."
+        ],
+        "specimen_label_verified": [
+            "No."
+        ],
+        "specimen_laterality": [
+            "<none>"
+        ]
+    },
+    "closure": {
+        "closure_method": [
+            "Vicryl for vaginal cuff, Monocryl for layers, Dermabond applied."
+        ],
+        "closure_layers": [
+            "Fascia, subcutaneous, skin."
+        ],
+        "post_op_skin_care": [
+            "Dermabond applied to closed incision."
+        ],
+        "wound_classification": [
+            "Clean contaminated."
+        ]
+    },
+    "post_op": {
+        "patient_condition": [
+            "Patient transferred to PACU and stable."
+        ],
+        "extubated_in_or": [
+            "Yes."
+        ],
+        "transfer_destination": [
+            "PACU."
+        ],
+        "post_op_orders": [
+            "Pain control, ambulation, follow up in two weeks."
+        ]
+    }
+}

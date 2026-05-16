@@ -1,0 +1,737 @@
+{
+    "summary": {
+        "total_fields": 80,
+        "correct": 72,
+        "incorrect": 8,
+        "review_needed": 0,
+        "accuracy_pct": 90.0
+    },
+    "fields": {
+        "closure.closure_layers": {
+            "verdict": "correct",
+            "answer_key_raw": [
+                "fascia, subcutaneous, skin"
+            ],
+            "extracted_raw": [
+                "Fascia, subcutaneous, and skin layers were closed."
+            ]
+        },
+        "closure.closure_method": {
+            "verdict": "correct",
+            "answer_key_raw": [
+                "monocryl (subcutaneous); dermabond (skin)"
+            ],
+            "extracted_raw": [
+                "Monocryl Dermabond (adhesive closure)"
+            ]
+        },
+        "closure.post_op_skin_care": {
+            "verdict": "correct",
+            "answer_key_raw": [
+                "dermabond"
+            ],
+            "extracted_raw": [
+                "Monocryl Dermabond"
+            ]
+        },
+        "closure.wound_classification": {
+            "verdict": "correct",
+            "answer_key_raw": [
+                "clean"
+            ],
+            "extracted_raw": [
+                "Clean"
+            ]
+        },
+        "intra_op.complication_management": {
+            "verdict": "correct",
+            "answer_key_raw": [
+                "<none>"
+            ],
+            "extracted_raw": [
+                "<none>"
+            ]
+        },
+        "intra_op.complications": {
+            "verdict": "correct",
+            "answer_key_raw": [
+                "<none>"
+            ],
+            "extracted_raw": [
+                "<none>"
+            ]
+        },
+        "intra_op.drain_location": {
+            "verdict": "correct",
+            "answer_key_raw": [
+                "pelvis"
+            ],
+            "extracted_raw": [
+                "Drain placed, pelvis."
+            ]
+        },
+        "intra_op.drain_placed": {
+            "verdict": "correct",
+            "answer_key_raw": [
+                "yes"
+            ],
+            "extracted_raw": [
+                "Yes (Jackson Pratt type, location pelvis)"
+            ]
+        },
+        "intra_op.drain_type": {
+            "verdict": "correct",
+            "answer_key_raw": [
+                "jackson-pratt (jp)"
+            ],
+            "extracted_raw": [
+                "Jackson Pratt drain (pelvis)"
+            ]
+        },
+        "intra_op.electrosurgery_type": {
+            "verdict": "correct",
+            "answer_key_raw": [
+                "bipolar and monopolar cautery"
+            ],
+            "extracted_raw": [
+                "Bipolar and monopolar cautery (used)"
+            ]
+        },
+        "intra_op.electrosurgery_used": {
+            "verdict": "correct",
+            "answer_key_raw": [
+                "yes"
+            ],
+            "extracted_raw": [
+                "Yes"
+            ]
+        },
+        "intra_op.estimated_blood_loss": {
+            "verdict": "correct",
+            "answer_key_raw": [
+                "120 ml"
+            ],
+            "extracted_raw": [
+                "Estimated blood loss: 120 milliliters"
+            ]
+        },
+        "intra_op.findings": {
+            "verdict": "incorrect",
+            "answer_key_raw": [
+                "localized prostate cancer"
+            ],
+            "extracted_raw": [
+                "<none>"
+            ]
+        },
+        "intra_op.fluid_in": {
+            "verdict": "correct",
+            "answer_key_raw": [
+                "1.8 liters lactated ringer's"
+            ],
+            "extracted_raw": [
+                "1.8 liters Lactated Ringer's"
+            ]
+        },
+        "intra_op.incision_location": {
+            "verdict": "incorrect",
+            "answer_key_raw": [
+                "trocar sites (abdomen/pelvis)"
+            ],
+            "extracted_raw": [
+                "Abdomen (not specified where exactly)"
+            ]
+        },
+        "intra_op.incision_type": {
+            "verdict": "correct",
+            "answer_key_raw": [
+                "trocar"
+            ],
+            "extracted_raw": [
+                "Trocar (minimally invasive)"
+            ]
+        },
+        "intra_op.intra_op_handoff": {
+            "verdict": "correct",
+            "answer_key_raw": [
+                "no"
+            ],
+            "extracted_raw": [
+                "<none>"
+            ]
+        },
+        "intra_op.intra_op_imaging": {
+            "verdict": "correct",
+            "answer_key_raw": [
+                "no"
+            ],
+            "extracted_raw": [
+                "<none>"
+            ]
+        },
+        "intra_op.intra_op_imaging_type": {
+            "verdict": "correct",
+            "answer_key_raw": [
+                "<none>"
+            ],
+            "extracted_raw": [
+                "<none>"
+            ]
+        },
+        "intra_op.tourniquet_inflation_time": {
+            "verdict": "correct",
+            "answer_key_raw": [
+                "<none>"
+            ],
+            "extracted_raw": [
+                "<none>"
+            ]
+        },
+        "intra_op.tourniquet_pressure": {
+            "verdict": "correct",
+            "answer_key_raw": [
+                "<none>"
+            ],
+            "extracted_raw": [
+                "<none>"
+            ]
+        },
+        "intra_op.tourniquet_used": {
+            "verdict": "correct",
+            "answer_key_raw": [
+                "no"
+            ],
+            "extracted_raw": [
+                "<none>"
+            ]
+        },
+        "intra_op.urine_output": {
+            "verdict": "correct",
+            "answer_key_raw": [
+                "200 ml"
+            ],
+            "extracted_raw": [
+                "The volume of urine output measured during surgery was 200 milliliters."
+            ]
+        },
+        "medications.anesthesia_type": {
+            "verdict": "correct",
+            "answer_key_raw": [
+                "general"
+            ],
+            "extracted_raw": [
+                "General anesthesia"
+            ]
+        },
+        "medications.intra_op_medications": {
+            "verdict": "incorrect",
+            "answer_key_raw": [
+                "propofol, fentanyl, rocuronium, cefazolin 2g iv (prophylactic)"
+            ],
+            "extracted_raw": [
+                "Propofol, fentanyl, rocuronium (anesthesia and muscle relaxant)"
+            ]
+        },
+        "medications.local_anesthetic_agent": {
+            "verdict": "correct",
+            "answer_key_raw": [
+                "<none>"
+            ],
+            "extracted_raw": [
+                "<none>"
+            ]
+        },
+        "medications.local_anesthetic_site": {
+            "verdict": "correct",
+            "answer_key_raw": [
+                "<none>"
+            ],
+            "extracted_raw": [
+                "<none>"
+            ]
+        },
+        "medications.local_anesthetic_used": {
+            "verdict": "correct",
+            "answer_key_raw": [
+                "no"
+            ],
+            "extracted_raw": [
+                "<none>"
+            ]
+        },
+        "medications.transfusion_given": {
+            "verdict": "correct",
+            "answer_key_raw": [
+                "no"
+            ],
+            "extracted_raw": [
+                "<none>"
+            ]
+        },
+        "medications.transfusion_product": {
+            "verdict": "correct",
+            "answer_key_raw": [
+                "<none>"
+            ],
+            "extracted_raw": [
+                "<none>"
+            ]
+        },
+        "medications.transfusion_volume": {
+            "verdict": "correct",
+            "answer_key_raw": [
+                "<none>"
+            ],
+            "extracted_raw": [
+                "<none>"
+            ]
+        },
+        "medications.vasopressor_agent": {
+            "verdict": "correct",
+            "answer_key_raw": [
+                "<none>"
+            ],
+            "extracted_raw": [
+                "<none>"
+            ]
+        },
+        "medications.vasopressor_used": {
+            "verdict": "correct",
+            "answer_key_raw": [
+                "no"
+            ],
+            "extracted_raw": [
+                "<none>"
+            ]
+        },
+        "patient_info.date_of_birth": {
+            "verdict": "correct",
+            "answer_key_raw": [
+                "november 11, 1967"
+            ],
+            "extracted_raw": [
+                "November eleventh nineteen sixty-seven"
+            ]
+        },
+        "patient_info.date_of_surgery": {
+            "verdict": "correct",
+            "answer_key_raw": [
+                "february 22, 2026"
+            ],
+            "extracted_raw": [
+                "February 22, 2026"
+            ]
+        },
+        "patient_info.end_time": {
+            "verdict": "correct",
+            "answer_key_raw": [
+                "6:10 pm"
+            ],
+            "extracted_raw": [
+                "The surgery ended at 6:10 PM."
+            ]
+        },
+        "patient_info.patient_id": {
+            "verdict": "correct",
+            "answer_key_raw": [
+                "9021184"
+            ],
+            "extracted_raw": [
+                "MRN 9021184"
+            ]
+        },
+        "patient_info.patient_name": {
+            "verdict": "correct",
+            "answer_key_raw": [
+                "steven delgado"
+            ],
+            "extracted_raw": [
+                "Steven Delgado"
+            ]
+        },
+        "patient_info.start_time": {
+            "verdict": "correct",
+            "answer_key_raw": [
+                "3:50 pm"
+            ],
+            "extracted_raw": [
+                "The surgery began at 3:50 PM."
+            ]
+        },
+        "post_op.extubated_in_or": {
+            "verdict": "correct",
+            "answer_key_raw": [
+                "yes"
+            ],
+            "extracted_raw": [
+                "Yes"
+            ]
+        },
+        "post_op.patient_condition": {
+            "verdict": "correct",
+            "answer_key_raw": [
+                "stable"
+            ],
+            "extracted_raw": [
+                "Patient stable; extubated in OR and transferred to PACU."
+            ]
+        },
+        "post_op.post_op_orders": {
+            "verdict": "correct",
+            "answer_key_raw": [
+                "foley catheter, drain monitoring, follow-up for pathology results"
+            ],
+            "extracted_raw": [
+                "Post-op Foley catheter, drain monitoring, follow-up pathology, stable, extubated in OR, transferred to PACU."
+            ]
+        },
+        "post_op.transfer_destination": {
+            "verdict": "correct",
+            "answer_key_raw": [
+                "pacu"
+            ],
+            "extracted_raw": [
+                "Transferred to PACU."
+            ]
+        },
+        "pre_op.antibiotic_prophylaxis_agent": {
+            "verdict": "correct",
+            "answer_key_raw": [
+                "cefazolin 2g iv"
+            ],
+            "extracted_raw": [
+                "Cefazolin (2 grams at 3:40 PM)"
+            ]
+        },
+        "pre_op.antibiotic_prophylaxis_time": {
+            "verdict": "correct",
+            "answer_key_raw": [
+                "3:40 pm"
+            ],
+            "extracted_raw": [
+                "Cefazolin was administered at 3:40 PM."
+            ]
+        },
+        "pre_op.draping": {
+            "verdict": "correct",
+            "answer_key_raw": [
+                "sterile robotic fashion"
+            ],
+            "extracted_raw": [
+                "Sterile robotic fashion."
+            ]
+        },
+        "pre_op.dvt_prophylaxis": {
+            "verdict": "incorrect",
+            "answer_key_raw": [
+                "sequential compression devices (scds)"
+            ],
+            "extracted_raw": [
+                "<none>"
+            ]
+        },
+        "pre_op.grounding_pad_location": {
+            "verdict": "correct",
+            "answer_key_raw": [
+                "left thigh"
+            ],
+            "extracted_raw": [
+                "Left thigh"
+            ]
+        },
+        "pre_op.grounding_pad_placed": {
+            "verdict": "correct",
+            "answer_key_raw": [
+                "yes"
+            ],
+            "extracted_raw": [
+                "Yes, a grounding pad was placed (left thigh)."
+            ]
+        },
+        "pre_op.patient_positioning": {
+            "verdict": "correct",
+            "answer_key_raw": [
+                "lithotomy trendelenburg"
+            ],
+            "extracted_raw": [
+                "Patient positioned lithotomy Trendelenburg with padding and shoulder supports."
+            ]
+        },
+        "pre_op.positioning_aids": {
+            "verdict": "correct",
+            "answer_key_raw": [
+                "padding and shoulder supports"
+            ],
+            "extracted_raw": [
+                "Padding and shoulder supports were used for patient positioning."
+            ]
+        },
+        "pre_op.pre_op_skin_prep_area": {
+            "verdict": "correct",
+            "answer_key_raw": [
+                "abdomen and pelvis"
+            ],
+            "extracted_raw": [
+                "Abdomen and pelvis (draped sterile robotic fashion)"
+            ]
+        },
+        "pre_op.pre_op_skin_prep_solution": {
+            "verdict": "incorrect",
+            "answer_key_raw": [
+                "chlorhexidine gluconate"
+            ],
+            "extracted_raw": [
+                "Chlorhexidine"
+            ]
+        },
+        "pre_op.safety_strap_applied": {
+            "verdict": "correct",
+            "answer_key_raw": [
+                "yes"
+            ],
+            "extracted_raw": [
+                "Yes"
+            ]
+        },
+        "pre_op.timeout_performed": {
+            "verdict": "correct",
+            "answer_key_raw": [
+                "yes"
+            ],
+            "extracted_raw": [
+                "YES"
+            ]
+        },
+        "pre_op.timeout_verified": {
+            "verdict": "incorrect",
+            "answer_key_raw": [
+                "patient identity, procedure, site, consent, antibiotics"
+            ],
+            "extracted_raw": [
+                "Patient identity and procedure confirmed, laterality not applicable."
+            ]
+        },
+        "procedure.approach": {
+            "verdict": "correct",
+            "answer_key_raw": [
+                "robotic"
+            ],
+            "extracted_raw": [
+                "Robotic approach"
+            ]
+        },
+        "procedure.laterality": {
+            "verdict": "correct",
+            "answer_key_raw": [
+                "<none>"
+            ],
+            "extracted_raw": [
+                "<none>"
+            ]
+        },
+        "procedure.primary_diagnosis": {
+            "verdict": "correct",
+            "answer_key_raw": [
+                "prostate cancer"
+            ],
+            "extracted_raw": [
+                "Prostate Cancer"
+            ]
+        },
+        "procedure.procedure_name": {
+            "verdict": "correct",
+            "answer_key_raw": [
+                "robotic prostatectomy"
+            ],
+            "extracted_raw": [
+                "Robotic Prostatectomy"
+            ]
+        },
+        "procedure.procedure_type": {
+            "verdict": "incorrect",
+            "answer_key_raw": [
+                "elective"
+            ],
+            "extracted_raw": [
+                "<none>"
+            ]
+        },
+        "procedure.secondary_procedure": {
+            "verdict": "correct",
+            "answer_key_raw": [
+                "no"
+            ],
+            "extracted_raw": [
+                "<none>"
+            ]
+        },
+        "specimens.specimen_description": {
+            "verdict": "correct",
+            "answer_key_raw": [
+                "prostate"
+            ],
+            "extracted_raw": [
+                "The prostate gland was removed (tissue/body part)."
+            ]
+        },
+        "specimens.specimen_label_verified": {
+            "verdict": "correct",
+            "answer_key_raw": [
+                "yes"
+            ],
+            "extracted_raw": [
+                "Yes"
+            ]
+        },
+        "specimens.specimen_laterality": {
+            "verdict": "incorrect",
+            "answer_key_raw": [
+                "<none>"
+            ],
+            "extracted_raw": [
+                "The side of the body is not specified in this transcript."
+            ]
+        },
+        "specimens.specimen_removed": {
+            "verdict": "correct",
+            "answer_key_raw": [
+                "yes"
+            ],
+            "extracted_raw": [
+                "Yes, the prostate was removed."
+            ]
+        },
+        "specimens.specimen_sent_to_pathology": {
+            "verdict": "correct",
+            "answer_key_raw": [
+                "yes"
+            ],
+            "extracted_raw": [
+                "Yes"
+            ]
+        },
+        "supplies_and_equipment.implant_lot_number": {
+            "verdict": "correct",
+            "answer_key_raw": [
+                "<none>"
+            ],
+            "extracted_raw": [
+                "<none>"
+            ]
+        },
+        "supplies_and_equipment.implant_manufacturer": {
+            "verdict": "correct",
+            "answer_key_raw": [
+                "<none>"
+            ],
+            "extracted_raw": [
+                "<none>"
+            ]
+        },
+        "supplies_and_equipment.implants": {
+            "verdict": "correct",
+            "answer_key_raw": [
+                "<none>"
+            ],
+            "extracted_raw": [
+                "<none>"
+            ]
+        },
+        "supplies_and_equipment.instrument_count_correct": {
+            "verdict": "correct",
+            "answer_key_raw": [
+                "yes"
+            ],
+            "extracted_raw": [
+                "Yes"
+            ]
+        },
+        "supplies_and_equipment.instruments": {
+            "verdict": "correct",
+            "answer_key_raw": [
+                "robotic system, bipolar cautery"
+            ],
+            "extracted_raw": [
+                "Robotic system (bipolar cautery)"
+            ]
+        },
+        "supplies_and_equipment.sharps_count_correct": {
+            "verdict": "correct",
+            "answer_key_raw": [
+                "yes"
+            ],
+            "extracted_raw": [
+                "Yes"
+            ]
+        },
+        "supplies_and_equipment.sponge_count_correct": {
+            "verdict": "correct",
+            "answer_key_raw": [
+                "yes"
+            ],
+            "extracted_raw": [
+                "YES"
+            ]
+        },
+        "surgical_team.anesthesiologist": {
+            "verdict": "correct",
+            "answer_key_raw": [
+                "dr. susan park"
+            ],
+            "extracted_raw": [
+                "Doctor Susan Park and Daniel Cho (anesthesia team)"
+            ]
+        },
+        "surgical_team.assistant_surgeon": {
+            "verdict": "correct",
+            "answer_key_raw": [
+                "dr. eric stone"
+            ],
+            "extracted_raw": [
+                "Doctor Eric Stone"
+            ]
+        },
+        "surgical_team.circulating_nurse": {
+            "verdict": "correct",
+            "answer_key_raw": [
+                "kevin liu"
+            ],
+            "extracted_raw": [
+                "Kevin Liu (circulating nurse)"
+            ]
+        },
+        "surgical_team.crna": {
+            "verdict": "correct",
+            "answer_key_raw": [
+                "daniel cho"
+            ],
+            "extracted_raw": [
+                "Daniel Cho (CRNA)"
+            ]
+        },
+        "surgical_team.primary_surgeon": {
+            "verdict": "correct",
+            "answer_key_raw": [
+                "dr. brian mitchell"
+            ],
+            "extracted_raw": [
+                "Doctor Brian Mitchell"
+            ]
+        },
+        "surgical_team.scrub_tech": {
+            "verdict": "correct",
+            "answer_key_raw": [
+                "rachel adams"
+            ],
+            "extracted_raw": [
+                "The scrub technician is Rachel Adams."
+            ]
+        }
+    },
+    "meta": {
+        "model": "mistral:7b-instruct",
+        "transcript_id": 5,
+        "graded_at": "2026-04-08 13:53:31",
+        "source_report": "cde_val/val_reports/mistral-7b-instruct/extracted_report_08-04-2026_132710.json"
+    }
+}

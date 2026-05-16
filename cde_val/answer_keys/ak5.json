@@ -1,0 +1,102 @@
+{
+    "patient_info": {
+        "patient_name": ["steven delgado"],
+        "patient_id": ["9021184"],
+        "date_of_birth": ["november 11, 1967"],
+        "date_of_surgery": ["february 22, 2026"],
+        "start_time": ["3:50 pm"],
+        "end_time": ["6:10 pm"]
+    },
+    "surgical_team": {
+        "primary_surgeon": ["dr. brian mitchell"],
+        "assistant_surgeon": ["dr. eric stone"],
+        "scrub_tech": ["rachel adams"],
+        "circulating_nurse": ["kevin liu"],
+        "anesthesiologist": ["dr. susan park"],
+        "crna": ["daniel cho"]
+    },
+    "procedure": {
+        "procedure_name": ["robotic prostatectomy"],
+        "procedure_type": ["elective"],
+        "approach": ["robotic"],
+        "laterality": ["<none>"],
+        "primary_diagnosis": ["prostate cancer"],
+        "secondary_procedure": ["no"]
+    },
+    "pre_op": {
+        "patient_positioning": ["lithotomy trendelenburg"],
+        "positioning_aids": ["padding and shoulder supports"],
+        "safety_strap_applied": ["yes"],
+        "grounding_pad_placed": ["yes"],
+        "grounding_pad_location": ["left thigh"],
+        "pre_op_skin_prep_solution": ["chlorhexidine gluconate"],
+        "pre_op_skin_prep_area": ["abdomen and pelvis"],
+        "draping": ["sterile robotic fashion"],
+        "timeout_performed": ["yes"],
+        "timeout_verified": ["patient identity, procedure, site, consent, antibiotics"],
+        "antibiotic_prophylaxis_agent": ["cefazolin 2g iv"],
+        "antibiotic_prophylaxis_time": ["3:40 pm"],
+        "dvt_prophylaxis": ["sequential compression devices (scds)"]
+    },
+    "intra_op": {
+        "incision_location": ["trocar sites (abdomen/pelvis)"],
+        "incision_type": ["trocar"],
+        "findings": ["localized prostate cancer"],
+        "complications": ["<none>"],
+        "complication_management": ["<none>"],
+        "estimated_blood_loss": ["120 ml"],
+        "urine_output": ["200 ml"],
+        "fluid_in": ["1.8 liters lactated ringer's"],
+        "drain_placed": ["yes"],
+        "drain_type": ["jackson-pratt (jp)"],
+        "drain_location": ["pelvis"],
+        "tourniquet_used": ["no"],
+        "tourniquet_inflation_time": ["<none>"],
+        "tourniquet_pressure": ["<none>"],
+        "electrosurgery_used": ["yes"],
+        "electrosurgery_type": ["bipolar and monopolar cautery"],
+        "intra_op_handoff": ["no"],
+        "intra_op_imaging": ["no"],
+        "intra_op_imaging_type": ["<none>"]
+    },
+    "medications": {
+        "anesthesia_type": ["general"],
+        "intra_op_medications": ["propofol, fentanyl, rocuronium, cefazolin 2g iv (prophylactic)"],
+        "local_anesthetic_used": ["no"],
+        "local_anesthetic_agent": ["<none>"],
+        "local_anesthetic_site": ["<none>"],
+        "vasopressor_used": ["no"],
+        "vasopressor_agent": ["<none>"],
+        "transfusion_given": ["no"],
+        "transfusion_product": ["<none>"],
+        "transfusion_volume": ["<none>"]
+    },
+    "supplies_and_equipment": {
+        "implants": ["<none>"],
+        "implant_manufacturer": ["<none>"],
+        "implant_lot_number": ["<none>"],
+        "instruments": ["robotic system, bipolar cautery"],
+        "sponge_count_correct": ["yes"],
+        "instrument_count_correct": ["yes"],
+        "sharps_count_correct": ["yes"]
+    },
+    "specimens": {
+        "specimen_removed": ["yes"],
+        "specimen_description": ["prostate"],
+        "specimen_sent_to_pathology": ["yes"],
+        "specimen_label_verified": ["yes"],
+        "specimen_laterality": ["<none>"]
+    },
+    "closure": {
+        "closure_method": ["monocryl (subcutaneous); dermabond (skin)"],
+        "closure_layers": ["fascia, subcutaneous, skin"],
+        "post_op_skin_care": ["dermabond"],
+        "wound_classification": ["clean"]
+    },
+    "post_op": {
+        "patient_condition": ["stable"],
+        "extubated_in_or": ["yes"],
+        "transfer_destination": ["pacu"],
+        "post_op_orders": ["foley catheter, drain monitoring, follow-up for pathology results"]
+    }
+}

@@ -1,0 +1,262 @@
+{
+    "patient_info": {
+        "patient_name": [
+            "Angela Morris"
+        ],
+        "patient_id": [
+            "MRN 7319982"
+        ],
+        "date_of_birth": [
+            "December ninth nineteen seventy-two"
+        ],
+        "date_of_surgery": [
+            "February 22, 2026 (according to the transcript)"
+        ],
+        "start_time": [
+            "The surgery began at 10:20 AM."
+        ],
+        "end_time": [
+            "The surgery ended at 11:42 AM."
+        ]
+    },
+    "surgical_team": {
+        "primary_surgeon": [
+            "Doctor Laura Chen"
+        ],
+        "assistant_surgeon": [
+            "Doctor Nina Patel"
+        ],
+        "scrub_tech": [
+            "Scrub tech Daniel Ortiz"
+        ],
+        "circulating_nurse": [
+            "Emily Park"
+        ],
+        "anesthesiologist": [
+            "Anesthesia Doctor Helen Brooks and Mark Feldman"
+        ],
+        "crna": [
+            "Anesthesia Doctor Helen Brooks CRNA"
+        ]
+    },
+    "procedure": {
+        "procedure_name": [
+            "Laparoscopic Hysterectomy (with Bilateral Salpingectomy)"
+        ],
+        "procedure_type": [
+            "Elective"
+        ],
+        "approach": [
+            "Laparoscopic (approach)"
+        ],
+        "laterality": [
+            "<none>"
+        ],
+        "primary_diagnosis": [
+            "Uterine fibroids"
+        ],
+        "secondary_procedure": [
+            "Yes, bilateral salpingectomy was performed."
+        ]
+    },
+    "pre_op": {
+        "patient_positioning": [
+            "Patient positioned lithotomy with stirrups gel padding and foam supports."
+        ],
+        "positioning_aids": [
+            "Gel padding and foam supports"
+        ],
+        "safety_strap_applied": [
+            "Yes"
+        ],
+        "grounding_pad_placed": [
+            "Yes, a grounding pad was placed (right thigh)."
+        ],
+        "grounding_pad_location": [
+            "Right thigh"
+        ],
+        "pre_op_skin_prep_solution": [
+            "Chlorhexidine"
+        ],
+        "pre_op_skin_prep_area": [
+            "Abdomen and vagina"
+        ],
+        "draping": [
+            "Draped sterile laparoscopic fashion."
+        ],
+        "timeout_performed": [
+            "Yes"
+        ],
+        "timeout_verified": [
+            "Patient identity, procedure, secondary procedure, consent, site, antibiotics given, safety strap applied, SCDs in place for DVT prophylaxis, grounding pad placed, scrub tech, circulating nurse, anesthesia team, primary surgeon and assistant confirmed."
+        ],
+        "antibiotic_prophylaxis_agent": [
+            "Cefazolin (2 grams IV at 10:12 AM)"
+        ],
+        "antibiotic_prophylaxis_time": [
+            "The prophylactic antibiotic Cefazolin was administered at 10:12 AM."
+        ],
+        "dvt_prophylaxis": [
+            "SCDs in place for DVT prophylaxis."
+        ]
+    },
+    "intra_op": {
+        "incision_location": [
+            "Abdomen (umbilical trocar incision)"
+        ],
+        "incision_type": [
+            "Trocar incision"
+        ],
+        "findings": [
+            "<none>"
+        ],
+        "complications": [
+            "<none>"
+        ],
+        "complication_management": [
+            "<none>"
+        ],
+        "estimated_blood_loss": [
+            "Estimated blood loss: seventy milliliters"
+        ],
+        "urine_output": [
+            "150 milliliters"
+        ],
+        "fluid_in": [
+            "One liter lactated Ringer's"
+        ],
+        "drain_placed": [
+            "<none>"
+        ],
+        "drain_type": [
+            "<none>"
+        ],
+        "drain_location": [
+            "<none>"
+        ],
+        "tourniquet_used": [
+            "<none>"
+        ],
+        "tourniquet_inflation_time": [
+            "<none>"
+        ],
+        "tourniquet_pressure": [
+            "<none>"
+        ],
+        "electrosurgery_used": [
+            "Yes, electrosurgery was used (Harmonic scalpel)."
+        ],
+        "electrosurgery_type": [
+            "Electrosurgery used: Harmonic scalpel."
+        ],
+        "intra_op_handoff": [
+            "<none>"
+        ],
+        "intra_op_imaging": [
+            "<none>"
+        ],
+        "intra_op_imaging_type": [
+            "<none>"
+        ]
+    },
+    "medications": {
+        "anesthesia_type": [
+            "General anesthesia"
+        ],
+        "intra_op_medications": [
+            "Propofol, sevoflurane, fentanyl, bupivacaine (local anesthetic)"
+        ],
+        "local_anesthetic_used": [
+            "Yes"
+        ],
+        "local_anesthetic_agent": [
+            "Bupivacaine (at port sites abdomen)"
+        ],
+        "local_anesthetic_site": [
+            "Abdomen at port sites (as per the transcript)"
+        ],
+        "vasopressor_used": [
+            "<none>"
+        ],
+        "vasopressor_agent": [
+            "<none>"
+        ],
+        "transfusion_given": [
+            "<none>"
+        ],
+        "transfusion_product": [
+            "<none>"
+        ],
+        "transfusion_volume": [
+            "<none>"
+        ]
+    },
+    "supplies_and_equipment": {
+        "implants": [
+            "<none>"
+        ],
+        "implant_manufacturer": [
+            "<none>"
+        ],
+        "implant_lot_number": [
+            "<none>"
+        ],
+        "instruments": [
+            "<none>"
+        ],
+        "sponge_count_correct": [
+            "YES"
+        ],
+        "instrument_count_correct": [
+            "Yes, counts correct ALL categories."
+        ],
+        "sharps_count_correct": [
+            "YES"
+        ]
+    },
+    "specimens": {
+        "specimen_removed": [
+            "Yes, uterus and fallopian tubes were removed."
+        ],
+        "specimen_description": [
+            "Uterus and fallopian tubes were removed."
+        ],
+        "specimen_sent_to_pathology": [
+            "Yes"
+        ],
+        "specimen_label_verified": [
+            "Yes, the specimen label was verified."
+        ],
+        "specimen_laterality": [
+            "Bilateral salpingectomy indicates specimens were removed from both sides (right and left)."
+        ]
+    },
+    "closure": {
+        "closure_method": [
+            "Vaginal cuff - Vicryl (absorbable) and Dermabond (adhesive)"
+        ],
+        "closure_layers": [
+            "Fascia, subcutaneous, and skin layers were closed."
+        ],
+        "post_op_skin_care": [
+            "Monocryl Dermabond (adhesive)"
+        ],
+        "wound_classification": [
+            "Clean contaminated"
+        ]
+    },
+    "post_op": {
+        "patient_condition": [
+            "Patient stable."
+        ],
+        "extubated_in_or": [
+            "Yes"
+        ],
+        "transfer_destination": [
+            "Transferred to PACU."
+        ],
+        "post_op_orders": [
+            "Pain control, ambulation, follow-up in two weeks."
+        ]
+    }
+}

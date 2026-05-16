@@ -1,0 +1,271 @@
+{
+    "patient_info": {
+        "patient_name": {
+            "description": "What is the full name of the patient"
+        },
+        "patient_id": {
+            "description": "What is the patient medical record or ID number"
+        },
+        "date_of_birth": {
+            "description": "What is the patient date of birth"
+        },
+        "date_of_surgery": {
+            "description": "What is the current date"
+        },
+        "start_time": {
+            "description": "What time did the surgery begin"
+        },
+        "end_time": {
+            "description": "What time did the surgery end"
+        }
+    },
+
+    "surgical_team": {
+        "primary_surgeon": {
+            "description": "Who is the primary operating surgeon"
+        },
+        "assistant_surgeon": {
+            "description": "Who is the assisting surgeon"
+        },
+        "scrub_tech": {
+            "description": "Who is the scrub technician"
+        },
+        "circulating_nurse": {
+            "description": "Who is the circulating nurse"
+        },
+        "anesthesiologist": {
+            "description": "Who is the anesthesiologist"
+        },
+        "crna": {
+            "description": "Who is the certified registered nurse anesthetist"
+        }
+    },
+
+    "procedure": {
+        "procedure_name": {
+            "description": "What is the name of the surgical procedure performed"
+        },
+        "procedure_type": {
+            "description": "Was the procedure elective, urgent, or emergent"
+        },
+        "approach": {
+            "description": "What surgical approach was used such as open laparoscopic or robotic"
+        },
+        "laterality": {
+            "description": "What side of the body was the procedure performed on"
+        },
+        "primary_diagnosis": {
+            "description": "What is the diagnosis or indication that prompted the surgery"
+        },
+        "secondary_procedure": {
+            "description": "Were any additional procedures performed during the same operation (YES/NO)"
+        }
+    },
+
+    "pre_op": {
+        "patient_positioning": {
+            "description": "How was the patient positioned on the operating table"
+        },
+        "positioning_aids": {
+            "description": "What padding rolls or devices were used to support patient positioning"
+        },
+        "safety_strap_applied": {
+            "description": "Was a safety strap applied to the patient (YES/NO)"
+        },
+        "grounding_pad_placed": {
+            "description": "Was an electrosurgical grounding pad placed (YES/NO)"
+        },
+        "grounding_pad_location": {
+            "description": "Where was the grounding pad placed"
+        },
+        "pre_op_skin_prep_solution": {
+            "description": "What antiseptic solution was used to prepare the surgical site"
+        },
+        "pre_op_skin_prep_area": {
+            "description": "What body area was prepped for surgery"
+        },
+        "draping": {
+            "description": "How was the surgical field draped"
+        },
+        "timeout_performed": {
+            "description": "Was a surgical timeout performed before incision (YES/NO)"
+        },
+        "timeout_verified": {
+            "description": "What was confirmed during the surgical timeout"
+        },
+        "antibiotic_prophylaxis_agent": {
+            "description": "What prophylactic antibiotic was given before incision"
+        },
+        "antibiotic_prophylaxis_time": {
+            "description": "What time was the prophylactic antibiotic administered"
+        },
+        "dvt_prophylaxis": {
+            "description": "What deep vein thrombosis prophylaxis measures were applied"
+        }
+    },
+
+    "intra_op": {
+        "incision_location": {
+            "description": "What anatomical location was the skin incision made"
+        },
+        "incision_type": {
+            "description": "What type of incision was made such as midline pfannenstiel or trocar"
+        },
+        "findings": {
+            "description": "What abnormal or notable conditions were discovered during surgery"
+        },
+        "complications": {
+            "description": "What unplanned adverse events occurred during the procedure"
+        },
+        "complication_management": {
+            "description": "How were any intraoperative complications managed"
+        },
+        "estimated_blood_loss": {
+            "description": "What was the estimated volume of blood lost during surgery"
+        },
+        "urine_output": {
+            "description": "What was the volume of urine output measured during surgery"
+        },
+        "fluid_in": {
+            "description": "What was the total volume and type of intravenous fluids administered"
+        },
+        "drain_placed": {
+            "description": "Was a surgical drain placed (YES/NO)"
+        },
+        "drain_type": {
+            "description": "What type of drain was placed"
+        },
+        "drain_location": {
+            "description": "Where was the drain placed"
+        },
+        "tourniquet_used": {
+            "description": "Was a tourniquet used (YES/NO)"
+        },
+        "tourniquet_inflation_time": {
+            "description": "What was the tourniquet inflation time"
+        },
+        "tourniquet_pressure": {
+            "description": "What was the tourniquet inflation pressure"
+        },
+        "electrosurgery_used": {
+            "description": "Were electrosurgical devices used (YES/NO)"
+        },
+        "electrosurgery_type": {
+            "description": "What electrosurgical devices were used such as bovie or harmonic"
+        },
+        "intra_op_handoff": {
+            "description": "Were there any changes in surgical or anesthesia personnel during the procedure (YES/NO)"
+        },
+        "intra_op_imaging": {
+            "description": "Was any imaging used during surgery (YES/NO)"
+        },
+        "intra_op_imaging_type": {
+            "description": "What imaging was used during surgery"
+        }
+    },
+
+    "medications": {
+        "anesthesia_type": {
+            "description": "What type of anesthesia was used such as general spinal or local"
+        },
+        "intra_op_medications": {
+            "description": "What drugs were administered to the patient during surgery"
+        },
+        "local_anesthetic_used": {
+            "description": "Was a local anesthetic used (YES/NO)"
+        },
+        "local_anesthetic_agent": {
+            "description": "What local anesthetic agent was used"
+        },
+        "local_anesthetic_site": {
+            "description": "At what anatomical site was the local anesthetic injected"
+        },
+        "vasopressor_used": {
+            "description": "Were vasopressors administered (YES/NO)"
+        },
+        "vasopressor_agent": {
+            "description": "What vasopressor agents were used"
+        },
+        "transfusion_given": {
+            "description": "Did the patient receive a blood transfusion (YES/NO)"
+        },
+        "transfusion_product": {
+            "description": "What blood product was transfused"
+        },
+        "transfusion_volume": {
+            "description": "What volume of blood product was transfused"
+        }
+    },
+
+    "supplies_and_equipment": {
+        "implants": {
+            "description": "What devices or materials were permanently placed inside the patient"
+        },
+        "implant_manufacturer": {
+            "description": "What is the manufacturer of the implanted device"
+        },
+        "implant_lot_number": {
+            "description": "What is the lot number of the implanted device"
+        },
+        "instruments": {
+            "description": "What surgical instruments or tools were used during the procedure"
+        },
+        "sponge_count_correct": {
+            "description": "Was the final sponge count correct (YES/NO)"
+        },
+        "instrument_count_correct": {
+            "description": "Was the final instrument count correct (YES/NO)"
+        },
+        "sharps_count_correct": {
+            "description": "Was the final sharps count correct (YES/NO)"
+        }
+    },
+
+    "specimens": {
+        "specimen_removed": {
+            "description": "Was any body tissue or parts removed from the patient (YES/NO)"
+        },
+        "specimen_description": {
+            "description": "What tissue or body part was removed"
+        },
+        "specimen_sent_to_pathology": {
+            "description": "Was any specimen sent to pathology for examination (YES/NO)"
+        },
+        "specimen_label_verified": {
+            "description": "Was the specimen label verified before sending (YES/NO)"
+        },
+        "specimen_laterality": {
+            "description": "What side of the body was the specimen taken from"
+        }
+    },
+
+    "closure": {
+        "closure_method": {
+            "description": "What suture type and technique was used to close the incision"
+        },
+        "closure_layers": {
+            "description": "What tissue layers were closed such as fascia subcutaneous and skin"
+        },
+        "post_op_skin_care": {
+            "description": "What dressings or adhesives were applied to the closed incision"
+        },
+        "wound_classification": {
+            "description": "What wound classification was assigned such as clean or contaminated"
+        }
+    },
+
+    "post_op": {
+        "patient_condition": {
+            "description": "What was the patient condition at the end of the procedure"
+        },
+        "extubated_in_or": {
+            "description": "Was the patient extubated in the operating room (YES/NO)"
+        },
+        "transfer_destination": {
+            "description": "Where was the patient transferred after surgery such as PACU or ICU"
+        },
+        "post_op_orders": {
+            "description": "What immediate post operative instructions or orders were given"
+        }
+    }
+}

@@ -1,0 +1,102 @@
+{
+    "patient_info": {
+        "patient_name": ["michael turner"],
+        "patient_id": ["8452201"],
+        "date_of_birth": ["june 23, 1984"],
+        "date_of_surgery": ["february 22, 2026"],
+        "start_time": ["1:25 pm"],
+        "end_time": ["2:35 pm"]
+    },
+    "surgical_team": {
+        "primary_surgeon": ["dr. thomas greene"],
+        "assistant_surgeon": ["dr. alex kim"],
+        "scrub_tech": ["olivia reed"],
+        "circulating_nurse": ["brian scott"],
+        "anesthesiologist": ["dr. victor alvarez"],
+        "crna": ["jenna white"]
+    },
+    "procedure": {
+        "procedure_name": ["left ankle open reduction internal fixation (orif)"],
+        "procedure_type": ["urgent"],
+        "approach": ["open"],
+        "laterality": ["left"],
+        "primary_diagnosis": ["displaced ankle fracture"],
+        "secondary_procedure": ["no"]
+    },
+    "pre_op": {
+        "patient_positioning": ["supine, left leg elevated with bump"],
+        "positioning_aids": ["bump padding and foam"],
+        "safety_strap_applied": ["yes"],
+        "grounding_pad_placed": ["yes"],
+        "grounding_pad_location": ["right thigh"],
+        "pre_op_skin_prep_solution": ["betadine (povidone-iodine)"],
+        "pre_op_skin_prep_area": ["left knee to foot"],
+        "draping": ["standard sterile fashion"],
+        "timeout_performed": ["yes"],
+        "timeout_verified": ["patient identity, procedure, site, consent, antibiotics"],
+        "antibiotic_prophylaxis_agent": ["cefazolin 2g iv"],
+        "antibiotic_prophylaxis_time": ["1:15 pm"],
+        "dvt_prophylaxis": ["sequential compression device (scd) on right leg"]
+    },
+    "intra_op": {
+        "incision_location": ["lateral ankle"],
+        "incision_type": ["open"],
+        "findings": ["displaced fibular fracture"],
+        "complications": ["<none>"],
+        "complication_management": ["<none>"],
+        "estimated_blood_loss": ["100 ml"],
+        "urine_output": ["minimal"],
+        "fluid_in": ["1 liter lactated ringer's"],
+        "drain_placed": ["no"],
+        "drain_type": ["<none>"],
+        "drain_location": ["<none>"],
+        "tourniquet_used": ["yes"],
+        "tourniquet_inflation_time": ["1:25 pm"],
+        "tourniquet_pressure": ["250 mmhg"],
+        "electrosurgery_used": ["yes"],
+        "electrosurgery_type": ["bovie"],
+        "intra_op_handoff": ["yes"],
+        "intra_op_imaging": ["yes"],
+        "intra_op_imaging_type": ["fluoroscopy"]
+    },
+    "medications": {
+        "anesthesia_type": ["general"],
+        "intra_op_medications": ["propofol, fentanyl, cefazolin 2g iv (prophylactic), bupivacaine"],
+        "local_anesthetic_used": ["yes"],
+        "local_anesthetic_agent": ["bupivacaine"],
+        "local_anesthetic_site": ["incision site (lateral ankle)"],
+        "vasopressor_used": ["no"],
+        "vasopressor_agent": ["<none>"],
+        "transfusion_given": ["no"],
+        "transfusion_product": ["<none>"],
+        "transfusion_volume": ["<none>"]
+    },
+    "supplies_and_equipment": {
+        "implants": ["synthes plate and screws"],
+        "implant_manufacturer": ["synthes"],
+        "implant_lot_number": ["syn-33421"],
+        "instruments": ["drill, screws, plate, bovie"],
+        "sponge_count_correct": ["yes"],
+        "instrument_count_correct": ["yes"],
+        "sharps_count_correct": ["yes"]
+    },
+    "specimens": {
+        "specimen_removed": ["no"],
+        "specimen_description": ["<none>"],
+        "specimen_sent_to_pathology": ["no"],
+        "specimen_label_verified": ["<none>"],
+        "specimen_laterality": ["<none>"]
+    },
+    "closure": {
+        "closure_method": ["vicryl (deep); nylon (skin)"],
+        "closure_layers": ["fascia, subcutaneous, skin"],
+        "post_op_skin_care": ["splint applied"],
+        "wound_classification": ["clean"]
+    },
+    "post_op": {
+        "patient_condition": ["stable"],
+        "extubated_in_or": ["yes"],
+        "transfer_destination": ["pacu"],
+        "post_op_orders": ["non-weight bearing, pain control, follow-up with orthopedics"]
+    }
+}

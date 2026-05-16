@@ -1,0 +1,262 @@
+{
+    "patient_info": {
+        "patient_name": [
+            "Robert Jenkins"
+        ],
+        "patient_id": [
+            "Medical Record Number: 5902341"
+        ],
+        "date_of_birth": [
+            "August fourteenth, nineteen sixty"
+        ],
+        "date_of_surgery": [
+            "February twenty-second, two thousand twenty-six. (Exact phrase requested) Alternatively, today's unspecified date within context can be considered as February twenty-twond for briefness in this format. (General knowledge since exact current date not given in transcript.)"
+        ],
+        "start_time": [
+            "7:45 AM"
+        ],
+        "end_time": [
+            "Surgery ended at nine twenty-eight A M."
+        ]
+    },
+    "surgical_team": {
+        "primary_surgeon": [
+            "Doctor Priya Shah"
+        ],
+        "assistant_surgeon": [
+            "Assistant Doctor Kevin Ross"
+        ],
+        "scrub_tech": [
+            "Scrub tech Maria Lopez."
+        ],
+        "circulating_nurse": [
+            "Jason Kim"
+        ],
+        "anesthesiologist": [
+            "Andrew Collins (General Anesthesia) and Sarah Nguyen (CRNA assistance)."
+        ],
+        "crna": [
+            "<none>"
+        ]
+    },
+    "procedure": {
+        "procedure_name": [
+            "Open right colectomy for ascending colon carcinoma."
+        ],
+        "procedure_type": [
+            "Elective procedure"
+        ],
+        "approach": [
+            "<none>"
+        ],
+        "laterality": [
+            "Right side (right colectomy)"
+        ],
+        "primary_diagnosis": [
+            "Ascending colon carcinoma requiring right colectomy."
+        ],
+        "secondary_procedure": [
+            "<none>"
+        ]
+    },
+    "pre_op": {
+        "patient_positioning": [
+            "Patient positioned supine arms extended on padded armboards with safety straps and compression devices for DVT prophylaxis."
+        ],
+        "positioning_aids": [
+            "<none>"
+        ],
+        "safety_strap_applied": [
+            "Safety strap secured across thighs YES.\n\nThis answer is derived from the transcript where it explicitly states \"Safety strap secured across thighs,\" indicating that a safety measure was taken to prevent movement of Robert Jenkins during surgery, confirming the application of a safety strap"
+        ],
+        "grounding_pad_placed": [
+            "Yes, a grounding pad was placed on the left thigh as part of DVT prophylaxis measures during surgery."
+        ],
+        "grounding_pad_location": [
+            "Grounding pad placed on left thigh."
+        ],
+        "pre_op_skin_prep_solution": [
+            "Chlorhexidine was used for skin prep at the surgical site."
+        ],
+        "pre_op_skin_prep_area": [
+            "Abdomen prep with chlorhexidine from chest to mid thigh."
+        ],
+        "draping": [
+            "Standard sterile fashion for open right colectomy procedure."
+        ],
+        "timeout_performed": [
+            "Timeout confirmed with all necessary preparations and consents completed YES."
+        ],
+        "timeout_verified": [
+            "Consent signed and verified with antibiotic prophylaxis administers. No concerns raised. Proceeding as planned."
+        ],
+        "antibiotic_prophylaxis_agent": [
+            "Cefazolin two grams IV administered pre-incision."
+        ],
+        "antibiotic_prophylaxis_time": [
+            "7:36 AM"
+        ],
+        "dvt_prophylaxis": [
+            "Sequential compression devices used on patient's legs for DVT prevention."
+        ]
+    },
+    "intra_op": {
+        "incision_location": [
+            "Midline abdominal incision for right colectomy procedure."
+        ],
+        "incision_type": [
+            "<none>"
+        ],
+        "findings": [
+            "<none>"
+        ],
+        "complications": [
+            "<none>"
+        ],
+        "complication_management": [
+            "Minor bleeding from mesenteric vessel; cautery and suture ligation used for management."
+        ],
+        "estimated_blood_loss": [
+            "Estimated blood loss one hundred fifty milliliters."
+        ],
+        "urine_output": [
+            "Two hundred milliliters of urine output during surgery."
+        ],
+        "fluid_in": [
+            "<none>"
+        ],
+        "drain_placed": [
+            "No surgical drain was placed during the procedure as noted by \"No drain placed.\" Therefore, the answer is NO; no surgical drain has been used for this case. The specific detail about drains being omitted in standard practice and confirmed with a succinct statement can be inferred directly from the trans"
+        ],
+        "drain_type": [
+            "No drain was placed. (Exact word count: 6)"
+        ],
+        "drain_location": [
+            "No drain placed."
+        ],
+        "tourniquet_used": [
+            "<none>"
+        ],
+        "tourniquet_inflation_time": [
+            "<none>"
+        ],
+        "tourniquet_pressure": [
+            "<none>"
+        ],
+        "electrosurgery_used": [
+            "Electrosurgical Bovie and LigaSure yes"
+        ],
+        "electrosurgery_type": [
+            "Bovie and LigaSure"
+        ],
+        "intra_op_handoff": [
+            "<none>"
+        ],
+        "intra_op_imaging": [
+            "<none>"
+        ],
+        "intra_op_imaging_type": [
+            "<none>"
+        ]
+    },
+    "medications": {
+        "anesthesia_type": [
+            "General Anesthesia with Propofol, Fentanyl, Rocuronium - No Local Anesthetic Used"
+        ],
+        "intra_op_medications": [
+            "Propofol, Fentanyl, Rocuronium, Phenylephrine (vasopressor)"
+        ],
+        "local_anesthetic_used": [
+            "Local anesthetic was NOT USED as per the transcript provided. The answer is NO based on this information. Hence, following instructions closely leads to a definitive conclusion that there was no local anesthetic used during Robert Jenkins' procedure when nothing contrary-to-fact or ambiguous evidence suggests"
+        ],
+        "local_anesthetic_agent": [
+            "<none>"
+        ],
+        "local_anesthetic_site": [
+            "<none>"
+        ],
+        "vasopressor_used": [
+            "Yes, phenylephrine was used intermittently as a vasopressor during surgery."
+        ],
+        "vasopressor_agent": [
+            "Phenylephrine intermittent boluses as a vasopressor agent was used during the procedure."
+        ],
+        "transfusion_given": [
+            "Yes, one unit packed red blood cells was given during surgery. Total volume three hundred milliliters. Answer is YES."
+        ],
+        "transfusion_product": [
+            "One unit packed red blood cells total volume three hundred mL."
+        ],
+        "transfusion_volume": [
+            "One unit packed red blood cells total volume three hundred mL."
+        ]
+    },
+    "supplies_and_equipment": {
+        "implants": [
+            "<none>"
+        ],
+        "implant_manufacturer": [
+            "<none>"
+        ],
+        "implant_lot_number": [
+            "<none>"
+        ],
+        "instruments": [
+            "Scalpel LigaSure Bovie retractors stapler."
+        ],
+        "sponge_count_correct": [
+            "Sponge count confirmed correct as per transcript details. Answer: YES"
+        ],
+        "instrument_count_correct": [
+            "Instrument and sponge counts were confirmed as correct; no discrepancy noted. Answer: YES."
+        ],
+        "sharps_count_correct": [
+            "<none>"
+        ]
+    },
+    "specimens": {
+        "specimen_removed": [
+            "<none>"
+        ],
+        "specimen_description": [
+            "Right colon due to ascending colon carcinoma"
+        ],
+        "specimen_sent_to_pathology": [
+            "Specimen right colon removed and sent yes. Pathology labeled laterality correct. Answer YES."
+        ],
+        "specimen_label_verified": [
+            "Specimen right colon removed yes sent to pathology label verified laterality right. YES."
+        ],
+        "specimen_laterality": [
+            "Right side (specimen removed during right colectomy)"
+        ]
+    },
+    "closure": {
+        "closure_method": [
+            "PDS for fascia closure, Vicryl skin staples subcutaneously."
+        ],
+        "closure_layers": [
+            "Fascia with PDS, Subcutaneous layer Vicryl, Skin staples applied for closure."
+        ],
+        "post_op_skin_care": [
+            "Sterile gauze and skin staples (Vicryl)."
+        ],
+        "wound_classification": [
+            "wound classified as Clean Contaminated"
+        ]
+    },
+    "post_op": {
+        "patient_condition": [
+            "Patient's stable post-operation after open right colectomy for colon carcinoma. No complications reported during surgery beyond minor bleeding which was managed effectively."
+        ],
+        "extubated_in_or": [
+            "Yes, the patient was extubated in the OR as stated \"Patient condition stable\" and then to PACU which implies intubation removal occurred during surgery. The specific timing is given (\"Procedure end time nine twenty-eight A M\"), supporting this inference due to standard procedures for major sur"
+        ],
+        "transfer_destination": [
+            "Transferred to PACU (Post Anesthesia Care Unit)."
+        ],
+        "post_op_orders": [
+            "- NPO (nothing by mouth)\n- IV fluids maintenance\n- Pain control medication ordered\n- Monitor hemoglobin levels post operation\n- Follow up clinic visit scheduled in advance of discharge."
+        ]
+    }
+}

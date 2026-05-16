@@ -1,0 +1,8 @@
+{
+    "model": "qwen2.5:7b",
+    "total_fields_graded": 400,
+    "correct": 358,
+    "incorrect": 42,
+    "review_needed": 0,
+    "accuracy_pct": 89.5
+}

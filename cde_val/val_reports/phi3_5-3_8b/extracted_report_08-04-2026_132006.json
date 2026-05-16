@@ -1,0 +1,262 @@
+{
+    "patient_info": {
+        "patient_name": [
+            "Steven Delgado"
+        ],
+        "patient_id": [
+            "MRN 9021184"
+        ],
+        "date_of_birth": [
+            "November eleventh, ninetesie sixty-seven"
+        ],
+        "date_of_surgery": [
+            "February twenty-second twenty twenty-six"
+        ],
+        "start_time": [
+            "<none>"
+        ],
+        "end_time": [
+            "<none>"
+        ]
+    },
+    "surgical_team": {
+        "primary_surgeon": [
+            "Primary Surgeon Doctor Brian Mitchell"
+        ],
+        "assistant_surgeon": [
+            "Assistant Dr. Eric Stone"
+        ],
+        "scrub_tech": [
+            "Scrub tech Rachel Adams"
+        ],
+        "circulating_nurse": [
+            "Kevin Liu"
+        ],
+        "anesthesiologist": [
+            "Susan Park CRNA (Dr.)"
+        ],
+        "crna": [
+            "Dr. Susan Park CRNA"
+        ]
+    },
+    "procedure": {
+        "procedure_name": [
+            "Robotic prostatectomy for prostate cancer treatment."
+        ],
+        "procedure_type": [
+            "Elective procedure."
+        ],
+        "approach": [
+            "Robotic prostatectomy (open and minimally invasive approaches are implied by the use of a \"robotic system\") used for surgery on February twenty-second, 2023 at patient MRN 9021184. The approach is specifically robotic as indicated"
+        ],
+        "laterality": [
+            "<none>"
+        ],
+        "primary_diagnosis": [
+            "<none>"
+        ],
+        "secondary_procedure": [
+            "<none>"
+        ]
+    },
+    "pre_op": {
+        "patient_positioning": [
+            "Lithotomy Trendelenburg with padding and shoulder supports."
+        ],
+        "positioning_aids": [
+            "Trendelenburg with shoulder supports and safety straps applied."
+        ],
+        "safety_strap_applied": [
+            "Yes, a safety strap was specifically stated as being applied during surgery preparation and procedure execution for Steven Delgado's robotic prostatectomy on February twenty-second, two thousand twenty-six. The relevant information is directly taken from the transcript provided above where it states \"Safety"
+        ],
+        "grounding_pad_placed": [
+            "Yes, a grounding pad was left on the patient's thigh as indicated by \"Grounding pad left thigh.\" So the answer is YES."
+        ],
+        "grounding_pad_location": [
+            "Left thigh"
+        ],
+        "pre_op_skin_prep_solution": [
+            "Chlorhexidine"
+        ],
+        "pre_op_skin_prep_area": [
+            "Abdomen pelvis prep chlorhexidine applied."
+        ],
+        "draping": [
+            "Surgical field robotic fashion sterilely prepared for procedure."
+        ],
+        "timeout_performed": [
+            "Timeout yes, confirmed patient identity and procedure prior to incision. Answer is YES."
+        ],
+        "timeout_verified": [
+            "Patient identity and procedure type confirmed; elective robotic prostatectomy for prostate cancer indicated consent verified with antibiotics administered. Answer is patient identification & surgery details during timeout."
+        ],
+        "antibiotic_prophylaxis_agent": [
+            "Cefazolin two grams at three forty P M pre-incision."
+        ],
+        "antibiotic_prophylaxis_time": [
+            "Three forty P M (3:40 PM)"
+        ],
+        "dvt_prophylaxis": [
+            "<none>"
+        ]
+    },
+    "intra_op": {
+        "incision_location": [
+            "<none>"
+        ],
+        "incision_type": [
+            "<none>"
+        ],
+        "findings": [
+            "Localized prostate cancer detected; no other complications noted. Answer: Localized prostate cancer without additional findings/complications."
+        ],
+        "complications": [
+            "<none>"
+        ],
+        "complication_management": [
+            "No intraoperative complications; all procedures executed smoothly and safely without incident management required. Answer: No specific complication management described."
+        ],
+        "estimated_blood_loss": [
+            "Estimated blood loss one hundred twenty milliliters."
+        ],
+        "urine_output": [
+            "Two hundred milliliters."
+        ],
+        "fluid_in": [
+            "Lactated Ringers infused at one point eight liters during surgery."
+        ],
+        "drain_placed": [
+            "Yes, Jackson Pratt type drain was placed pelvis.\n\n(Note for clarification based on the provided transcript snippet - \"Drain placed yes Jackson Pratt type location pelvis.\") Here we have specific information that confirms a surgical drain of the Jackson Pratt variety was indeed placed in"
+        ],
+        "drain_type": [
+            "Jackson Pratt drains were placed."
+        ],
+        "drain_location": [
+            "Jackson Pratt type location pelvis."
+        ],
+        "tourniquet_used": [
+            "<none>"
+        ],
+        "tourniquet_inflation_time": [
+            "<none>"
+        ],
+        "tourniquet_pressure": [
+            "<none>"
+        ],
+        "electrosurgery_used": [
+            "Yes, both bipolar and monopolar cautery were used during the procedure."
+        ],
+        "electrosurgery_type": [
+            "<none>"
+        ],
+        "intra_op_handoff": [
+            "No changes; all listed individuals were present throughout the procedure. Answer: NO CHANGES."
+        ],
+        "intra_op_imaging": [
+            "<none>"
+        ],
+        "intra_op_imaging_type": [
+            "<none>"
+        ]
+    },
+    "medications": {
+        "anesthesia_type": [
+            "General Anesthesia."
+        ],
+        "intra_op_medications": [
+            "Propofol, Fentanyl, Rocuronium (general anesthesia) and Cefazolin antibiotics."
+        ],
+        "local_anesthetic_used": [
+            "Local Anesthetic No."
+        ],
+        "local_anesthetic_agent": [
+            "Local anesthetic no. (not specified)"
+        ],
+        "local_anesthetic_site": [
+            "<none>"
+        ],
+        "vasopressor_used": [
+            "<none>"
+        ],
+        "vasopressor_agent": [
+            "<none>"
+        ],
+        "transfusion_given": [
+            "<none>"
+        ],
+        "transfusion_product": [
+            "<none>"
+        ],
+        "transfusion_volume": [
+            "<none>"
+        ]
+    },
+    "supplies_and_equipment": {
+        "implants": [
+            "Jackson Pratt type pelvic drain only."
+        ],
+        "implant_manufacturer": [
+            "<none>"
+        ],
+        "implant_lot_number": [
+            "<none>"
+        ],
+        "instruments": [
+            "Robotic system bipolar cautery and Jackson Pratt drain type instrumentation for fluid management. Other specific tools are not detailed beyond general anesthesia medications. Answer: Robotic instruments (bipolar/monopolar) and Jackson Pratt drains; no other surgical tool details"
+        ],
+        "sponge_count_correct": [
+            "<none>"
+        ],
+        "instrument_count_correct": [
+            "Counts correct."
+        ],
+        "sharps_count_correct": [
+            "Counts correct. No further details provided on discrepancies if any were present. Answer as YES based on available information indicating compliance with standard procedures leading to a likely accurate count outcome. However formally and explicitly affirmed NO is more cautious without explicit confirmation within the text, hence my response would"
+        ]
+    },
+    "specimens": {
+        "specimen_removed": [
+            "<none>"
+        ],
+        "specimen_description": [
+            "Prostate gland removal due to cancer indication."
+        ],
+        "specimen_sent_to_pathology": [
+            "Specimen sent to pathology and verified YES."
+        ],
+        "specimen_label_verified": [
+            "Yes, the transcript explicitly states that \"Prostate removed specimen sent to pathology label verified.\" So the answer is YES."
+        ],
+        "specimen_laterality": [
+            "<none>"
+        ]
+    },
+    "closure": {
+        "closure_method": [
+            "Monocryl Dermabond (no specific suture material/technique detailed) Answer is Monocryl Dermabond without further detail provided on technique used."
+        ],
+        "closure_layers": [
+            "Fascia subcutaneous and skin layers closed."
+        ],
+        "post_op_skin_care": [
+            "Monocryl Dermabond closure tape was used on the wound."
+        ],
+        "wound_classification": [
+            "Clean"
+        ]
+    },
+    "post_op": {
+        "patient_condition": [
+            "Patient stable after robotic prostatectomy for cancer with clean wound classification and no complications reported post-operation."
+        ],
+        "extubated_in_or": [
+            "Yes, the patient was extubated in the OR."
+        ],
+        "transfer_destination": [
+            "Transferred to PACU (Post-Anesthesia Care Unit)."
+        ],
+        "post_op_orders": [
+            "Monitor urine output and manage Foley catheter drainage follow-up pathology."
+        ]
+    }
+}

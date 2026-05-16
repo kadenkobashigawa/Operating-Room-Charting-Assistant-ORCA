@@ -1,0 +1,102 @@
+{
+    "patient_info": {
+        "patient_name": ["angela morris"],
+        "patient_id": ["7319982"],
+        "date_of_birth": ["december 9, 1972"],
+        "date_of_surgery": ["february 22, 2026"],
+        "start_time": ["10:20 am"],
+        "end_time": ["11:42 am"]
+    },
+    "surgical_team": {
+        "primary_surgeon": ["dr. laura chen"],
+        "assistant_surgeon": ["dr. nina patel"],
+        "scrub_tech": ["daniel ortiz"],
+        "circulating_nurse": ["emily park"],
+        "anesthesiologist": ["dr. helen brooks"],
+        "crna": ["mark feldman"]
+    },
+    "procedure": {
+        "procedure_name": ["laparoscopic hysterectomy"],
+        "procedure_type": ["elective"],
+        "approach": ["laparoscopic"],
+        "laterality": ["<none>"],
+        "primary_diagnosis": ["uterine fibroids"],
+        "secondary_procedure": ["yes — bilateral salpingectomy"]
+    },
+    "pre_op": {
+        "patient_positioning": ["lithotomy with stirrups"],
+        "positioning_aids": ["gel padding and foam supports"],
+        "safety_strap_applied": ["yes"],
+        "grounding_pad_placed": ["yes"],
+        "grounding_pad_location": ["right thigh"],
+        "pre_op_skin_prep_solution": ["chlorhexidine gluconate"],
+        "pre_op_skin_prep_area": ["abdomen and vaginal prep"],
+        "draping": ["sterile laparoscopic fashion"],
+        "timeout_performed": ["yes"],
+        "timeout_verified": ["patient identity, procedure, site, consent, antibiotics"],
+        "antibiotic_prophylaxis_agent": ["cefazolin 2g iv"],
+        "antibiotic_prophylaxis_time": ["10:12 am"],
+        "dvt_prophylaxis": ["sequential compression devices (scds)"]
+    },
+    "intra_op": {
+        "incision_location": ["umbilical and additional port sites"],
+        "incision_type": ["trocar"],
+        "findings": ["enlarged fibroid uterus"],
+        "complications": ["<none>"],
+        "complication_management": ["<none>"],
+        "estimated_blood_loss": ["70 ml"],
+        "urine_output": ["150 ml"],
+        "fluid_in": ["1 liter lactated ringer's"],
+        "drain_placed": ["no"],
+        "drain_type": ["<none>"],
+        "drain_location": ["<none>"],
+        "tourniquet_used": ["no"],
+        "tourniquet_inflation_time": ["<none>"],
+        "tourniquet_pressure": ["<none>"],
+        "electrosurgery_used": ["yes"],
+        "electrosurgery_type": ["harmonic scalpel"],
+        "intra_op_handoff": ["no"],
+        "intra_op_imaging": ["no"],
+        "intra_op_imaging_type": ["<none>"]
+    },
+    "medications": {
+        "anesthesia_type": ["general"],
+        "intra_op_medications": ["propofol, sevoflurane, fentanyl, cefazolin 2g iv (prophylactic), bupivacaine"],
+        "local_anesthetic_used": ["yes"],
+        "local_anesthetic_agent": ["bupivacaine"],
+        "local_anesthetic_site": ["port sites (abdomen)"],
+        "vasopressor_used": ["no"],
+        "vasopressor_agent": ["<none>"],
+        "transfusion_given": ["no"],
+        "transfusion_product": ["<none>"],
+        "transfusion_volume": ["<none>"]
+    },
+    "supplies_and_equipment": {
+        "implants": ["<none>"],
+        "implant_manufacturer": ["<none>"],
+        "implant_lot_number": ["<none>"],
+        "instruments": ["laparoscope, harmonic scalpel, graspers"],
+        "sponge_count_correct": ["yes"],
+        "instrument_count_correct": ["yes"],
+        "sharps_count_correct": ["yes"]
+    },
+    "specimens": {
+        "specimen_removed": ["yes"],
+        "specimen_description": ["uterus and bilateral fallopian tubes"],
+        "specimen_sent_to_pathology": ["yes"],
+        "specimen_label_verified": ["yes"],
+        "specimen_laterality": ["<none>"]
+    },
+    "closure": {
+        "closure_method": ["vicryl (vaginal cuff); monocryl (port sites)"],
+        "closure_layers": ["fascia, subcutaneous, skin"],
+        "post_op_skin_care": ["dermabond"],
+        "wound_classification": ["clean-contaminated"]
+    },
+    "post_op": {
+        "patient_condition": ["stable"],
+        "extubated_in_or": ["yes"],
+        "transfer_destination": ["pacu"],
+        "post_op_orders": ["pain control, ambulation, follow-up in two weeks"]
+    }
+}

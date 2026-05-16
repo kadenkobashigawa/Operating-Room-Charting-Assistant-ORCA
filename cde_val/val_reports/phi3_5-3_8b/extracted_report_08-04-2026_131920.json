@@ -1,0 +1,262 @@
+{
+    "patient_info": {
+        "patient_name": [
+            "Michael Turner"
+        ],
+        "patient_id": [
+            "MRN 8452201"
+        ],
+        "date_of_birth": [
+            "June 23, 1984"
+        ],
+        "date_of_surgery": [
+            "February 22nd, 2026"
+        ],
+        "start_time": [
+            "<none>"
+        ],
+        "end_time": [
+            "End at two thirty-five PM"
+        ]
+    },
+    "surgical_team": {
+        "primary_surgeon": [
+            "Dr. Thomas Greene"
+        ],
+        "assistant_surgeon": [
+            "Assistant Doctor Alex Kim"
+        ],
+        "scrub_tech": [
+            "Scrub Technician Olivia Reed."
+        ],
+        "circulating_nurse": [
+            "Circulating Nurse Brian Scott."
+        ],
+        "anesthesiologist": [
+            "Anesthesiologist Dr. Victor Alvarez CRNA (Certified Registered Nurse Anesthetist)"
+        ],
+        "crna": [
+            "Jenna White CRNA"
+        ]
+    },
+    "procedure": {
+        "procedure_name": [
+            "Left ankle open reduction internal fixation (ORIF) with Synthes plate and screws. Answer within constraints given by assistant's instructions is \"Left ankle ORIF.\" However, the complete detail about using a specific manufacturer like Synthes for plates was also provided in transcript"
+        ],
+        "procedure_type": [
+            "urgent approach open laterality left"
+        ],
+        "approach": [
+            "<none>"
+        ],
+        "laterality": [
+            "Left ankle (specifically left laterality)"
+        ],
+        "primary_diagnosis": [
+            "Displaced fibular fracture indicating need for ORIF (Open Reduction and Internal Fixation)."
+        ],
+        "secondary_procedure": [
+            "No additional procedures were performed; all details are consistent with a single open reduction internal fixation of an left fibular fracture. Answer: NO - No further operations indicated herein documented for Michael Turner's case on February twenty-second, two thousand and twenty-six. All information aligns exclusively to"
+        ]
+    },
+    "pre_op": {
+        "patient_positioning": [
+            "Patient positioned supine with left leg elevated and bump padding/foam used for support."
+        ],
+        "positioning_aids": [
+            "Bump padding and foam"
+        ],
+        "safety_strap_applied": [
+            "<none>"
+        ],
+        "grounding_pad_placed": [
+            "<none>"
+        ],
+        "grounding_pad_location": [
+            "Grounding pad right thigh."
+        ],
+        "pre_op_skin_prep_solution": [
+            "Betadine knee to foot prep before incision."
+        ],
+        "pre_op_skin_prep_area": [
+            "Knee to foot prep betadine sterilization described before the incision procedure."
+        ],
+        "draping": [
+            "Sterile drape used for incision site preparation and protection during ORIF procedure."
+        ],
+        "timeout_performed": [
+            "Yes, a surgical timeout was confirmed with \"Timeout.\" and patient identity confirmation prior to the procedure started. Therefore, it indicates that such protocol is followed as part of standard practice ensuring all aspects are double-checked before incision or any major step in an operation for safety reasons."
+        ],
+        "timeout_verified": [
+            "Left ankle ORIF with Synthes plate and screws for displaced fibular fracture. Patient identity verified. Consent confirmed. No complications reported during surgery. Estimated blood loss one hundred milliliters, minimal urine output noted."
+        ],
+        "antibiotic_prophylaxis_agent": [
+            "Cefazolin two grams at one fifteen P M."
+        ],
+        "antibiotic_prophylaxis_time": [
+            "One fifteen P M"
+        ],
+        "dvt_prophylaxis": [
+            "<none>"
+        ]
+    },
+    "intra_op": {
+        "incision_location": [
+            "Skin Incision Location - Lateral Ankle (open surgical approach)"
+        ],
+        "incision_type": [
+            "<none>"
+        ],
+        "findings": [
+            "Displaced fibular fracture requiring open reduction and internal fixation (ORIF). No other complications noted. Answer: Displaced fibular fracture ORIF with no additional findings/complications."
+        ],
+        "complications": [
+            "<none>"
+        ],
+        "complication_management": [
+            "No intraoperative complications; all procedures executed smoothly and within expected norms. Answer: No complications noted."
+        ],
+        "estimated_blood_loss": [
+            "Estimated blood loss one hundred milliliters."
+        ],
+        "urine_output": [
+            "<none>"
+        ],
+        "fluid_in": [
+            "One liter lactated Ringer's solution given during surgery. No transfusion required. Total fluid volume one liter Lactated Ringers IV fluids administered."
+        ],
+        "drain_placed": [
+            "<none>"
+        ],
+        "drain_type": [
+            "<none>"
+        ],
+        "drain_location": [
+            "No drain was placed. Answer: No drain placement during procedure."
+        ],
+        "tourniquet_used": [
+            "Yes, the transcript indicates that a tourniquet was indeed used during surgery with inflation pressure specified as two fifty mmHg starting at one twenty-five P M and ending at two thirty-five P M. Therefore, my answer is YES."
+        ],
+        "tourniquet_inflation_time": [
+            "<none>"
+        ],
+        "tourniquet_pressure": [
+            "Two fifty mmHg pressure"
+        ],
+        "electrosurgery_used": [
+            "Yes, Bovie was utilized for the procedure."
+        ],
+        "electrosurgery_type": [
+            "Electrosurgical device Bovie was used during the procedure."
+        ],
+        "intra_op_handoff": [
+            "<none>"
+        ],
+        "intra_op_imaging": [
+            "Yes, fluoroscopy was used for intraoperative imaging. Answer exactly as it is written above with no additional text and must be within the specified word count limit of \"15 words or less.\" Here's a concise response based on your instructions: Fluoroscopy yes during surg"
+        ],
+        "intra_op_imaging_type": [
+            "Intraoperative fluoroscopy used."
+        ]
+    },
+    "medications": {
+        "anesthesia_type": [
+            "General anesthesia with propofol and fentanyl; no regional/local specified. Answer: General anesthesia."
+        ],
+        "intra_op_medications": [
+            "Propofol and fentanyl for anesthesia; bupivacaine at incision site local anesthetic."
+        ],
+        "local_anesthetic_used": [
+            "Yes, bupivacaine was used as a local anesthetic at the incision site."
+        ],
+        "local_anesthetic_agent": [
+            "Bupivacaine at incision site."
+        ],
+        "local_anesthetic_site": [
+            "Local anesthetic at incision site on left lateral ankle during ORIF procedure."
+        ],
+        "vasopressor_used": [
+            "<none>"
+        ],
+        "vasopressor_agent": [
+            "No vasopressors were used during the procedure. Answer: No vasopressors administered."
+        ],
+        "transfusion_given": [
+            "<none>"
+        ],
+        "transfusion_product": [
+            "No blood product was transfused. Answer: No transfusion occurred."
+        ],
+        "transfusion_volume": [
+            "No blood product was transfused. Answer: No transfusion occurred."
+        ]
+    },
+    "supplies_and_equipment": {
+        "implants": [
+            "Synthes plate and screws implant yes SYN 33421."
+        ],
+        "implant_manufacturer": [
+            "Synthes plate and screws manufacturer Synthes lot SYN 33421."
+        ],
+        "implant_lot_number": [
+            "SYN 33421 (implant's manufacturer and model are specified) - SYN refers to Synthes which is a medical devices company that makes implants like the one described for Michael Turner\u2019s surgery. The lot number, \"33421,\" follows this identifier;"
+        ],
+        "instruments": [
+            "Drill screws and Synthes plate/screws (specifically Bovie for electrosurgery) are noted as being used. No other specific tools are listed beyond these general terms. Thus the answer is \"Bovie drill, screws.\" However, it's important to note that"
+        ],
+        "sponge_count_correct": [
+            "<none>"
+        ],
+        "instrument_count_correct": [
+            "Counts correct YES\n\nExplanation: The transcript clearly states \"Instruments drill screws plate Bovie\" and concludes with \"Counts correct,\" which indicates that the final instrument count was done accurately. There is no indication to suggest otherwise, so we can confidently answer"
+        ],
+        "sharps_count_correct": [
+            "<none>"
+        ]
+    },
+    "specimens": {
+        "specimen_removed": [
+            "<none>"
+        ],
+        "specimen_description": [
+            "<none>"
+        ],
+        "specimen_sent_to_pathology": [
+            "<none>"
+        ],
+        "specimen_label_verified": [
+            "<none>"
+        ],
+        "specimen_laterality": [
+            "<none>"
+        ]
+    },
+    "closure": {
+        "closure_method": [
+            "<none>"
+        ],
+        "closure_layers": [
+            "Fascia subcutaneous and skin layers closed."
+        ],
+        "post_op_skin_care": [
+            "Vicryl deep nylon skin and a splint for dressing/stabilization of closure type was used; no specific adhesive listed. So the answer is Vicryl deep nylon skin with additional stabilizing measures, implying some form of compression but not an explicitly named adhes"
+        ],
+        "wound_classification": [
+            "clean"
+        ]
+    },
+    "post_op": {
+        "patient_condition": [
+            "<none>"
+        ],
+        "extubated_in_or": [
+            "Yes, the patient was extubated in the OR."
+        ],
+        "transfer_destination": [
+            "<none>"
+        ],
+        "post_op_orders": [
+            "Ortho referral for pain management and non-weight bearing advice."
+        ]
+    }
+}

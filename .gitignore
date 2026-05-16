@@ -1,0 +1,15 @@
+# Virtual environment
+orca_env/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Runtime output — audio recordings and live session/report data
+recordings/
+sessions/
+reports/
+
+# macOS
+.DS_Store

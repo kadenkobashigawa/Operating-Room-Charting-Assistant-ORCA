@@ -1,0 +1,262 @@
+{
+    "patient_info": {
+        "patient_name": [
+            "Margaret Collins"
+        ],
+        "patient_id": [
+            "Medical Record Number: 4821903"
+        ],
+        "date_of_birth": [
+            "March third, nineteen fifty-eight"
+        ],
+        "date_of_surgery": [
+            "February 20, 2026"
+        ],
+        "start_time": [
+            "Procedure start time is eight-oh-five A.M."
+        ],
+        "end_time": [
+            "The surgery ended at 9:12 A.M."
+        ]
+    },
+    "surgical_team": {
+        "primary_surgeon": [
+            "Doctor Samuel Lee"
+        ],
+        "assistant_surgeon": [
+            "<none>"
+        ],
+        "scrub_tech": [
+            "The scrub technician is James Okafor."
+        ],
+        "circulating_nurse": [
+            "Circulating nurse Linda Tran."
+        ],
+        "anesthesiologist": [
+            "Doctor Patricia Moore"
+        ],
+        "crna": [
+            "CRNA Kevin Hwang"
+        ]
+    },
+    "procedure": {
+        "procedure_name": [
+            "Laparoscopic right inguinal hernia repair with mesh"
+        ],
+        "procedure_type": [
+            "Elective"
+        ],
+        "approach": [
+            "<none>"
+        ],
+        "laterality": [
+            "Right side (of the body)"
+        ],
+        "primary_diagnosis": [
+            "Symptomatic right inguinal hernia"
+        ],
+        "secondary_procedure": [
+            "<none>"
+        ]
+    },
+    "pre_op": {
+        "patient_positioning": [
+            "Patient positioned supine, right arm tucked, left arm on armboard."
+        ],
+        "positioning_aids": [
+            "<none>"
+        ],
+        "safety_strap_applied": [
+            "YES"
+        ],
+        "grounding_pad_placed": [
+            "Yes"
+        ],
+        "grounding_pad_location": [
+            "The grounding pad was placed on the left thigh."
+        ],
+        "pre_op_skin_prep_solution": [
+            "Chlorhexidine gluconate"
+        ],
+        "pre_op_skin_prep_area": [
+            "Right side from umbilicus down to mid-thigh"
+        ],
+        "draping": [
+            "The surgical field was draped in a sterile laparoscopic fashion (from umbilicus down to mid-thigh on the right side)."
+        ],
+        "timeout_performed": [
+            "Yes"
+        ],
+        "timeout_verified": [
+            "Patient is Margaret Collins, procedure is laparoscopic right inguinal hernia repair with mesh."
+        ],
+        "antibiotic_prophylaxis_agent": [
+            "Two grams cefazolin IV administered at seven forty-two A.M."
+        ],
+        "antibiotic_prophylaxis_time": [
+            "Administered at 7:42 AM"
+        ],
+        "dvt_prophylaxis": [
+            "Sequential compression devices are on and functioning for DVT prophylaxis."
+        ]
+    },
+    "intra_op": {
+        "incision_location": [
+            "Infra-umbilical (at or below navel)"
+        ],
+        "incision_type": [
+            "<none>"
+        ],
+        "findings": [
+            "<none>"
+        ],
+        "complications": [
+            "<none>"
+        ],
+        "complication_management": [
+            "<none>"
+        ],
+        "estimated_blood_loss": [
+            "Minimal - about 5 milliliters"
+        ],
+        "urine_output": [
+            "One hundred twenty milliliters"
+        ],
+        "fluid_in": [
+            "One liter lactated Ringer's administered"
+        ],
+        "drain_placed": [
+            "<none>"
+        ],
+        "drain_type": [
+            "<none>"
+        ],
+        "drain_location": [
+            "<none>"
+        ],
+        "tourniquet_used": [
+            "<none>"
+        ],
+        "tourniquet_inflation_time": [
+            "<none>"
+        ],
+        "tourniquet_pressure": [
+            "<none>"
+        ],
+        "electrosurgery_used": [
+            "Yes"
+        ],
+        "electrosurgery_type": [
+            "Bovie and harmonic scalpel both used."
+        ],
+        "intra_op_handoff": [
+            "<none>"
+        ],
+        "intra_op_imaging": [
+            "<none>"
+        ],
+        "intra_op_imaging_type": [
+            "<none>"
+        ]
+    },
+    "medications": {
+        "anesthesia_type": [
+            "General anesthesia"
+        ],
+        "intra_op_medications": [
+            "Propofol, fentanyl, desflurane, cefazolin (IV), bupivacaine (local)."
+        ],
+        "local_anesthetic_used": [
+            "Yes, bupivacaine was used locally at the trocar sites."
+        ],
+        "local_anesthetic_agent": [
+            "Bupivacaine point two five percent"
+        ],
+        "local_anesthetic_site": [
+            "At the trocar sites (local anesthetic infiltrated)."
+        ],
+        "vasopressor_used": [
+            "<none>"
+        ],
+        "vasopressor_agent": [
+            "<none>"
+        ],
+        "transfusion_given": [
+            "<none>"
+        ],
+        "transfusion_product": [
+            "<none>"
+        ],
+        "transfusion_volume": [
+            "<none>"
+        ]
+    },
+    "supplies_and_equipment": {
+        "implants": [
+            "Self-fixating mesh (Medtronic, MDT-2024-88321) was permanently placed."
+        ],
+        "implant_manufacturer": [
+            "Medtronic"
+        ],
+        "implant_lot_number": [
+            "Medtronic. Lot number MDT-2024-88321."
+        ],
+        "instruments": [
+            "Harmonic scalpel, Bovie, chlorhexidine gluconate, sequential compression devices, grounding pad, ProGrip self-fixating mesh (Medtronic), trocars, Vicryl sutures, Monocryl sutures, Dermabond."
+        ],
+        "sponge_count_correct": [
+            "<none>"
+        ],
+        "instrument_count_correct": [
+            "YES"
+        ],
+        "sharps_count_correct": [
+            "YES"
+        ]
+    },
+    "specimens": {
+        "specimen_removed": [
+            "<none>"
+        ],
+        "specimen_description": [
+            "<none>"
+        ],
+        "specimen_sent_to_pathology": [
+            "<none>"
+        ],
+        "specimen_label_verified": [
+            "<none>"
+        ],
+        "specimen_laterality": [
+            "<none>"
+        ]
+    },
+    "closure": {
+        "closure_method": [
+            "Zero Vicryl, figure-of-eight (for fascial layer); three-oh Vicryl (for subcutaneous layer); four-oh Monocryl, running subcuticular (for skin)"
+        ],
+        "closure_layers": [
+            "Fascia closed with 0 Vicryl, figure-of-eight; Subcutaneous layer with 3-0 Vicryl; Skin closed using 4-0 Monocryl."
+        ],
+        "post_op_skin_care": [
+            "Dermabond applied to all three port sites."
+        ],
+        "wound_classification": [
+            "Clean"
+        ]
+    },
+    "post_op": {
+        "patient_condition": [
+            "Patient tolerated the procedure well and extubated without complication."
+        ],
+        "extubated_in_or": [
+            "Yes"
+        ],
+        "transfer_destination": [
+            "The patient was transferred to PACU."
+        ],
+        "post_op_orders": [
+            "Resume diet as tolerated, pain management per protocol, follow-up in two weeks."
+        ]
+    }
+}

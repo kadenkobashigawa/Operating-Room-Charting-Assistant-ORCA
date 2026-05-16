@@ -1,0 +1,262 @@
+{
+    "patient_info": {
+        "patient_name": [
+            "Angela Morris"
+        ],
+        "patient_id": [
+            "MRN (Medical Record Number) 7319982."
+        ],
+        "date_of_birth": [
+            "December ninth nineteen seventy-two."
+        ],
+        "date_of_surgery": [
+            "February twenty-second twenty twenty-six."
+        ],
+        "start_time": [
+            "10:20 AM (start time) and 11:42 AM (end time)."
+        ],
+        "end_time": [
+            "11:42 A.M."
+        ]
+    },
+    "surgical_team": {
+        "primary_surgeon": [
+            "Doctor Laura Chen is the primary operating surgeon."
+        ],
+        "assistant_surgeon": [
+            "Assistant Doctor Nina Patel."
+        ],
+        "scrub_tech": [
+            "Daniel Ortiz."
+        ],
+        "circulating_nurse": [
+            "Emily Park."
+        ],
+        "anesthesiologist": [
+            "Anesthesia Doctor Helen Brooks CRNA Mark Feldman (team)"
+        ],
+        "crna": [
+            "Mark Feldman."
+        ]
+    },
+    "procedure": {
+        "procedure_name": [
+            "Laparoscopic hysterectomy with bilateral salpingectomy due to uterine fibroids and secondary procedures."
+        ],
+        "procedure_type": [
+            "Elective. (Procedure type \"elective approach\" is specified in the transcript.)"
+        ],
+        "approach": [
+            "Laparoscopic approach."
+        ],
+        "laterality": [
+            "<none>"
+        ],
+        "primary_diagnosis": [
+            "Uterine fibroids."
+        ],
+        "secondary_procedure": [
+            "Yes, bilateral salpingectomy was performed as a secondary procedure."
+        ]
+    },
+    "pre_op": {
+        "patient_positioning": [
+            "Lithotomy with stirrups and gel padding and foam supports for comfort."
+        ],
+        "positioning_aids": [
+            "Gel and foam supports."
+        ],
+        "safety_strap_applied": [
+            "Yes. Safety strap was applied as indicated by \"Safety strap applied yes\" in the transcript."
+        ],
+        "grounding_pad_placed": [
+            "<none>"
+        ],
+        "grounding_pad_location": [
+            "Grounding pad right thigh."
+        ],
+        "pre_op_skin_prep_solution": [
+            "Chlorhexidine."
+        ],
+        "pre_op_skin_prep_area": [
+            "Abdomen and vaginal area, prepped with chlorhexidine for skin preparation."
+        ],
+        "draping": [
+            "Sterile laparoscopic fashion."
+        ],
+        "timeout_performed": [
+            "Timeout please. Yes."
+        ],
+        "timeout_verified": [
+            "Patient identity, procedure, secondary procedure, consent, and site were confirmed."
+        ],
+        "antibiotic_prophylaxis_agent": [
+            "Cefazolin, 2 grams IV at 10:12 A M."
+        ],
+        "antibiotic_prophylaxis_time": [
+            "Cefazolin 2 grams IV at 10:12 A.M."
+        ],
+        "dvt_prophylaxis": [
+            "SCDs (Sequential Compression Devices) placed for DVT prophylaxis."
+        ]
+    },
+    "intra_op": {
+        "incision_location": [
+            "Abdomen (umbilical trocar incision type trocar)."
+        ],
+        "incision_type": [
+            "Trocar"
+        ],
+        "findings": [
+            "<none>"
+        ],
+        "complications": [
+            "<none>"
+        ],
+        "complication_management": [
+            "<none>"
+        ],
+        "estimated_blood_loss": [
+            "Seventy milliliters."
+        ],
+        "urine_output": [
+            "One hundred fifty milliliters."
+        ],
+        "fluid_in": [
+            "One liter lactated Ringers."
+        ],
+        "drain_placed": [
+            "NO\n(Although it was noted that \"no drain placed\" and \"closure vaginal cuff...ports\", implying that ports were closed without a drain.)"
+        ],
+        "drain_type": [
+            "<none>"
+        ],
+        "drain_location": [
+            "<none>"
+        ],
+        "tourniquet_used": [
+            "<none>"
+        ],
+        "tourniquet_inflation_time": [
+            "<none>"
+        ],
+        "tourniquet_pressure": [
+            "<none>"
+        ],
+        "electrosurgery_used": [
+            "<none>"
+        ],
+        "electrosurgery_type": [
+            "Harmonic scalpel."
+        ],
+        "intra_op_handoff": [
+            "<none>"
+        ],
+        "intra_op_imaging": [
+            "<none>"
+        ],
+        "intra_op_imaging_type": [
+            "<none>"
+        ]
+    },
+    "medications": {
+        "anesthesia_type": [
+            "General anesthesia (propofol, sevoflurane, fentanyl) with local anesthetic (bupivacaine) at port sites."
+        ],
+        "intra_op_medications": [
+            "Cefazolin (2 grams IV), propofol, sevoflurane, fentanyl, bupivacaine."
+        ],
+        "local_anesthetic_used": [
+            "Yes, bupivacaine was used at port sites abdomen as a local anesthetic."
+        ],
+        "local_anesthetic_agent": [
+            "Bupivacaine at port sites abdomen."
+        ],
+        "local_anesthetic_site": [
+            "Abdomen (at port sites)."
+        ],
+        "vasopressor_used": [
+            "<none>"
+        ],
+        "vasopressor_agent": [
+            "<none>"
+        ],
+        "transfusion_given": [
+            "No \n\n(Note: The word \"no\" is explicitly stated in the transcript under the section \"Transfusion\")"
+        ],
+        "transfusion_product": [
+            "<none>"
+        ],
+        "transfusion_volume": [
+            "<none>"
+        ]
+    },
+    "supplies_and_equipment": {
+        "implants": [
+            "<none>"
+        ],
+        "implant_manufacturer": [
+            "<none>"
+        ],
+        "implant_lot_number": [
+            "<none>"
+        ],
+        "instruments": [
+            "Laparoscope, harmonic scalpel, graspers, bupivacaine (local anesthetic) at port sites."
+        ],
+        "sponge_count_correct": [
+            "Yes. The transcript states \"Counts correct all categories.\" indicating that the sponge count was verified."
+        ],
+        "instrument_count_correct": [
+            "YES, \"Counts correct all categories\" was stated at the end of the transcript."
+        ],
+        "sharps_count_correct": [
+            "YES. The transcript explicitly states \"Counts correct all categories.\""
+        ]
+    },
+    "specimens": {
+        "specimen_removed": [
+            "Yes. Uterus and fallopian tubes were removed during the laparoscopic hysterectomy procedure."
+        ],
+        "specimen_description": [
+            "Uterus and fallopian tubes (salpingectomy)."
+        ],
+        "specimen_sent_to_pathology": [
+            "Yes, the uterus and fallopian tubes were sent to pathology, label verified."
+        ],
+        "specimen_label_verified": [
+            "Yes, \"Specimen removed yes uterus and tubes sent to pathology label verified laterality not applicable.\""
+        ],
+        "specimen_laterality": [
+            "<none>"
+        ]
+    },
+    "closure": {
+        "closure_method": [
+            "Vicryl (subcutaneous) and Monocryl (skin), Dermabond topical. \n\n(Note: The answer is derived from \"Closure vaginal cuff Vicryl ports Monocryl Dermabond.\" )"
+        ],
+        "closure_layers": [
+            "Fascia, subcutaneous layer, and skin (closure of three distinct tissue layers)."
+        ],
+        "post_op_skin_care": [
+            "Vicryl ports Monocryl Dermabond."
+        ],
+        "wound_classification": [
+            "Clean contaminated."
+        ]
+    },
+    "post_op": {
+        "patient_condition": [
+            "Stable."
+        ],
+        "extubated_in_or": [
+            "Yes."
+        ],
+        "transfer_destination": [
+            "Transferred to Post Anesthesia Care Unit (PACU)."
+        ],
+        "post_op_orders": [
+            "Pain control, ambulation, and follow-up appointment in two weeks."
+        ]
+    }
+}

@@ -1,0 +1,8 @@
+{
+    "model": "llama3.1:8b",
+    "total_fields_graded": 400,
+    "correct": 366,
+    "incorrect": 34,
+    "review_needed": 0,
+    "accuracy_pct": 91.5
+}

@@ -1,0 +1,262 @@
+{
+    "patient_info": {
+        "patient_name": [
+            "Steven Delgado"
+        ],
+        "patient_id": [
+            "MRN 9021184"
+        ],
+        "date_of_birth": [
+            "November eleventh nineteen sixty-seven"
+        ],
+        "date_of_surgery": [
+            "February 22, 2026"
+        ],
+        "start_time": [
+            "The surgery began at 3:50 PM."
+        ],
+        "end_time": [
+            "The surgery ended at 6:10 PM."
+        ]
+    },
+    "surgical_team": {
+        "primary_surgeon": [
+            "Doctor Brian Mitchell"
+        ],
+        "assistant_surgeon": [
+            "Doctor Eric Stone"
+        ],
+        "scrub_tech": [
+            "The scrub technician is Rachel Adams."
+        ],
+        "circulating_nurse": [
+            "Kevin Liu (circulating nurse)"
+        ],
+        "anesthesiologist": [
+            "Doctor Susan Park and Daniel Cho (anesthesia team)"
+        ],
+        "crna": [
+            "Daniel Cho (CRNA)"
+        ]
+    },
+    "procedure": {
+        "procedure_name": [
+            "Robotic Prostatectomy"
+        ],
+        "procedure_type": [
+            "<none>"
+        ],
+        "approach": [
+            "Robotic approach"
+        ],
+        "laterality": [
+            "<none>"
+        ],
+        "primary_diagnosis": [
+            "Prostate Cancer"
+        ],
+        "secondary_procedure": [
+            "<none>"
+        ]
+    },
+    "pre_op": {
+        "patient_positioning": [
+            "Patient positioned lithotomy Trendelenburg with padding and shoulder supports."
+        ],
+        "positioning_aids": [
+            "Padding and shoulder supports were used for patient positioning."
+        ],
+        "safety_strap_applied": [
+            "Yes"
+        ],
+        "grounding_pad_placed": [
+            "Yes, a grounding pad was placed (left thigh)."
+        ],
+        "grounding_pad_location": [
+            "Left thigh"
+        ],
+        "pre_op_skin_prep_solution": [
+            "Chlorhexidine"
+        ],
+        "pre_op_skin_prep_area": [
+            "Abdomen and pelvis (draped sterile robotic fashion)"
+        ],
+        "draping": [
+            "Sterile robotic fashion."
+        ],
+        "timeout_performed": [
+            "YES"
+        ],
+        "timeout_verified": [
+            "Patient identity and procedure confirmed, laterality not applicable."
+        ],
+        "antibiotic_prophylaxis_agent": [
+            "Cefazolin (2 grams at 3:40 PM)"
+        ],
+        "antibiotic_prophylaxis_time": [
+            "Cefazolin was administered at 3:40 PM."
+        ],
+        "dvt_prophylaxis": [
+            "<none>"
+        ]
+    },
+    "intra_op": {
+        "incision_location": [
+            "Abdomen (not specified where exactly)"
+        ],
+        "incision_type": [
+            "Trocar (minimally invasive)"
+        ],
+        "findings": [
+            "<none>"
+        ],
+        "complications": [
+            "<none>"
+        ],
+        "complication_management": [
+            "<none>"
+        ],
+        "estimated_blood_loss": [
+            "Estimated blood loss: 120 milliliters"
+        ],
+        "urine_output": [
+            "The volume of urine output measured during surgery was 200 milliliters."
+        ],
+        "fluid_in": [
+            "1.8 liters Lactated Ringer's"
+        ],
+        "drain_placed": [
+            "Yes (Jackson Pratt type, location pelvis)"
+        ],
+        "drain_type": [
+            "Jackson Pratt drain (pelvis)"
+        ],
+        "drain_location": [
+            "Drain placed, pelvis."
+        ],
+        "tourniquet_used": [
+            "<none>"
+        ],
+        "tourniquet_inflation_time": [
+            "<none>"
+        ],
+        "tourniquet_pressure": [
+            "<none>"
+        ],
+        "electrosurgery_used": [
+            "Yes"
+        ],
+        "electrosurgery_type": [
+            "Bipolar and monopolar cautery (used)"
+        ],
+        "intra_op_handoff": [
+            "<none>"
+        ],
+        "intra_op_imaging": [
+            "<none>"
+        ],
+        "intra_op_imaging_type": [
+            "<none>"
+        ]
+    },
+    "medications": {
+        "anesthesia_type": [
+            "General anesthesia"
+        ],
+        "intra_op_medications": [
+            "Propofol, fentanyl, rocuronium (anesthesia and muscle relaxant)"
+        ],
+        "local_anesthetic_used": [
+            "<none>"
+        ],
+        "local_anesthetic_agent": [
+            "<none>"
+        ],
+        "local_anesthetic_site": [
+            "<none>"
+        ],
+        "vasopressor_used": [
+            "<none>"
+        ],
+        "vasopressor_agent": [
+            "<none>"
+        ],
+        "transfusion_given": [
+            "<none>"
+        ],
+        "transfusion_product": [
+            "<none>"
+        ],
+        "transfusion_volume": [
+            "<none>"
+        ]
+    },
+    "supplies_and_equipment": {
+        "implants": [
+            "<none>"
+        ],
+        "implant_manufacturer": [
+            "<none>"
+        ],
+        "implant_lot_number": [
+            "<none>"
+        ],
+        "instruments": [
+            "Robotic system (bipolar cautery)"
+        ],
+        "sponge_count_correct": [
+            "YES"
+        ],
+        "instrument_count_correct": [
+            "Yes"
+        ],
+        "sharps_count_correct": [
+            "Yes"
+        ]
+    },
+    "specimens": {
+        "specimen_removed": [
+            "Yes, the prostate was removed."
+        ],
+        "specimen_description": [
+            "The prostate gland was removed (tissue/body part)."
+        ],
+        "specimen_sent_to_pathology": [
+            "Yes"
+        ],
+        "specimen_label_verified": [
+            "Yes"
+        ],
+        "specimen_laterality": [
+            "The side of the body is not specified in this transcript."
+        ]
+    },
+    "closure": {
+        "closure_method": [
+            "Monocryl Dermabond (adhesive closure)"
+        ],
+        "closure_layers": [
+            "Fascia, subcutaneous, and skin layers were closed."
+        ],
+        "post_op_skin_care": [
+            "Monocryl Dermabond"
+        ],
+        "wound_classification": [
+            "Clean"
+        ]
+    },
+    "post_op": {
+        "patient_condition": [
+            "Patient stable; extubated in OR and transferred to PACU."
+        ],
+        "extubated_in_or": [
+            "Yes"
+        ],
+        "transfer_destination": [
+            "Transferred to PACU."
+        ],
+        "post_op_orders": [
+            "Post-op Foley catheter, drain monitoring, follow-up pathology, stable, extubated in OR, transferred to PACU."
+        ]
+    }
+}

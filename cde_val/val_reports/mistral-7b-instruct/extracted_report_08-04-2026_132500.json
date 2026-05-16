@@ -1,0 +1,262 @@
+{
+    "patient_info": {
+        "patient_name": [
+            "Robert Jenkins"
+        ],
+        "patient_id": [
+            "Medical Record Number: 5902341"
+        ],
+        "date_of_birth": [
+            "August fourteenth, nineteen sixty"
+        ],
+        "date_of_surgery": [
+            "February 22, 2026"
+        ],
+        "start_time": [
+            "The surgery began at 7:45 AM."
+        ],
+        "end_time": [
+            "Procedure end time: 9:28 AM."
+        ]
+    },
+    "surgical_team": {
+        "primary_surgeon": [
+            "Doctor Priya Shah"
+        ],
+        "assistant_surgeon": [
+            "Doctor Kevin Ross"
+        ],
+        "scrub_tech": [
+            "The scrub technician is Maria Lopez."
+        ],
+        "circulating_nurse": [
+            "Circulating nurse Jason Kim."
+        ],
+        "anesthesiologist": [
+            "Anesthesia Doctor Andrew Collins"
+        ],
+        "crna": [
+            "Sarah Nguyen"
+        ]
+    },
+    "procedure": {
+        "procedure_name": [
+            "Open right colectomy (ascending colon carcinoma resection)"
+        ],
+        "procedure_type": [
+            "Elective"
+        ],
+        "approach": [
+            "Open approach"
+        ],
+        "laterality": [
+            "Right side"
+        ],
+        "primary_diagnosis": [
+            "Ascending colon carcinoma"
+        ],
+        "secondary_procedure": [
+            "<none>"
+        ]
+    },
+    "pre_op": {
+        "patient_positioning": [
+            "The patient was positioned supine with arms extended on padded armboards, safety strap secured across thighs, and sequential compression devices on for DVT prophylaxis."
+        ],
+        "positioning_aids": [
+            "Padded armboards, gel pads, foam padding"
+        ],
+        "safety_strap_applied": [
+            "Yes"
+        ],
+        "grounding_pad_placed": [
+            "Yes"
+        ],
+        "grounding_pad_location": [
+            "The grounding pad was placed on left thigh."
+        ],
+        "pre_op_skin_prep_solution": [
+            "Chlorhexidine"
+        ],
+        "pre_op_skin_prep_area": [
+            "Abdomen (from chest to mid thigh)"
+        ],
+        "draping": [
+            "Standard sterile fashion (chest to mid-thigh)."
+        ],
+        "timeout_performed": [
+            "Yes"
+        ],
+        "timeout_verified": [
+            "Patient: Robert Jenkins, Procedure: Open right colectomy, Site marked, Consent signed and verified, Antibiotics given."
+        ],
+        "antibiotic_prophylaxis_agent": [
+            "Cefazolin 2 grams IV at 7:36 AM"
+        ],
+        "antibiotic_prophylaxis_time": [
+            "Cefazolin was administered at 7:36 AM."
+        ],
+        "dvt_prophylaxis": [
+            "Sequential compression devices on and functioning for DVT prophylaxis."
+        ]
+    },
+    "intra_op": {
+        "incision_location": [
+            "Midline abdomen"
+        ],
+        "incision_type": [
+            "<none>"
+        ],
+        "findings": [
+            "Mass in ascending colon (carcinoma)."
+        ],
+        "complications": [
+            "Minor bleeding from mesenteric vessel."
+        ],
+        "complication_management": [
+            "Complication managed with cautery and suture ligation (minor bleeding from mesenteric vessel)."
+        ],
+        "estimated_blood_loss": [
+            "Estimated blood loss: 150 milliliters"
+        ],
+        "urine_output": [
+            "Two hundred milliliters"
+        ],
+        "fluid_in": [
+            "1.5 liters lactated Ringer's"
+        ],
+        "drain_placed": [
+            "NO"
+        ],
+        "drain_type": [
+            "<none>"
+        ],
+        "drain_location": [
+            "<none>"
+        ],
+        "tourniquet_used": [
+            "<none>"
+        ],
+        "tourniquet_inflation_time": [
+            "<none>"
+        ],
+        "tourniquet_pressure": [
+            "<none>"
+        ],
+        "electrosurgery_used": [
+            "Yes (Bovie and LigaSure)"
+        ],
+        "electrosurgery_type": [
+            "Bovie and LigaSure were used."
+        ],
+        "intra_op_handoff": [
+            "<none>"
+        ],
+        "intra_op_imaging": [
+            "No imaging used"
+        ],
+        "intra_op_imaging_type": [
+            "<none>"
+        ]
+    },
+    "medications": {
+        "anesthesia_type": [
+            "General anesthesia"
+        ],
+        "intra_op_medications": [
+            "Propofol, Fentanyl, Rocuronium, Cefazolin, Phenylephrine, Packed Red Blood Cells."
+        ],
+        "local_anesthetic_used": [
+            "<none>"
+        ],
+        "local_anesthetic_agent": [
+            "<none>"
+        ],
+        "local_anesthetic_site": [
+            "<none>"
+        ],
+        "vasopressor_used": [
+            "Yes"
+        ],
+        "vasopressor_agent": [
+            "Phenylephrine"
+        ],
+        "transfusion_given": [
+            "Yes"
+        ],
+        "transfusion_product": [
+            "One unit of packed red blood cells (PRBCs)"
+        ],
+        "transfusion_volume": [
+            "One unit of packed red blood cells (300 mL)"
+        ]
+    },
+    "supplies_and_equipment": {
+        "implants": [
+            "<none>"
+        ],
+        "implant_manufacturer": [
+            "<none>"
+        ],
+        "implant_lot_number": [
+            "<none>"
+        ],
+        "instruments": [
+            "Scalpel, LigaSure, Bovie, retractors, stapler"
+        ],
+        "sponge_count_correct": [
+            "YES"
+        ],
+        "instrument_count_correct": [
+            "Yes"
+        ],
+        "sharps_count_correct": [
+            "YES"
+        ]
+    },
+    "specimens": {
+        "specimen_removed": [
+            "Yes, right colon was removed."
+        ],
+        "specimen_description": [
+            "Right colon (specimen)"
+        ],
+        "specimen_sent_to_pathology": [
+            "Yes"
+        ],
+        "specimen_label_verified": [
+            "Yes"
+        ],
+        "specimen_laterality": [
+            "The specimen was taken from the right side (right colon)."
+        ]
+    },
+    "closure": {
+        "closure_method": [
+            "PDS for fascia closure, Vicryl for subcutaneous layer (skin staples)."
+        ],
+        "closure_layers": [
+            "Fascia closed with PDS, Subcutaneous layer Vicryl, Skin staples."
+        ],
+        "post_op_skin_care": [
+            "Sterile gauze was applied to the closed incision."
+        ],
+        "wound_classification": [
+            "Clean contaminated (according to the transcript)"
+        ]
+    },
+    "post_op": {
+        "patient_condition": [
+            "Stable"
+        ],
+        "extubated_in_or": [
+            "Yes"
+        ],
+        "transfer_destination": [
+            "Transferred to PACU."
+        ],
+        "post_op_orders": [
+            "Post operative orders: NPO, IV fluids, pain control, monitor hemoglobin, follow up in clinic."
+        ]
+    }
+}

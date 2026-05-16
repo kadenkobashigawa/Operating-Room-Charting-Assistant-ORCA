@@ -1,0 +1,8 @@
+{
+    "model": "mistral:7b-instruct",
+    "total_fields_graded": 400,
+    "correct": 362,
+    "incorrect": 38,
+    "review_needed": 0,
+    "accuracy_pct": 90.5
+}

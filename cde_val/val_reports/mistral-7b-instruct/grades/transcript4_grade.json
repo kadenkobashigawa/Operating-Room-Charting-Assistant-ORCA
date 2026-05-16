@@ -1,0 +1,737 @@
+{
+    "summary": {
+        "total_fields": 80,
+        "correct": 69,
+        "incorrect": 11,
+        "review_needed": 0,
+        "accuracy_pct": 86.3
+    },
+    "fields": {
+        "closure.closure_layers": {
+            "verdict": "correct",
+            "answer_key_raw": [
+                "fascia, subcutaneous, skin"
+            ],
+            "extracted_raw": [
+                "Fascia, subcutaneous, and skin layers were closed."
+            ]
+        },
+        "closure.closure_method": {
+            "verdict": "incorrect",
+            "answer_key_raw": [
+                "vicryl (deep); nylon (skin)"
+            ],
+            "extracted_raw": [
+                "<none>"
+            ]
+        },
+        "closure.post_op_skin_care": {
+            "verdict": "correct",
+            "answer_key_raw": [
+                "splint applied"
+            ],
+            "extracted_raw": [
+                "Vicryl deep nylon and dressing splint applied."
+            ]
+        },
+        "closure.wound_classification": {
+            "verdict": "correct",
+            "answer_key_raw": [
+                "clean"
+            ],
+            "extracted_raw": [
+                "Clean"
+            ]
+        },
+        "intra_op.complication_management": {
+            "verdict": "correct",
+            "answer_key_raw": [
+                "<none>"
+            ],
+            "extracted_raw": [
+                "<none>"
+            ]
+        },
+        "intra_op.complications": {
+            "verdict": "correct",
+            "answer_key_raw": [
+                "<none>"
+            ],
+            "extracted_raw": [
+                "<none>"
+            ]
+        },
+        "intra_op.drain_location": {
+            "verdict": "correct",
+            "answer_key_raw": [
+                "<none>"
+            ],
+            "extracted_raw": [
+                "<none>"
+            ]
+        },
+        "intra_op.drain_placed": {
+            "verdict": "correct",
+            "answer_key_raw": [
+                "no"
+            ],
+            "extracted_raw": [
+                "<none>"
+            ]
+        },
+        "intra_op.drain_type": {
+            "verdict": "correct",
+            "answer_key_raw": [
+                "<none>"
+            ],
+            "extracted_raw": [
+                "<none>"
+            ]
+        },
+        "intra_op.electrosurgery_type": {
+            "verdict": "incorrect",
+            "answer_key_raw": [
+                "bovie"
+            ],
+            "extracted_raw": [
+                "<none>"
+            ]
+        },
+        "intra_op.electrosurgery_used": {
+            "verdict": "correct",
+            "answer_key_raw": [
+                "yes"
+            ],
+            "extracted_raw": [
+                "Yes, electrosurgery was used (Bovie)."
+            ]
+        },
+        "intra_op.estimated_blood_loss": {
+            "verdict": "correct",
+            "answer_key_raw": [
+                "100 ml"
+            ],
+            "extracted_raw": [
+                "Estimated blood loss: one hundred milliliters"
+            ]
+        },
+        "intra_op.findings": {
+            "verdict": "incorrect",
+            "answer_key_raw": [
+                "displaced fibular fracture"
+            ],
+            "extracted_raw": [
+                "<none>"
+            ]
+        },
+        "intra_op.fluid_in": {
+            "verdict": "correct",
+            "answer_key_raw": [
+                "1 liter lactated ringer's"
+            ],
+            "extracted_raw": [
+                "One liter lactated Ringer's"
+            ]
+        },
+        "intra_op.incision_location": {
+            "verdict": "correct",
+            "answer_key_raw": [
+                "lateral ankle"
+            ],
+            "extracted_raw": [
+                "Lateral ankle incision"
+            ]
+        },
+        "intra_op.incision_type": {
+            "verdict": "correct",
+            "answer_key_raw": [
+                "open"
+            ],
+            "extracted_raw": [
+                "Lateral ankle incision (open)"
+            ]
+        },
+        "intra_op.intra_op_handoff": {
+            "verdict": "incorrect",
+            "answer_key_raw": [
+                "yes"
+            ],
+            "extracted_raw": [
+                "<none>"
+            ]
+        },
+        "intra_op.intra_op_imaging": {
+            "verdict": "correct",
+            "answer_key_raw": [
+                "yes"
+            ],
+            "extracted_raw": [
+                "Yes, fluoroscopy was used."
+            ]
+        },
+        "intra_op.intra_op_imaging_type": {
+            "verdict": "correct",
+            "answer_key_raw": [
+                "fluoroscopy"
+            ],
+            "extracted_raw": [
+                "Fluoroscopy was used during the surgery."
+            ]
+        },
+        "intra_op.tourniquet_inflation_time": {
+            "verdict": "correct",
+            "answer_key_raw": [
+                "1:25 pm"
+            ],
+            "extracted_raw": [
+                "The tourniquet inflation time was at 1:25 PM for 25 minutes (as it was inflated at 1:25 PM and the procedure ended at 2:35 PM)"
+            ]
+        },
+        "intra_op.tourniquet_pressure": {
+            "verdict": "correct",
+            "answer_key_raw": [
+                "250 mmhg"
+            ],
+            "extracted_raw": [
+                "Tourniquet inflation pressure: 250 mmHg"
+            ]
+        },
+        "intra_op.tourniquet_used": {
+            "verdict": "correct",
+            "answer_key_raw": [
+                "yes"
+            ],
+            "extracted_raw": [
+                "Yes"
+            ]
+        },
+        "intra_op.urine_output": {
+            "verdict": "correct",
+            "answer_key_raw": [
+                "minimal"
+            ],
+            "extracted_raw": [
+                "Minimal (as per the transcript)"
+            ]
+        },
+        "medications.anesthesia_type": {
+            "verdict": "correct",
+            "answer_key_raw": [
+                "general"
+            ],
+            "extracted_raw": [
+                "General anesthesia"
+            ]
+        },
+        "medications.intra_op_medications": {
+            "verdict": "incorrect",
+            "answer_key_raw": [
+                "propofol, fentanyl, cefazolin 2g iv (prophylactic), bupivacaine"
+            ],
+            "extracted_raw": [
+                "Propofol, fentanyl, and bupivacaine (local anesthetic)."
+            ]
+        },
+        "medications.local_anesthetic_agent": {
+            "verdict": "correct",
+            "answer_key_raw": [
+                "bupivacaine"
+            ],
+            "extracted_raw": [
+                "Bupivacaine (at the incision site)"
+            ]
+        },
+        "medications.local_anesthetic_site": {
+            "verdict": "correct",
+            "answer_key_raw": [
+                "incision site (lateral ankle)"
+            ],
+            "extracted_raw": [
+                "At the incision site (lateral ankle)"
+            ]
+        },
+        "medications.local_anesthetic_used": {
+            "verdict": "correct",
+            "answer_key_raw": [
+                "yes"
+            ],
+            "extracted_raw": [
+                "Yes, bupivacaine at incision site."
+            ]
+        },
+        "medications.transfusion_given": {
+            "verdict": "correct",
+            "answer_key_raw": [
+                "no"
+            ],
+            "extracted_raw": [
+                "<none>"
+            ]
+        },
+        "medications.transfusion_product": {
+            "verdict": "correct",
+            "answer_key_raw": [
+                "<none>"
+            ],
+            "extracted_raw": [
+                "<none>"
+            ]
+        },
+        "medications.transfusion_volume": {
+            "verdict": "correct",
+            "answer_key_raw": [
+                "<none>"
+            ],
+            "extracted_raw": [
+                "<none>"
+            ]
+        },
+        "medications.vasopressor_agent": {
+            "verdict": "correct",
+            "answer_key_raw": [
+                "<none>"
+            ],
+            "extracted_raw": [
+                "<none>"
+            ]
+        },
+        "medications.vasopressor_used": {
+            "verdict": "correct",
+            "answer_key_raw": [
+                "no"
+            ],
+            "extracted_raw": [
+                "<none>"
+            ]
+        },
+        "patient_info.date_of_birth": {
+            "verdict": "correct",
+            "answer_key_raw": [
+                "june 23, 1984"
+            ],
+            "extracted_raw": [
+                "June twenty-third nineteen eighty-four"
+            ]
+        },
+        "patient_info.date_of_surgery": {
+            "verdict": "correct",
+            "answer_key_raw": [
+                "february 22, 2026"
+            ],
+            "extracted_raw": [
+                "February 22, 2026"
+            ]
+        },
+        "patient_info.end_time": {
+            "verdict": "correct",
+            "answer_key_raw": [
+                "2:35 pm"
+            ],
+            "extracted_raw": [
+                "The surgery ended at 2:35 PM."
+            ]
+        },
+        "patient_info.patient_id": {
+            "verdict": "correct",
+            "answer_key_raw": [
+                "8452201"
+            ],
+            "extracted_raw": [
+                "MRN 8452201"
+            ]
+        },
+        "patient_info.patient_name": {
+            "verdict": "correct",
+            "answer_key_raw": [
+                "michael turner"
+            ],
+            "extracted_raw": [
+                "Michael Turner"
+            ]
+        },
+        "patient_info.start_time": {
+            "verdict": "correct",
+            "answer_key_raw": [
+                "1:25 pm"
+            ],
+            "extracted_raw": [
+                "Surgery began at 1:25 PM"
+            ]
+        },
+        "post_op.extubated_in_or": {
+            "verdict": "correct",
+            "answer_key_raw": [
+                "yes"
+            ],
+            "extracted_raw": [
+                "Yes"
+            ]
+        },
+        "post_op.patient_condition": {
+            "verdict": "correct",
+            "answer_key_raw": [
+                "stable"
+            ],
+            "extracted_raw": [
+                "Patient stable, extubated in OR and transferred to PACU."
+            ]
+        },
+        "post_op.post_op_orders": {
+            "verdict": "incorrect",
+            "answer_key_raw": [
+                "non-weight bearing, pain control, follow-up with orthopedics"
+            ],
+            "extracted_raw": [
+                "<none>"
+            ]
+        },
+        "post_op.transfer_destination": {
+            "verdict": "correct",
+            "answer_key_raw": [
+                "pacu"
+            ],
+            "extracted_raw": [
+                "Transferred to PACU."
+            ]
+        },
+        "pre_op.antibiotic_prophylaxis_agent": {
+            "verdict": "correct",
+            "answer_key_raw": [
+                "cefazolin 2g iv"
+            ],
+            "extracted_raw": [
+                "Cefazolin (2 grams at 1:15 PM)"
+            ]
+        },
+        "pre_op.antibiotic_prophylaxis_time": {
+            "verdict": "correct",
+            "answer_key_raw": [
+                "1:15 pm"
+            ],
+            "extracted_raw": [
+                "Cefazolin was administered at 1:15 PM."
+            ]
+        },
+        "pre_op.draping": {
+            "verdict": "correct",
+            "answer_key_raw": [
+                "standard sterile fashion"
+            ],
+            "extracted_raw": [
+                "Sterilely draped (knee to foot)"
+            ]
+        },
+        "pre_op.dvt_prophylaxis": {
+            "verdict": "incorrect",
+            "answer_key_raw": [
+                "sequential compression device (scd) on right leg"
+            ],
+            "extracted_raw": [
+                "<none>"
+            ]
+        },
+        "pre_op.grounding_pad_location": {
+            "verdict": "correct",
+            "answer_key_raw": [
+                "right thigh"
+            ],
+            "extracted_raw": [
+                "Right thigh"
+            ]
+        },
+        "pre_op.grounding_pad_placed": {
+            "verdict": "correct",
+            "answer_key_raw": [
+                "yes"
+            ],
+            "extracted_raw": [
+                "Yes, a grounding pad was placed on the right thigh."
+            ]
+        },
+        "pre_op.patient_positioning": {
+            "verdict": "correct",
+            "answer_key_raw": [
+                "supine, left leg elevated with bump"
+            ],
+            "extracted_raw": [
+                "The patient was positioned supine, with left leg elevated and foam padding."
+            ]
+        },
+        "pre_op.positioning_aids": {
+            "verdict": "incorrect",
+            "answer_key_raw": [
+                "bump padding and foam"
+            ],
+            "extracted_raw": [
+                "<none>"
+            ]
+        },
+        "pre_op.pre_op_skin_prep_area": {
+            "verdict": "incorrect",
+            "answer_key_raw": [
+                "left knee to foot"
+            ],
+            "extracted_raw": [
+                "Left ankle"
+            ]
+        },
+        "pre_op.pre_op_skin_prep_solution": {
+            "verdict": "correct",
+            "answer_key_raw": [
+                "betadine (povidone-iodine)"
+            ],
+            "extracted_raw": [
+                "Betadine"
+            ]
+        },
+        "pre_op.safety_strap_applied": {
+            "verdict": "correct",
+            "answer_key_raw": [
+                "yes"
+            ],
+            "extracted_raw": [
+                "YES"
+            ]
+        },
+        "pre_op.timeout_performed": {
+            "verdict": "correct",
+            "answer_key_raw": [
+                "yes"
+            ],
+            "extracted_raw": [
+                "YES"
+            ]
+        },
+        "pre_op.timeout_verified": {
+            "verdict": "incorrect",
+            "answer_key_raw": [
+                "patient identity, procedure, site, consent, antibiotics"
+            ],
+            "extracted_raw": [
+                "Procedure (left ankle ORIF), patient identity (Michael Turner, MRN 8452201), laterality (left), consent verified."
+            ]
+        },
+        "procedure.approach": {
+            "verdict": "incorrect",
+            "answer_key_raw": [
+                "open"
+            ],
+            "extracted_raw": [
+                "<none>"
+            ]
+        },
+        "procedure.laterality": {
+            "verdict": "correct",
+            "answer_key_raw": [
+                "left"
+            ],
+            "extracted_raw": [
+                "Left ankle"
+            ]
+        },
+        "procedure.primary_diagnosis": {
+            "verdict": "correct",
+            "answer_key_raw": [
+                "displaced ankle fracture"
+            ],
+            "extracted_raw": [
+                "Displaced ankle fracture"
+            ]
+        },
+        "procedure.procedure_name": {
+            "verdict": "correct",
+            "answer_key_raw": [
+                "left ankle open reduction internal fixation (orif)"
+            ],
+            "extracted_raw": [
+                "Left ankle open reduction internal fixation (ORIF)"
+            ]
+        },
+        "procedure.procedure_type": {
+            "verdict": "correct",
+            "answer_key_raw": [
+                "urgent"
+            ],
+            "extracted_raw": [
+                "Urgent"
+            ]
+        },
+        "procedure.secondary_procedure": {
+            "verdict": "correct",
+            "answer_key_raw": [
+                "no"
+            ],
+            "extracted_raw": [
+                "<none>"
+            ]
+        },
+        "specimens.specimen_description": {
+            "verdict": "correct",
+            "answer_key_raw": [
+                "<none>"
+            ],
+            "extracted_raw": [
+                "<none>"
+            ]
+        },
+        "specimens.specimen_label_verified": {
+            "verdict": "correct",
+            "answer_key_raw": [
+                "<none>"
+            ],
+            "extracted_raw": [
+                "<none>"
+            ]
+        },
+        "specimens.specimen_laterality": {
+            "verdict": "correct",
+            "answer_key_raw": [
+                "<none>"
+            ],
+            "extracted_raw": [
+                "<none>"
+            ]
+        },
+        "specimens.specimen_removed": {
+            "verdict": "correct",
+            "answer_key_raw": [
+                "no"
+            ],
+            "extracted_raw": [
+                "<none>"
+            ]
+        },
+        "specimens.specimen_sent_to_pathology": {
+            "verdict": "correct",
+            "answer_key_raw": [
+                "no"
+            ],
+            "extracted_raw": [
+                "<none>"
+            ]
+        },
+        "supplies_and_equipment.implant_lot_number": {
+            "verdict": "correct",
+            "answer_key_raw": [
+                "syn-33421"
+            ],
+            "extracted_raw": [
+                "Synthes plate and screws lot SYN 33421."
+            ]
+        },
+        "supplies_and_equipment.implant_manufacturer": {
+            "verdict": "correct",
+            "answer_key_raw": [
+                "synthes"
+            ],
+            "extracted_raw": [
+                "Synthes"
+            ]
+        },
+        "supplies_and_equipment.implants": {
+            "verdict": "correct",
+            "answer_key_raw": [
+                "synthes plate and screws"
+            ],
+            "extracted_raw": [
+                "Synthes plate and screws"
+            ]
+        },
+        "supplies_and_equipment.instrument_count_correct": {
+            "verdict": "correct",
+            "answer_key_raw": [
+                "yes"
+            ],
+            "extracted_raw": [
+                "Yes, counts correct."
+            ]
+        },
+        "supplies_and_equipment.instruments": {
+            "verdict": "correct",
+            "answer_key_raw": [
+                "drill, screws, plate, bovie"
+            ],
+            "extracted_raw": [
+                "Drill, screws, plate, Bovie (electrosurgery)"
+            ]
+        },
+        "supplies_and_equipment.sharps_count_correct": {
+            "verdict": "correct",
+            "answer_key_raw": [
+                "yes"
+            ],
+            "extracted_raw": [
+                "YES"
+            ]
+        },
+        "supplies_and_equipment.sponge_count_correct": {
+            "verdict": "correct",
+            "answer_key_raw": [
+                "yes"
+            ],
+            "extracted_raw": [
+                "Yes"
+            ]
+        },
+        "surgical_team.anesthesiologist": {
+            "verdict": "correct",
+            "answer_key_raw": [
+                "dr. victor alvarez"
+            ],
+            "extracted_raw": [
+                "Doctor Victor Alvarez and Jenna White (CRNA)"
+            ]
+        },
+        "surgical_team.assistant_surgeon": {
+            "verdict": "correct",
+            "answer_key_raw": [
+                "dr. alex kim"
+            ],
+            "extracted_raw": [
+                "Doctor Alex Kim"
+            ]
+        },
+        "surgical_team.circulating_nurse": {
+            "verdict": "correct",
+            "answer_key_raw": [
+                "brian scott"
+            ],
+            "extracted_raw": [
+                "Brian Scott (circulating nurse)"
+            ]
+        },
+        "surgical_team.crna": {
+            "verdict": "correct",
+            "answer_key_raw": [
+                "jenna white"
+            ],
+            "extracted_raw": [
+                "Jenna White"
+            ]
+        },
+        "surgical_team.primary_surgeon": {
+            "verdict": "correct",
+            "answer_key_raw": [
+                "dr. thomas greene"
+            ],
+            "extracted_raw": [
+                "Doctor Thomas Greene"
+            ]
+        },
+        "surgical_team.scrub_tech": {
+            "verdict": "correct",
+            "answer_key_raw": [
+                "olivia reed"
+            ],
+            "extracted_raw": [
+                "Olivia Reed"
+            ]
+        }
+    },
+    "meta": {
+        "model": "mistral:7b-instruct",
+        "transcript_id": 4,
+        "graded_at": "2026-04-08 13:53:31",
+        "source_report": "cde_val/val_reports/mistral-7b-instruct/extracted_report_08-04-2026_132626.json"
+    }
+}

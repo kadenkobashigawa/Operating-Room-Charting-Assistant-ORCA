@@ -1,0 +1,102 @@
+{
+    "patient_info": {
+        "patient_name": ["margaret collins"],
+        "patient_id": ["4821903"],
+        "date_of_birth": ["march 3, 1958"],
+        "date_of_surgery": ["february 20, 2026"],
+        "start_time": ["8:05 am"],
+        "end_time": ["9:12 am"]
+    },
+    "surgical_team": {
+        "primary_surgeon": ["dr. samuel lee"],
+        "assistant_surgeon": ["<none>"],
+        "scrub_tech": ["james okafor"],
+        "circulating_nurse": ["linda tran"],
+        "anesthesiologist": ["dr. patricia moore"],
+        "crna": ["kevin hwang"]
+    },
+    "procedure": {
+        "procedure_name": ["laparoscopic right inguinal hernia repair with mesh"],
+        "procedure_type": ["elective"],
+        "approach": ["laparoscopic"],
+        "laterality": ["right"],
+        "primary_diagnosis": ["symptomatic right inguinal hernia"],
+        "secondary_procedure": ["no"]
+    },
+    "pre_op": {
+        "patient_positioning": ["supine, right arm tucked, left arm on armboard"],
+        "positioning_aids": ["<none>"],
+        "safety_strap_applied": ["yes"],
+        "grounding_pad_placed": ["yes"],
+        "grounding_pad_location": ["left thigh"],
+        "pre_op_skin_prep_solution": ["chlorhexidine gluconate"],
+        "pre_op_skin_prep_area": ["umbilicus down to mid-thigh on the right side"],
+        "draping": ["standard sterile laparoscopic fashion"],
+        "timeout_performed": ["yes"],
+        "timeout_verified": ["patient identity, procedure name, correct side, site marking, consent"],
+        "antibiotic_prophylaxis_agent": ["cefazolin 2g iv"],
+        "antibiotic_prophylaxis_time": ["7:42 am"],
+        "dvt_prophylaxis": ["sequential compression devices (scds)"]
+    },
+    "intra_op": {
+        "incision_location": ["infra-umbilical and right lower quadrant"],
+        "incision_type": ["trocar"],
+        "findings": ["moderate-sized indirect right inguinal hernia with small lipoma of the cord; no bowel involvement; no additional abnormalities"],
+        "complications": ["<none>"],
+        "complication_management": ["<none>"],
+        "estimated_blood_loss": ["5 ml"],
+        "urine_output": ["120 ml"],
+        "fluid_in": ["1 liter lactated ringer's"],
+        "drain_placed": ["no"],
+        "drain_type": ["<none>"],
+        "drain_location": ["<none>"],
+        "tourniquet_used": ["no"],
+        "tourniquet_inflation_time": ["<none>"],
+        "tourniquet_pressure": ["<none>"],
+        "electrosurgery_used": ["yes"],
+        "electrosurgery_type": ["bovie and harmonic scalpel"],
+        "intra_op_handoff": ["no"],
+        "intra_op_imaging": ["no"],
+        "intra_op_imaging_type": ["<none>"]
+    },
+    "medications": {
+        "anesthesia_type": ["general"],
+        "intra_op_medications": ["propofol, fentanyl, desflurane, cefazolin 2g iv (prophylactic), bupivacaine 0.25% (local)"],
+        "local_anesthetic_used": ["yes"],
+        "local_anesthetic_agent": ["bupivacaine 0.25%"],
+        "local_anesthetic_site": ["trocar sites"],
+        "vasopressor_used": ["no"],
+        "vasopressor_agent": ["<none>"],
+        "transfusion_given": ["no"],
+        "transfusion_product": ["<none>"],
+        "transfusion_volume": ["<none>"]
+    },
+    "supplies_and_equipment": {
+        "implants": ["progrip self-fixating mesh, 10x15 cm"],
+        "implant_manufacturer": ["medtronic"],
+        "implant_lot_number": ["mdt-2024-88321"],
+        "instruments": ["harmonic scalpel, bovie electrosurgical unit, trocars"],
+        "sponge_count_correct": ["yes"],
+        "instrument_count_correct": ["yes"],
+        "sharps_count_correct": ["yes"]
+    },
+    "specimens": {
+        "specimen_removed": ["no"],
+        "specimen_description": ["<none>"],
+        "specimen_sent_to_pathology": ["no"],
+        "specimen_label_verified": ["<none>"],
+        "specimen_laterality": ["<none>"]
+    },
+    "closure": {
+        "closure_method": ["0-vicryl figure-of-eight (fascia); 3-0 vicryl (subcutaneous); 4-0 monocryl running subcuticular (skin)"],
+        "closure_layers": ["fascial layer, subcutaneous layer, skin"],
+        "post_op_skin_care": ["dermabond applied to all three port sites"],
+        "wound_classification": ["clean"]
+    },
+    "post_op": {
+        "patient_condition": ["tolerated procedure well, extubated without complication"],
+        "extubated_in_or": ["yes"],
+        "transfer_destination": ["pacu"],
+        "post_op_orders": ["resume diet as tolerated; pain management per protocol; follow-up in clinic in two weeks"]
+    }
+}

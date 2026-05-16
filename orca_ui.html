@@ -1,0 +1,652 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>ORCA — Clinical Audio Interface</title>
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&family=Syne:wght@400;500;600;700&display=swap" rel="stylesheet" />
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  :root {
+    --bg-base:    #e8ecf2;
+    --bg-surf:    #ffffff;
+    --bg-elev:    #f0f3f8;
+    --bdr:        rgba(0,0,0,0.08);
+    --bdr-acc:    rgba(0,0,0,0.16);
+    --txt:        #0f172a;
+    --txt2:       #475569;
+    --txt3:       #64748b;
+    --blue:       #1a2f9c;
+    --blue-dim:   rgba(26,47,156,0.08);
+    --blue-bdr:   rgba(26,47,156,0.22);
+    --green:      #16a34a;
+    --green-dim:  rgba(22,163,74,0.10);
+    --amber:      #b45309;
+    --amber-dim:  rgba(180,83,9,0.10);
+    --red:        #dc2626;
+    --red-dim:    rgba(220,38,38,0.10);
+    --teal:       #0891b2;
+    --teal-dim:   rgba(8,145,178,0.10);
+    --purple:     #7c3aed;
+    --purple-dim: rgba(124,58,237,0.10);
+    --mono: 'JetBrains Mono', monospace;
+    --sans: 'Syne', sans-serif;
+  }
+  html, body { height:100%; background:var(--bg-base); color:var(--txt); font-family:var(--sans); overflow:hidden; }
+
+  /* ── Header ── */
+  header {
+    display:flex; align-items:center; justify-content:space-between;
+    padding:0 24px; height:60px;
+    background:#1a2f9c; flex-shrink:0;
+  }
+  .logo { display:flex; align-items:center; }
+  .logo img { height:48px; width:auto; object-fit:contain; background:#fff; border-radius:6px; padding:4px 10px; }
+
+  .phase-badge { display:flex; align-items:center; gap:7px; background:rgba(255,255,255,0.12); border:1px solid rgba(255,255,255,0.2); border-radius:20px; padding:5px 12px 5px 9px; font-size:12px; color:rgba(255,255,255,0.85); }
+  .phase-dot { width:7px; height:7px; border-radius:50%; background:rgba(255,255,255,0.4); }
+  .phase-dot.recording { background:#f87171; animation:blink 1s step-end infinite; }
+  .phase-dot.working   { background:#fbbf24; animation:blink .7s step-end infinite; }
+  .phase-dot.done      { background:#4ade80; }
+  .phase-dot.error     { background:#f87171; }
+  @keyframes blink { 0%,100%{opacity:1}50%{opacity:0} }
+
+  .session-tag { font-family:var(--mono); font-size:11px; color:rgba(255,255,255,0.6); background:rgba(255,255,255,0.10); border:1px solid rgba(255,255,255,0.18); border-radius:6px; padding:4px 10px; }
+  .timer { font-family:var(--mono); font-size:14px; font-weight:500; min-width:50px; color:#fff; }
+
+  button { cursor:pointer; border:none; outline:none; font-family:var(--sans); transition:all .15s; }
+  .btn-rec { display:flex; align-items:center; gap:7px; background:#fff; color:#1a2f9c; border-radius:6px; padding:7px 15px; font-size:12px; font-weight:700; letter-spacing:.04em; }
+  .btn-rec:hover { background:rgba(255,255,255,0.9); }
+  .btn-rec.stop { background:rgba(255,255,255,0.12); border:1px solid rgba(255,255,255,0.25); color:rgba(255,255,255,0.85); }
+  .btn-rec .dot { width:8px; height:8px; border-radius:50%; background:currentColor; flex-shrink:0; }
+  .btn-rec.stop .dot { border-radius:2px; }
+  .btn-ghost { background:rgba(255,255,255,0.12); border:1px solid rgba(255,255,255,0.2); border-radius:6px; padding:6px 12px; font-size:12px; color:rgba(255,255,255,0.8); }
+  .btn-ghost:hover { background:rgba(255,255,255,0.2); color:#fff; }
+  .btn-ghost:disabled { opacity:.35; cursor:default; }
+
+  /* ── Layout ── */
+  .app  { display:flex; flex-direction:column; height:100vh; }
+  .main { display:flex; flex:1; overflow:hidden; padding:12px; gap:12px; }
+  .panel { display:flex; flex-direction:column; overflow:hidden; border-radius:12px; border:1px solid var(--bdr); background:var(--bg-surf); box-shadow:0 2px 12px rgba(0,0,0,0.08); }
+  .panel-hdr { display:flex; align-items:center; justify-content:space-between; padding:13px 20px 11px; border-bottom:1px solid var(--bdr); background:var(--bg-surf); flex-shrink:0; }
+  .panel-title { font-size:10px; font-weight:700; letter-spacing:.12em; text-transform:uppercase; color:var(--txt3); }
+  .panel-body  { flex:1; overflow-y:auto; padding:20px; scrollbar-width:thin; scrollbar-color:var(--bg-elev) transparent; }
+
+  .panel-tx  { flex:1 1 52%; }
+  .panel-cde { flex:1 1 48%; display:flex; flex-direction:column; overflow:hidden; }
+
+  /* ── Transcript ── */
+  .t-entry { display:flex; gap:12px; margin-bottom:20px; animation:rise .3s ease; }
+  @keyframes rise { from{opacity:0;transform:translateY(5px)}to{opacity:1;transform:translateY(0)} }
+  .spk { flex-shrink:0; margin-top:3px; font-family:var(--mono); font-size:10px; font-weight:500; letter-spacing:.06em; padding:3px 7px; border-radius:3px; white-space:nowrap; }
+  .spk.dr { background:var(--blue-dim); color:var(--blue); border:1px solid var(--blue-bdr); }
+  .spk.pt { background:var(--green-dim); color:var(--green); border:1px solid rgba(52,199,123,.3); }
+  .t-text  { font-size:14px; line-height:1.75; color:var(--txt); }
+  .t-ts    { font-family:var(--mono); font-size:11px; color:var(--txt3); margin-top:3px; }
+  .t-plain { font-size:14px; line-height:1.85; color:var(--txt); white-space:pre-wrap; }
+  .tw-high { color:var(--txt); }
+  .tw-med  { color:var(--amber); }
+  .tw-low  { color:var(--red); }
+  .tx-cursor { display:inline-block; width:2px; height:1em; background:var(--blue); vertical-align:text-bottom; margin-left:2px; animation:cursorBlink 1s step-end infinite; }
+  @keyframes cursorBlink { 0%,100%{opacity:1}50%{opacity:0} }
+
+  .waveform { display:flex; align-items:center; gap:3px; height:36px; padding:0 20px; flex-shrink:0; background:var(--bg-elev); border-top:1px solid var(--bdr); }
+  .wv-live  { font-family:var(--mono); font-size:10px; color:var(--txt3); margin-right:8px; letter-spacing:.08em; }
+  .wv-bar   { width:3px; border-radius:2px; background:var(--blue); opacity:.7; }
+
+  /* ── CDE tabs ── */
+  .cde-tabs { display:flex; gap:4px; padding:8px 12px; background:var(--bg-surf); border-bottom:1px solid var(--bdr); flex-shrink:0; overflow-x:auto; scrollbar-width:none; }
+  .cde-tabs::-webkit-scrollbar { display:none; }
+  .cde-tab { flex-shrink:0; padding:5px 12px; font-size:11px; font-weight:600; letter-spacing:.05em; text-transform:uppercase; color:var(--txt3); cursor:pointer; border-radius:20px; border:1px solid transparent; transition:all .15s; white-space:nowrap; background:none; }
+  .cde-tab:hover { color:var(--txt2); background:var(--bg-elev); }
+  .cde-tab.active { color:var(--blue); background:var(--blue-dim); border-color:var(--blue-bdr); }
+  .cde-tab .tab-count { font-family:var(--mono); font-size:10px; margin-left:5px; opacity:.7; }
+  .cde-tab.active .tab-count { opacity:1; }
+
+  /* ── CDE panels ── */
+  .cde-panel { display:none; flex:1; overflow-y:auto; padding:14px 16px; scrollbar-width:thin; scrollbar-color:var(--bg-elev) transparent; }
+  .cde-panel.active { display:block; }
+
+  /* ── CDE rows (field: value) ── */
+  .cde-row {
+    display:flex; align-items:center; gap:12px;
+    padding:10px 14px;
+    background:var(--bg-elev); border:1px solid var(--bdr); border-radius:10px;
+    margin-bottom:6px;
+    animation:rise .3s ease;
+  }
+  .cde-row:last-child { margin-bottom:0; }
+  .cde-field { flex-shrink:0; width:180px; font-size:13px; color:var(--txt2); letter-spacing:.02em; text-transform:capitalize; line-height:1.4; }
+  .cde-val   { flex:1; font-size:15px; color:var(--txt); line-height:1.4; }
+
+  /* ── Progress ── */
+  .prog-strip { height:2px; background:var(--bg-elev); overflow:hidden; flex-shrink:0; }
+  .prog-fill  { height:100%; background:var(--blue); width:0%; transition:width .4s ease; }
+  .prog-fill.ind { width:40%; animation:slide 1.4s linear infinite; }
+  @keyframes slide { 0%{margin-left:-50%}100%{margin-left:110%} }
+
+  /* ── Summary strip ── */
+  .sum-strip { display:flex; gap:8px; flex-wrap:wrap; padding:10px 20px; border-top:1px solid var(--bdr); background:var(--bg-surf); flex-shrink:0; }
+  .sum-pill  { display:flex; align-items:center; gap:5px; background:var(--bg-elev); border:1px solid var(--bdr); border-radius:20px; padding:3px 9px; font-size:11px; color:var(--txt2); }
+  .sum-n     { font-family:var(--mono); font-weight:500; color:var(--txt); }
+
+  /* ── Edit & Approve ── */
+  .empty-field-input { background:transparent; border:none; border-bottom:1px solid var(--bdr-acc); border-radius:0; color:var(--txt); font-family:var(--sans); font-size:13px; padding:2px 4px; width:100%; outline:none; transition:border-color .15s; }
+  .empty-field-input:focus { border-bottom-color:var(--blue); }
+  .empty-field-input:disabled { opacity:.4; cursor:default; }
+  .cde-panel.locked .empty-field-input { pointer-events:none; }
+  .cde-tab.approved { color:var(--green) !important; background:var(--green-dim) !important; border-color:rgba(52,199,123,.3) !important; }
+  .cde-tab.approved.active { color:var(--green) !important; background:var(--green-dim) !important; border-color:rgba(52,199,123,.3) !important; }
+  .cde-panel.locked .cde-val { cursor:default; pointer-events:none; }
+  .cde-panel.locked .cde-val:hover .pill { opacity:1; }
+  .approve-bar { display:flex; align-items:center; justify-content:flex-end; gap:12px; padding:9px 20px; border-top:1px solid var(--bdr); background:var(--bg-surf); flex-shrink:0; }
+  .btn-approve { background:var(--green-dim); border:1px solid rgba(52,199,123,.3); border-radius:6px; padding:6px 14px; font-size:12px; font-weight:600; color:var(--green); font-family:var(--sans); cursor:pointer; transition:all .15s; }
+  .btn-approve:hover { filter:brightness(1.2); }
+  .btn-approve.approved { background:transparent; border-color:var(--bdr); color:var(--txt3); }
+
+  /* ── Empty / error ── */
+  .empty { text-align:center; padding:52px 20px; font-size:13px; color:var(--txt3); line-height:1.8; }
+  .empty-icon { font-size:26px; opacity:.35; margin-bottom:12px; }
+  .err-banner { background:var(--red-dim); border:1px solid rgba(240,67,67,.3); border-radius:8px; padding:10px 14px; margin-bottom:16px; font-size:13px; color:var(--red); line-height:1.5; }
+
+  ::-webkit-scrollbar { width:4px; }
+  ::-webkit-scrollbar-track { background:transparent; }
+  ::-webkit-scrollbar-thumb { background:#cbd5e1; border-radius:4px; }
+</style>
+</head>
+<body>
+<div class="app">
+
+<!-- ── Header ── -->
+<header>
+  <div class="logo">
+    <img src="orai_logo.png" alt="O.R.A.I. Solutions" />
+  </div>
+  <div style="display:flex;align-items:center;gap:12px">
+    <div class="phase-badge"><div class="phase-dot" id="phaseDot"></div><span id="phaseLabel">Idle</span></div>
+    <div class="session-tag" id="sessionTag">—</div>
+    <div class="timer" id="timer">00:00</div>
+  </div>
+  <div style="display:flex;gap:10px;align-items:center">
+    <button class="btn-ghost" id="exportBtn" onclick="doExport()" disabled>Export</button>
+    <button class="btn-rec"   id="recBtn"    onclick="toggleRec()">
+      <span class="dot" id="recDot"></span><span id="recLabel">Start Recording</span>
+    </button>
+  </div>
+</header>
+
+<div class="main">
+
+  <!-- LEFT: Transcript -->
+  <div class="panel panel-tx">
+    <div class="panel-hdr">
+      <span class="panel-title">Transcript</span>
+      <span style="font-family:var(--mono);font-size:11px;color:var(--txt3)" id="wordCount">0 words</span>
+    </div>
+    <div class="prog-strip"><div class="prog-fill" id="txProg"></div></div>
+    <div class="panel-body" id="txBody">
+      <div class="empty">
+        <div class="empty-icon">🎙</div>
+        Press <strong style="color:var(--txt2)">Start Recording</strong> to begin.<br>
+        Audio captured by the RCA device is<br>transcribed automatically via asr3.
+      </div>
+    </div>
+    <div class="waveform" id="waveform" style="display:none">
+      <span class="wv-live">LIVE</span>
+    </div>
+  </div>
+
+  <!-- RIGHT: CDE -->
+  <div class="panel panel-cde">
+    <div class="panel-hdr">
+      <span class="panel-title">Clinical Data Extraction</span>
+      <span style="font-size:11px;color:var(--txt3)" id="cdeStatusLabel">—</span>
+    </div>
+    <div class="prog-strip"><div class="prog-fill" id="cdeProg"></div></div>
+
+    <!-- Tabs — one per template section -->
+    <div class="cde-tabs" id="cdeTabs">
+      <button class="cde-tab active" data-sec="patient_info"         onclick="switchTab(this)">Patient<span class="tab-count" id="tc-patient_info">0</span></button>
+      <button class="cde-tab"        data-sec="surgical_team"        onclick="switchTab(this)">Team<span class="tab-count" id="tc-surgical_team">0</span></button>
+      <button class="cde-tab"        data-sec="procedure"            onclick="switchTab(this)">Procedure<span class="tab-count" id="tc-procedure">0</span></button>
+      <button class="cde-tab"        data-sec="pre_op"               onclick="switchTab(this)">Pre-Op<span class="tab-count" id="tc-pre_op">0</span></button>
+      <button class="cde-tab"        data-sec="intra_op"             onclick="switchTab(this)">Intra-Op<span class="tab-count" id="tc-intra_op">0</span></button>
+      <button class="cde-tab"        data-sec="medications"          onclick="switchTab(this)">Meds<span class="tab-count" id="tc-medications">0</span></button>
+      <button class="cde-tab"        data-sec="supplies_and_equipment" onclick="switchTab(this)">Supplies<span class="tab-count" id="tc-supplies_and_equipment">0</span></button>
+      <button class="cde-tab"        data-sec="specimens"            onclick="switchTab(this)">Specimens<span class="tab-count" id="tc-specimens">0</span></button>
+      <button class="cde-tab"        data-sec="closure"              onclick="switchTab(this)">Closure<span class="tab-count" id="tc-closure">0</span></button>
+      <button class="cde-tab"        data-sec="post_op"              onclick="switchTab(this)">Post-Op<span class="tab-count" id="tc-post_op">0</span></button>
+    </div>
+
+    <!-- One panel div per section -->
+    <div id="cde-patient_info"          class="cde-panel active"><div class="empty"><div class="empty-icon">⚕</div>No data extracted yet.</div></div>
+    <div id="cde-surgical_team"         class="cde-panel"><div class="empty"><div class="empty-icon">⚕</div>No data extracted yet.</div></div>
+    <div id="cde-procedure"             class="cde-panel"><div class="empty"><div class="empty-icon">⚕</div>No data extracted yet.</div></div>
+    <div id="cde-pre_op"                class="cde-panel"><div class="empty"><div class="empty-icon">⚕</div>No data extracted yet.</div></div>
+    <div id="cde-intra_op"              class="cde-panel"><div class="empty"><div class="empty-icon">⚕</div>No data extracted yet.</div></div>
+    <div id="cde-medications"           class="cde-panel"><div class="empty"><div class="empty-icon">⚕</div>No data extracted yet.</div></div>
+    <div id="cde-supplies_and_equipment" class="cde-panel"><div class="empty"><div class="empty-icon">⚕</div>No data extracted yet.</div></div>
+    <div id="cde-specimens"             class="cde-panel"><div class="empty"><div class="empty-icon">⚕</div>No data extracted yet.</div></div>
+    <div id="cde-closure"               class="cde-panel"><div class="empty"><div class="empty-icon">⚕</div>No data extracted yet.</div></div>
+    <div id="cde-post_op"               class="cde-panel"><div class="empty"><div class="empty-icon">⚕</div>No data extracted yet.</div></div>
+
+    <div class="approve-bar" id="approveBar" style="display:none">
+      <span style="font-size:11px;color:var(--green)" id="approveBarLabel"></span>
+      <button class="btn-approve" id="approveBtn" onclick="approveSection()">Approve Section</button>
+    </div>
+
+    <div class="sum-strip" id="sumStrip" style="display:none">
+      <div class="sum-pill">Total fields: <span class="sum-n" id="totalFields">0</span></div>
+      <div class="sum-pill">Sections: <span class="sum-n" id="totalSections">0</span></div>
+    </div>
+  </div>
+
+</div><!-- .main -->
+</div><!-- .app -->
+
+<script>
+const API = "http://localhost:5050";
+const POLL_MS = 1500;
+
+let pollTimer=null, timerInt=null, elapsed=0;
+let lastPhase="idle", lastTx="", lastCdeJson="";
+let txWordQueue=[], txEnqueued=0, txRendered=0, txTypewriterTimer=null;
+const approvedSections=new Set();
+
+document.getElementById("sessionTag").textContent = mkSession();
+
+function mkSession(){ const d=new Date(); return "SES-"+d.getFullYear()+pad(d.getMonth()+1)+pad(d.getDate())+"-"+String(Math.floor(Math.random()*9000)+1000); }
+function pad(n){ return String(n).padStart(2,"0"); }
+function fmt(s){ return pad(Math.floor(s/60))+":"+pad(s%60); }
+function startTimer(){ timerInt=setInterval(()=>{ elapsed++; document.getElementById("timer").textContent=fmt(elapsed); },1000); }
+function stopTimer(){  clearInterval(timerInt); }
+function resetTimer(){ stopTimer(); elapsed=0; document.getElementById("timer").textContent="00:00"; }
+
+/* ── Tabs ── */
+function switchTab(btn){
+  document.querySelectorAll(".cde-tab").forEach(t=>t.classList.remove("active"));
+  document.querySelectorAll(".cde-panel").forEach(p=>p.classList.remove("active"));
+  btn.classList.add("active");
+  document.getElementById("cde-"+btn.dataset.sec).classList.add("active");
+  updateApproveBar(btn.dataset.sec);
+}
+
+/* ── Record ── */
+async function toggleRec(){
+  if(lastPhase==="recording"){
+    try{ await fetch(API+"/stop",{method:"POST"}); }
+    catch(e){ errBanner("Cannot reach server — is server.py running on :5050?"); }
+  } else if(lastPhase==="done"||lastPhase==="error"){
+    try{ await fetch(API+"/reset",{method:"POST"}); }
+    catch(e){ errBanner("Cannot reach server — is server.py running on :5050?"); return; }
+    clearUI(); resetTimer();
+    document.getElementById("sessionTag").textContent="—";
+    lastPhase="idle"; setPhase("idle");
+    const btn=document.getElementById("recBtn"), dot=document.getElementById("recDot"), lbl=document.getElementById("recLabel");
+    btn.classList.remove("stop"); dot.style.borderRadius="50%"; lbl.textContent="Start Recording";
+  } else if(lastPhase==="idle"){
+    try{
+      document.getElementById("sessionTag").textContent=mkSession();
+      clearUI(); resetTimer();
+      await fetch(API+"/start",{method:"POST"});
+      startTimer(); startPoll();
+    } catch(e){ errBanner("Cannot reach server — is server.py running on :5050?"); }
+  }
+}
+
+function buildSessionMD(){
+  const sessionId = document.getElementById("sessionTag").textContent;
+  const duration  = fmt(elapsed);
+  const timestamp = new Date().toLocaleString();
+
+  const sectionLabels = {
+    patient_info:"Patient Information", surgical_team:"Surgical Team",
+    procedure:"Procedure", pre_op:"Pre-Operative", intra_op:"Intra-Operative",
+    medications:"Medications", supplies_and_equipment:"Supplies & Equipment",
+    specimens:"Specimens", closure:"Closure", post_op:"Post-Operative"
+  };
+
+  let md = `# ORCA Session: ${sessionId}\n\n`;
+  md += `| Field | Value |\n|-------|-------|\n`;
+  md += `| Date / Time | ${timestamp} |\n`;
+  md += `| Session Duration | ${duration} |\n`;
+  md += `| Session ID | ${sessionId} |\n\n`;
+  md += `---\n\n`;
+
+  const txText = document.getElementById("txBody").innerText || "";
+  md += `## Transcript\n\n\`\`\`\n${txText.trim()}\n\`\`\`\n\n---\n\n`;
+
+  md += `## Clinical Data Extraction\n\n`;
+  Object.entries(sectionLabels).forEach(([key, label])=>{
+    const panel = document.getElementById("cde-"+key);
+    if(!panel) return;
+    md += `### ${label}\n\n| Field | Value |\n|-------|-------|\n`;
+    panel.querySelectorAll(".cde-row").forEach(row=>{
+      const fieldDiv = row.querySelector(".cde-field");
+      const valDiv   = row.querySelector(".cde-val");
+      if(!fieldDiv||!valDiv) return;
+      const fieldLabel = fieldDiv.textContent.trim();
+      const inp = valDiv.querySelector("input.empty-field-input");
+      const value = inp ? (inp.value.trim() || "<none>") : "<none>";
+      md += `| ${fieldLabel} | ${value} |\n`;
+    });
+    md += "\n";
+  });
+
+  return {md, sessionId, duration, timestamp};
+}
+
+function doExport(){
+  const {md, sessionId} = buildSessionMD();
+  const a = document.createElement("a");
+  a.href = URL.createObjectURL(new Blob([md],{type:"text/markdown"}));
+  a.download = sessionId+".md";
+  a.click();
+  saveSession(); // persist user edits to JSON at export time
+}
+
+async function saveSession(){
+  const {md, sessionId, duration, timestamp} = buildSessionMD();
+  const txText = document.getElementById("txBody").innerText || "";
+
+  // Build cde_result from DOM inputs so user edits are captured
+  const sectionKeys = ["patient_info","surgical_team","procedure","pre_op","intra_op",
+                       "medications","supplies_and_equipment","specimens","closure","post_op"];
+  const cdeData = {};
+  sectionKeys.forEach(sec=>{
+    const panel = document.getElementById("cde-"+sec);
+    if(!panel) return;
+    const fields = {};
+    panel.querySelectorAll(".cde-row").forEach(row=>{
+      const fieldDiv = row.querySelector(".cde-field");
+      const inp      = row.querySelector("input.empty-field-input");
+      if(!fieldDiv||!inp) return;
+      const key   = fieldDiv.textContent.trim().toLowerCase().replace(/\s+/g,"_");
+      const value = inp.value.trim() || "<none>";
+      fields[key] = [value];
+    });
+    if(Object.keys(fields).length) cdeData[sec] = fields;
+  });
+
+  try{
+    await fetch(API+"/save_session",{
+      method:"POST",
+      headers:{"Content-Type":"application/json"},
+      body:JSON.stringify({session_id:sessionId, duration, timestamp, transcript:txText, cde_result:cdeData})
+    });
+  }catch(e){ console.warn("Session save failed:",e); }
+}
+
+/* ── Poll ── */
+function startPoll(){ pollTimer=setInterval(poll,POLL_MS); poll(); }
+function stopPoll(){  clearInterval(pollTimer); }
+
+async function poll(){
+  let d; try{ d=await(await fetch(API+"/status")).json(); }catch(e){ return; }
+  if(d.phase!==lastPhase) onPhase(d.phase,d);
+  lastPhase=d.phase;
+  if(d.transcript&&d.transcript!==lastTx){ if(d.transcript_words){ enqueueTxWords(d.transcript_words); } else { renderTx(d.transcript); } lastTx=d.transcript; }
+  if(d.cde_result){ const j=JSON.stringify(d.cde_result); if(j!==lastCdeJson){ renderCDE(d.cde_result); lastCdeJson=j; } }
+}
+
+/* ── Phase ── */
+const PHASE_LABELS={idle:"Idle",recording:"Recording",transcribing:"Transcribing",extracting:"Extracting clinical data…",done:"Complete",error:"Error"};
+
+function onPhase(phase,data){
+  setPhase(phase);
+  if(phase==="recording"){ txWordQueue=[]; txEnqueued=0; txRendered=0; clearInterval(txTypewriterTimer); txTypewriterTimer=null; setWave(true); setProg("txProg","ind"); const body=document.getElementById("txBody"); if(body&&body.querySelector(".empty")) body.innerHTML=""; }
+  if(phase==="transcribing"){ setWave(false); stopTimer(); setProg("txProg","ind"); document.getElementById("cdeStatusLabel").textContent="Waiting for transcript…"; }
+  if(phase==="extracting"){ flushTxQueue(); hideCursor(); setProg("txProg","100"); setProg("cdeProg","ind"); document.getElementById("cdeStatusLabel").textContent="Extracting clinical data…"; }
+  if(phase==="done"){
+    stopPoll(); stopTimer();
+    setProg("txProg","100"); setProg("cdeProg","100");
+    document.getElementById("cdeStatusLabel").textContent="Extraction complete";
+    document.getElementById("exportBtn").disabled=false;
+    saveSession();
+  }
+  if(phase==="error"){ stopPoll(); stopTimer(); setProg("txProg","0"); setProg("cdeProg","0"); errBanner(data.error||"Unknown error"); }
+
+  const btn=document.getElementById("recBtn"), dot=document.getElementById("recDot"), lbl=document.getElementById("recLabel");
+  if(phase==="recording"){ btn.classList.add("stop"); dot.style.borderRadius="2px"; lbl.textContent="Stop Recording"; }
+  else{ btn.classList.remove("stop"); dot.style.borderRadius="50%"; lbl.textContent=(phase==="done"||phase==="error")?"New Session":"Start Recording"; }
+}
+
+/* ── Approve ── */
+function approveSection(){
+  const active=document.querySelector('.cde-tab.active');
+  if(!active) return;
+  const sec=active.dataset.sec;
+  const panel=document.getElementById('cde-'+sec);
+  if(approvedSections.has(sec)){
+    approvedSections.delete(sec);
+    active.classList.remove('approved');
+    panel.classList.remove('locked');
+    panel.querySelectorAll('.empty-field-input').forEach(inp=>inp.disabled=false);
+  } else {
+    approvedSections.add(sec);
+    active.classList.add('approved');
+    panel.classList.add('locked');
+    panel.querySelectorAll('.empty-field-input').forEach(inp=>inp.disabled=true);
+  }
+  updateApproveBar(sec);
+}
+
+function updateApproveBar(sec){
+  const bar=document.getElementById('approveBar');
+  const btn=document.getElementById('approveBtn');
+  const lbl=document.getElementById('approveBarLabel');
+  if(approvedSections.has(sec)){
+    lbl.textContent='✓ Approved'; btn.textContent='Unapprove'; btn.classList.add('approved');
+  } else {
+    lbl.textContent=''; btn.textContent='Approve Section'; btn.classList.remove('approved');
+  }
+}
+
+
+function setPhase(p){
+  document.getElementById("phaseLabel").textContent=PHASE_LABELS[p]||p;
+  const d=document.getElementById("phaseDot");
+  d.className="phase-dot"+(p==="recording"?" recording":p==="transcribing"||p==="extracting"?" working":p==="done"?" done":p==="error"?" error":"");
+}
+
+/* ── Progress ── */
+function setProg(id,val){
+  const el=document.getElementById(id);
+  if(val==="ind"){ el.className="prog-fill ind"; el.style.width=""; }
+  else{ el.className="prog-fill"; el.style.width=val+"%"; }
+}
+
+/* ── Waveform ── */
+function setWave(on){
+  const wv=document.getElementById("waveform");
+  wv.querySelectorAll(".wv-bar").forEach(b=>b.remove());
+  if(on){ wv.style.display="flex"; for(let i=0;i<36;i++){ const b=document.createElement("div"); b.className="wv-bar"; b.style.cssText="height:4px;animation:wave .8s ease-in-out infinite;animation-delay:"+((i*.06).toFixed(2))+"s"; wv.appendChild(b); } }
+  else{ wv.style.display="none"; }
+}
+const ks=document.createElement("style"); ks.textContent="@keyframes wave{0%,100%{height:4px}50%{height:20px}}"; document.head.appendChild(ks);
+
+/* ── Typewriter queue ── */
+function confClass(c){ return c>=0.75?"tw-high":c>=0.5?"tw-med":"tw-low"; }
+
+function ensurePlain(){
+  const body=document.getElementById("txBody");
+  let pre=body.querySelector(".t-plain");
+  if(!pre){ body.innerHTML=""; pre=document.createElement("div"); pre.className="t-plain"; body.appendChild(pre); }
+  return pre;
+}
+
+function showCursor(){
+  const body=document.getElementById("txBody");
+  if(!body.querySelector(".tx-cursor")){ const c=document.createElement("span"); c.className="tx-cursor"; ensurePlain().appendChild(c); }
+}
+
+function hideCursor(){
+  const c=document.querySelector(".tx-cursor");
+  if(c) c.remove();
+}
+
+function enqueueTxWords(wordsArr){
+  const added=wordsArr.slice(txEnqueued);
+  if(added.length===0) return;
+  txWordQueue.push(...added);
+  txEnqueued=wordsArr.length;
+  if(!txTypewriterTimer){
+    showCursor();
+    txTypewriterTimer=setInterval(txTypewriterTick,75);
+  }
+}
+
+function txTypewriterTick(){
+  if(txWordQueue.length===0){ clearInterval(txTypewriterTimer); txTypewriterTimer=null; return; }
+  const item=txWordQueue.shift();
+  const pre=ensurePlain();
+  hideCursor();
+  const span=document.createElement("span");
+  span.className=confClass(item.conf);
+  span.textContent=item.word;
+  pre.appendChild(span);
+  txRendered++;
+  showCursor();
+  const body=document.getElementById("txBody");
+  body.scrollTo({top:body.scrollHeight,behavior:"smooth"});
+  document.getElementById("wordCount").textContent=txRendered+" words";
+}
+
+function flushTxQueue(){
+  hideCursor();
+  if(txWordQueue.length===0){ clearInterval(txTypewriterTimer); txTypewriterTimer=null; return; }
+  const pre=ensurePlain();
+  txWordQueue.forEach(item=>{
+    const span=document.createElement("span");
+    span.className=confClass(item.conf);
+    span.textContent=item.word;
+    pre.appendChild(span);
+    txRendered++;
+  });
+  txWordQueue=[];
+  clearInterval(txTypewriterTimer); txTypewriterTimer=null;
+  const body=document.getElementById("txBody");
+  body.scrollTo({top:body.scrollHeight,behavior:"smooth"});
+  document.getElementById("wordCount").textContent=txRendered+" words";
+}
+
+/* ── Transcript ── */
+function renderTx(text){
+  const body=document.getElementById("txBody");
+  const lines=text.split(/\n/).filter(l=>l.trim());
+  const spkRe=/^([^:\n]{1,30}):\s+(.+)/;
+  const isDiarized=lines.some(l=>spkRe.test(l.trim()));
+  if(isDiarized){
+    body.innerHTML="";
+    lines.forEach((line,i)=>{
+      const m=line.trim().match(spkRe); if(!m)return;
+      const spkRaw=m[1].trim().toUpperCase(), txt=m[2];
+      const isDr=/DR|DOCTOR|SPEAKER_0|CLINICIAN|PROVIDER|SURGEON|NURSE/.test(spkRaw);
+      const div=document.createElement("div"); div.className="t-entry"; div.style.animationDelay=(i*.04)+"s";
+      div.innerHTML='<span class="spk '+(isDr?"dr":"pt")+'">'+(isDr?"DR":"PT")+'</span><div><div class="t-text">'+esc(txt)+'</div><div class="t-ts">line '+(i+1)+'</div></div>';
+      body.appendChild(div);
+    });
+  } else {
+    let pre=body.querySelector(".t-plain");
+    if(!pre){ body.innerHTML=""; pre=document.createElement("div"); pre.className="t-plain"; body.appendChild(pre); }
+    pre.textContent=text;
+  }
+  body.scrollTop=body.scrollHeight;
+  document.getElementById("wordCount").textContent=text.replace(/<[^>]+>/g,"").split(/\s+/).filter(Boolean).length+" words";
+}
+
+/* ── CDE render ──
+   data = { patient_info: { patient_name: ["John Smith"], ... }, surgical_team: {...}, ... }
+   Each leaf value is a list of strings. '<none>' means not yet extracted.
+   All fields are always rendered — filled fields show pills, empty fields show blank inputs.
+*/
+function renderCDE(data){
+  let totalFilled=0, totalSections=0, totalRendered=0;
+
+  Object.entries(data).forEach(([sec, fields])=>{
+    const panel=document.getElementById("cde-"+sec);
+    if(!panel||typeof fields!=="object"||fields===null) return;
+
+    let count=0;
+    Object.entries(fields).forEach(([fieldKey, values])=>{
+      const arr=Array.isArray(values)?values:[values];
+      const isNone=arr.length===0||(arr.length===1&&typeof arr[0]==="string"&&arr[0].toLowerCase()==="<none>");
+
+      const rowId="row-"+sec+"-"+fieldKey;
+      let row=document.getElementById(rowId);
+      if(!row){
+        const empty=panel.querySelector(".empty");
+        if(empty) empty.remove();
+        row=document.createElement("div"); row.className="cde-row"; row.id=rowId;
+        const label=fieldKey.replace(/_/g," ");
+        row.innerHTML='<div class="cde-field">'+esc(label)+'</div><div class="cde-val"></div>';
+        panel.appendChild(row);
+      }
+
+      const valDiv=row.querySelector(".cde-val");
+      const existingInp=valDiv.querySelector("input.empty-field-input");
+
+      if(!existingInp){
+        // first render — create input pre-filled with extracted value or empty
+        const value=isNone?"":arr.join(", ");
+        valDiv.innerHTML='<input type="text" class="empty-field-input" value="'+esc(value)+'" placeholder="" />';
+        const inp=valDiv.querySelector('.empty-field-input');
+        inp.addEventListener('input',()=>{ inp.dataset.dirty='1'; });
+        if(approvedSections.has(sec)) inp.disabled=true;
+      } else if(!existingInp.dataset.dirty){
+        // not yet user-modified — update with latest extracted value
+        existingInp.value=isNone?"":arr.join(", ");
+      }
+
+      totalRendered++;
+      if(!isNone) count++;
+    });
+
+    const tc=document.getElementById("tc-"+sec);
+    if(tc) tc.textContent=count||"";
+    totalFilled+=count;
+    if(count>0) totalSections++;
+  });
+
+  document.getElementById("totalFields").textContent=totalFilled;
+  document.getElementById("totalSections").textContent=totalSections;
+  if(totalRendered>0){
+    document.getElementById("sumStrip").style.display="flex";
+    document.getElementById("approveBar").style.display="flex";
+    const activeTab=document.querySelector('.cde-tab.active');
+    if(activeTab) updateApproveBar(activeTab.dataset.sec);
+  }
+}
+
+/* ── Helpers ── */
+function esc(s){ return String(s).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/"/g,"&quot;"); }
+
+function errBanner(msg){
+  const b=document.createElement("div"); b.className="err-banner"; b.textContent="Error: "+msg;
+  document.getElementById("txBody").prepend(b);
+}
+
+function clearUI(){
+  document.getElementById("txBody").innerHTML='<div class="empty"><div class="empty-icon">🎙</div>Press <strong style="color:var(--txt2)">Start Recording</strong> to begin.</div>';
+  ["patient_info","surgical_team","procedure","pre_op","intra_op","medications","supplies_and_equipment","specimens","closure","post_op"].forEach(sec=>{
+    const p=document.getElementById("cde-"+sec);
+    if(p) p.innerHTML='<div class="empty"><div class="empty-icon">⚕</div>No data extracted yet.</div>';
+    const tc=document.getElementById("tc-"+sec);
+    if(tc) tc.textContent="0";
+  });
+  document.getElementById("sumStrip").style.display="none";
+  document.getElementById("wordCount").textContent="0 words";
+  document.getElementById("cdeStatusLabel").textContent="—";
+  document.getElementById("exportBtn").disabled=true;
+  setProg("txProg","0"); setProg("cdeProg","0");
+  setWave(false); lastTx=""; lastCdeJson="";
+  txWordQueue=[]; txEnqueued=0; txRendered=0; clearInterval(txTypewriterTimer); txTypewriterTimer=null;
+  approvedSections.clear();
+  document.getElementById("approveBar").style.display="none";
+  document.getElementById("approveBarLabel").textContent="";
+  document.querySelectorAll(".cde-tab.approved").forEach(t=>t.classList.remove("approved"));
+  document.querySelectorAll(".cde-panel.locked").forEach(p=>p.classList.remove("locked"));
+}
+</script>
+</body>
+</html>

@@ -1,0 +1,262 @@
+{
+    "patient_info": {
+        "patient_name": [
+            "Michael Turner."
+        ],
+        "patient_id": [
+            "8452201 (MRN)"
+        ],
+        "date_of_birth": [
+            "June twenty-third nineteen eighty-four."
+        ],
+        "date_of_surgery": [
+            "February twenty-second, two thousand and twenty-six."
+        ],
+        "start_time": [
+            "1:25 PM"
+        ],
+        "end_time": [
+            "2:35 P.M."
+        ]
+    },
+    "surgical_team": {
+        "primary_surgeon": [
+            "Doctor Thomas Greene."
+        ],
+        "assistant_surgeon": [
+            "Doctor Alex Kim."
+        ],
+        "scrub_tech": [
+            "Olivia Reed."
+        ],
+        "circulating_nurse": [
+            "Brian Scott."
+        ],
+        "anesthesiologist": [
+            "Doctor Victor Alvarez (CRNA) and CRNA Jenna White are both part of anesthesia team."
+        ],
+        "crna": [
+            "CRNA (Certified Registered Nurse Anesthetist) Jenna White."
+        ]
+    },
+    "procedure": {
+        "procedure_name": [
+            "Left ankle open reduction internal fixation (ORIF)."
+        ],
+        "procedure_type": [
+            "Urgent approach was indicated by \"Procedure type urgent approach open laterality left\"."
+        ],
+        "approach": [
+            "Open"
+        ],
+        "laterality": [
+            "Left ankle (laterality left)."
+        ],
+        "primary_diagnosis": [
+            "Displaced ankle fracture."
+        ],
+        "secondary_procedure": [
+            "<none>"
+        ]
+    },
+    "pre_op": {
+        "patient_positioning": [
+            "Supine with left leg elevated with bump padding and foam."
+        ],
+        "positioning_aids": [
+            "Padding and foam were used on the left leg with a bump."
+        ],
+        "safety_strap_applied": [
+            "<none>"
+        ],
+        "grounding_pad_placed": [
+            "Yes. Grounding pad was placed on right thigh as part of the safety precautions."
+        ],
+        "grounding_pad_location": [
+            "Right thigh."
+        ],
+        "pre_op_skin_prep_solution": [
+            "Betadine."
+        ],
+        "pre_op_skin_prep_area": [
+            "Knee to foot with betadine prep."
+        ],
+        "draping": [
+            "Prep betadine knee to foot, then draped sterile."
+        ],
+        "timeout_performed": [
+            "Timeout performed - \"Procedure confirmed \u2014 left ankle ORIF, laterality left. Site marked.\""
+        ],
+        "timeout_verified": [
+            "Patient identity and procedure were confirmed during the timeout."
+        ],
+        "antibiotic_prophylaxis_agent": [
+            "Cefazolin two grams at one fifteen P M (given before the procedure)."
+        ],
+        "antibiotic_prophylaxis_time": [
+            "One fifteen P.M., antibiotics cefazolin two grams were administered at this time."
+        ],
+        "dvt_prophylaxis": [
+            "<none>"
+        ]
+    },
+    "intra_op": {
+        "incision_location": [
+            "Lateral ankle."
+        ],
+        "incision_type": [
+            "Lateral ankle incision type open."
+        ],
+        "findings": [
+            "Displaced fibular fracture."
+        ],
+        "complications": [
+            "<none>"
+        ],
+        "complication_management": [
+            "<none>"
+        ],
+        "estimated_blood_loss": [
+            "One hundred milliliters."
+        ],
+        "urine_output": [
+            "Minimal."
+        ],
+        "fluid_in": [
+            "One liter lactated Ringers."
+        ],
+        "drain_placed": [
+            "No. The transcript states \"Drain not placed.\""
+        ],
+        "drain_type": [
+            "<none>"
+        ],
+        "drain_location": [
+            "<none>"
+        ],
+        "tourniquet_used": [
+            "Yes. Inflated at 1:25 PM with pressure 250 mmHg."
+        ],
+        "tourniquet_inflation_time": [
+            "One twenty-five P M."
+        ],
+        "tourniquet_pressure": [
+            "Two fifty mmHg at one twenty-five P M."
+        ],
+        "electrosurgery_used": [
+            "Yes - \"Electrosurgery used Bovie.\""
+        ],
+        "electrosurgery_type": [
+            "Bovie (Electrosurgery device)."
+        ],
+        "intra_op_handoff": [
+            "Anesthesia handoff to relief CRNA at 2 PM, indicating a change. YES."
+        ],
+        "intra_op_imaging": [
+            "Yes\n(Intraoperative imaging yes fluoroscopy used.)"
+        ],
+        "intra_op_imaging_type": [
+            "Fluoroscopy was used for intraoperative imaging."
+        ]
+    },
+    "medications": {
+        "anesthesia_type": [
+            "General anesthesia. Medications listed include propofol and fentanyl."
+        ],
+        "intra_op_medications": [
+            "Cefazolin (2 grams), propofol, fentanyl, and bupivacaine."
+        ],
+        "local_anesthetic_used": [
+            "Yes (bupivacaine at incision site)."
+        ],
+        "local_anesthetic_agent": [
+            "Bupivacaine at incision site."
+        ],
+        "local_anesthetic_site": [
+            "Lateral ankle incision site with bupivacaine."
+        ],
+        "vasopressor_used": [
+            "<none>"
+        ],
+        "vasopressor_agent": [
+            "<none>"
+        ],
+        "transfusion_given": [
+            "<none>"
+        ],
+        "transfusion_product": [
+            "<none>"
+        ],
+        "transfusion_volume": [
+            "<none>"
+        ]
+    },
+    "supplies_and_equipment": {
+        "implants": [
+            "A Synthes plate and screws were permanently placed in the patient's left ankle."
+        ],
+        "implant_manufacturer": [
+            "Synthes."
+        ],
+        "implant_lot_number": [
+            "Synthes plate and screws manufacturer Synthes lot SYN 33421."
+        ],
+        "instruments": [
+            "Drill screws plate Bovie."
+        ],
+        "sponge_count_correct": [
+            "YES. The transcript states \"Counts correct\" at the end of the procedure."
+        ],
+        "instrument_count_correct": [
+            "Yes. The transcript states \"Counts correct\" at the end of the procedure."
+        ],
+        "sharps_count_correct": [
+            "Yes. It is stated \"Counts correct\" at the end of the transcript."
+        ]
+    },
+    "specimens": {
+        "specimen_removed": [
+            "<none>"
+        ],
+        "specimen_description": [
+            "<none>"
+        ],
+        "specimen_sent_to_pathology": [
+            "<none>"
+        ],
+        "specimen_label_verified": [
+            "<none>"
+        ],
+        "specimen_laterality": [
+            "<none>"
+        ]
+    },
+    "closure": {
+        "closure_method": [
+            "Vicryl for deep layer, nylon for skin closure, with Vicryl being absorbable sutures."
+        ],
+        "closure_layers": [
+            "Fascia, subcutaneous, and skin were closed with Vicryl deep nylon and nylon skin sutures."
+        ],
+        "post_op_skin_care": [
+            "Vicryl (deep), nylon skin, and dressing with splint applied."
+        ],
+        "wound_classification": [
+            "Clean."
+        ]
+    },
+    "post_op": {
+        "patient_condition": [
+            "Stable. Extubated in OR and transferred to PACU for post-op care."
+        ],
+        "extubated_in_or": [
+            "Yes."
+        ],
+        "transfer_destination": [
+            "PACU (Post Anesthesia Care Unit)."
+        ],
+        "post_op_orders": [
+            "Non-weight-bearing; pain control; follow-up with orthopedic team."
+        ]
+    }
+}

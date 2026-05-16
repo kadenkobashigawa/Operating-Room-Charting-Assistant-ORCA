@@ -1,0 +1,262 @@
+{
+    "patient_info": {
+        "patient_name": [
+            "Angela Morris"
+        ],
+        "patient_id": [
+            "MRN 7319982"
+        ],
+        "date_of_birth": [
+            "December 9th, 1972"
+        ],
+        "date_of_surgery": [
+            "February 22nd, 2026"
+        ],
+        "start_time": [
+            "Surgery began at ten AM on February twenty-second twenty twenty-six."
+        ],
+        "end_time": [
+            "Ended at eleven forty-two AM"
+        ]
+    },
+    "surgical_team": {
+        "primary_surgeon": [
+            "Dr. Laura Chen"
+        ],
+        "assistant_surgeon": [
+            "Assistant Doctor Nina Patel"
+        ],
+        "scrub_tech": [
+            "Daniel Ortiz (scrub tech) and Emily Park (circulating nurse)."
+        ],
+        "circulating_nurse": [
+            "Emily Park"
+        ],
+        "anesthesiologist": [
+            "Dr. Helen Brooks CRNA Mark Feldman are the Anesthesiologists involved."
+        ],
+        "crna": [
+            "Dr. Mark Feldman"
+        ]
+    },
+    "procedure": {
+        "procedure_name": [
+            "Laparoscopic hysterectomy and bilateral salpingectomy (combined procedures)"
+        ],
+        "procedure_type": [
+            "Elective procedure confirmed by indication for uterine fibroids removal and planning noted as \"secondary bilateral salpingectomy.\" No urgency was indicated; it's scheduled based on clinical need. The transcript doesn\u2019t describe an emergent situation where immediate action is necessary,"
+        ],
+        "approach": [
+            "<none>"
+        ],
+        "laterality": [
+            "Procedure performed on right thigh (grounding pad placement). However, primary surgical focus is abdominal/pelvic area for hysterectomy and salpingectomy; grounding pad detail does not directly indicate the specific site of laparoscopic port insertions. Answer: Right"
+        ],
+        "primary_diagnosis": [
+            "Indication uterine fibroids requiring hysterectomy and bilateral salpingectomy."
+        ],
+        "secondary_procedure": [
+            "No complications encountered; no secondary procedure besides bilateral salpingectomy listed. Answer: NO - Only a primary laparoscopic hysterectomy and elective approach was performed with the inclusion of bilateral salpingectomy as an additional action in context but not explicitly stated as separate"
+        ]
+    },
+    "pre_op": {
+        "patient_positioning": [
+            "Lithotomy with stirrups, right thigh grounding pad applied."
+        ],
+        "positioning_aids": [
+            "Gel padding and foam supports for lithotomy position."
+        ],
+        "safety_strap_applied": [
+            "Yes, a safety strap was applied as confirmed by \"Safety strap applied yes.\""
+        ],
+        "grounding_pad_placed": [
+            "Grounding Pad Right Thigh - YES\n\nExplanation: In the provided transcript of a surgical procedure involving laparoscopy and hysterectomy with bilateral salpingectomy for uterine fibroids, it is explicitly stated that \"Grounding pad right thigh.\""
+        ],
+        "grounding_pad_location": [
+            "Grounding pad right thigh."
+        ],
+        "pre_op_skin_prep_solution": [
+            "Chlorhexidine abdomen and vaginal prep completed. (Antiseptic Solution is Chlorhexidine)"
+        ],
+        "pre_op_skin_prep_area": [
+            "Abdomen and vaginal region were prepped for the laparoscopic hysterectomy procedure."
+        ],
+        "draping": [
+            "Sterile laparoscopic fashion (no specific detail on how it's done)"
+        ],
+        "timeout_performed": [
+            "<none>"
+        ],
+        "timeout_verified": [
+            "Indication uterine fibroids; Secondary procedure bilateral salpingectomy; Patient identity and procedures/secondary procedures confirmation; Consent verified."
+        ],
+        "antibiotic_prophylaxis_agent": [
+            "Cefazolin two grams IV administered as a prophylactic measure prior to surgery."
+        ],
+        "antibiotic_prophylaxis_time": [
+            "Cefazolin given at ten twelve A M."
+        ],
+        "dvt_prophylaxis": [
+            "<none>"
+        ]
+    },
+    "intra_op": {
+        "incision_location": [
+            "Skin incision on right thigh for grounding pad placement during surgery (implied)."
+        ],
+        "incision_type": [
+            "Trocar incision type used for laparoscopic hysterectomy procedure."
+        ],
+        "findings": [
+            "Enlarged fibroid uterus removed. No complications noted. Condition significant due to size and impact on health requiring hysterectomy with bilateral salpingectomy for removal of the entire uterus and fallopian tubes, likely related to benign growths (fib"
+        ],
+        "complications": [
+            "No complications encountered. (This indicates that there were no unplanned adverse events reported.)"
+        ],
+        "complication_management": [
+            "No intraoperative complications encountered; all clear. Answer: No complications noted during the procedure."
+        ],
+        "estimated_blood_loss": [
+            "Seventy milliliters"
+        ],
+        "urine_output": [
+            "One hundred fifty milliliters of urine output measured during surgery."
+        ],
+        "fluid_in": [
+            "One liter lactated Ringer's solution given IV during surgery."
+        ],
+        "drain_placed": [
+            "No surgical drain was placed during the procedure as per the transcript provided. Therefore, my answer is NO. No specifically for this particular case based on given information. However, if there's any ambiguity or need to assume details not explicitly stated in a real-life context, one must clarify with further"
+        ],
+        "drain_type": [
+            "No drain was placed during the procedure. Answer: No drain placed."
+        ],
+        "drain_location": [
+            "No drain was placed during the procedure. Answer: No drain placement occurred."
+        ],
+        "tourniquet_used": [
+            "No tourniquet was used during the procedure as stated \"Tourniquet not used.\" Therefore, my answer is NO."
+        ],
+        "tourniquet_inflation_time": [
+            "<none>"
+        ],
+        "tourniquet_pressure": [
+            "<none>"
+        ],
+        "electrosurgery_used": [
+            "Yes, harmonic scalpel was utilized for the procedure."
+        ],
+        "electrosurgery_type": [
+            "Harmonic scalpel was used for the procedure."
+        ],
+        "intra_op_handoff": [
+            "No changes; all listed from start time were present throughout the procedure and end times. Answer: NO CHANGES INPERSONALITYDURINGPROCEDUREIN THE TRANSCRIPTION.  \n\n(Note: The original transcript does not provide information suggesting a change in surgical or"
+        ],
+        "intra_op_imaging": [
+            "<none>"
+        ],
+        "intra_op_imaging_type": [
+            "<none>"
+        ]
+    },
+    "medications": {
+        "anesthesia_type": [
+            "<none>"
+        ],
+        "intra_op_medications": [
+            "<none>"
+        ],
+        "local_anesthetic_used": [
+            "Yes, bupivacaine was used as a local anesthetic at port sites abdomen."
+        ],
+        "local_anesthetic_agent": [
+            "Bupivacaine at port sites abdomen."
+        ],
+        "local_anesthetic_site": [
+            "Local anesthetic bupivacaine at port sites abdomen."
+        ],
+        "vasopressor_used": [
+            "<none>"
+        ],
+        "vasopressor_agent": [
+            "No vasopressors used. (The answer is \"NO VASOPRESSORS\" since the transcript explicitly states that no vasopressors were utilized during the procedure.)"
+        ],
+        "transfusion_given": [
+            "No blood transfusion was received; explicitly stated as \"Transfusion no.\" Therefore, the answer is NO - No blood transfusion occurred during this procedure."
+        ],
+        "transfusion_product": [
+            "No blood product was transfused. Answer: No transfusion occurred."
+        ],
+        "transfusion_volume": [
+            "No blood product was transfused. Answer: No transfusion occurred."
+        ]
+    },
+    "supplies_and_equipment": {
+        "implants": [
+            "<none>"
+        ],
+        "implant_manufacturer": [
+            "<none>"
+        ],
+        "implant_lot_number": [
+            "<none>"
+        ],
+        "instruments": [
+            "<none>"
+        ],
+        "sponge_count_correct": [
+            "Counts were confirmed as correct; no discrepancy noted. Answer: YES."
+        ],
+        "instrument_count_correct": [
+            "Yes, all counts were reported as correct for surgical instruments used during laparoscopic hysterectomy and bilateral salpingectomy procedures on Angela Morris. No issues with instrument count are indicated in the transcript provided. Therefore: YES (15 words)"
+        ],
+        "sharps_count_correct": [
+            "<none>"
+        ]
+    },
+    "specimens": {
+        "specimen_removed": [
+            "<none>"
+        ],
+        "specimen_description": [
+            "Removed uterus and fallopian tubes due to fibroids (6 words)"
+        ],
+        "specimen_sent_to_pathology": [
+            "Specimen Uterus and tubes removed yes; labeled laterality not applicable - YES specifics on labeling vague but implication given specimens were sent for pathology examination due to removal of uterus. Thus confirmation is that a relevant sample was indeed processed by the lab as per standard"
+        ],
+        "specimen_label_verified": [
+            "<none>"
+        ],
+        "specimen_laterality": [
+            "<none>"
+        ]
+    },
+    "closure": {
+        "closure_method": [
+            "Vaginal cuff closure with Vicryl stitches using a layered approach (fascia subcutaneous skin)."
+        ],
+        "closure_layers": [
+            "Fascia subcutaneous and skin layers closed."
+        ],
+        "post_op_skin_care": [
+            "Vicryl ports Monocryl Dermabond"
+        ],
+        "wound_classification": [
+            "Clean-Contaminated Wound Classification Assigned."
+        ]
+    },
+    "post_op": {
+        "patient_condition": [
+            "Patient stable after elective laparoscopic hysterectomy and bilateral salpingectomy with no complications encountered."
+        ],
+        "extubated_in_or": [
+            "Yes, the patient was extubated in the OR.\n\nThe information provided clearly states \"Extubated in OR yes.\" This indicates that during the procedure on February twenty-second, Angela Morris underwent laparoscopic hysterectomy for uterine fibroids and received"
+        ],
+        "transfer_destination": [
+            "Transferred to PACU (Post-Anesthesia Care Unit)."
+        ],
+        "post_op_orders": [
+            "Pain management and scheduled ambulation/follow-up within two weeks."
+        ]
+    }
+}

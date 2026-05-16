@@ -1,0 +1,262 @@
+{
+    "patient_info": {
+        "patient_name": [
+            "Michael Turner"
+        ],
+        "patient_id": [
+            "MRN 8452201"
+        ],
+        "date_of_birth": [
+            "June twenty-third nineteen eighty-four"
+        ],
+        "date_of_surgery": [
+            "February 22, 2026"
+        ],
+        "start_time": [
+            "Surgery began at 1:25 PM"
+        ],
+        "end_time": [
+            "The surgery ended at 2:35 PM."
+        ]
+    },
+    "surgical_team": {
+        "primary_surgeon": [
+            "Doctor Thomas Greene"
+        ],
+        "assistant_surgeon": [
+            "Doctor Alex Kim"
+        ],
+        "scrub_tech": [
+            "Olivia Reed"
+        ],
+        "circulating_nurse": [
+            "Brian Scott (circulating nurse)"
+        ],
+        "anesthesiologist": [
+            "Doctor Victor Alvarez and Jenna White (CRNA)"
+        ],
+        "crna": [
+            "Jenna White"
+        ]
+    },
+    "procedure": {
+        "procedure_name": [
+            "Left ankle open reduction internal fixation (ORIF)"
+        ],
+        "procedure_type": [
+            "Urgent"
+        ],
+        "approach": [
+            "<none>"
+        ],
+        "laterality": [
+            "Left ankle"
+        ],
+        "primary_diagnosis": [
+            "Displaced ankle fracture"
+        ],
+        "secondary_procedure": [
+            "<none>"
+        ]
+    },
+    "pre_op": {
+        "patient_positioning": [
+            "The patient was positioned supine, with left leg elevated and foam padding."
+        ],
+        "positioning_aids": [
+            "<none>"
+        ],
+        "safety_strap_applied": [
+            "YES"
+        ],
+        "grounding_pad_placed": [
+            "Yes, a grounding pad was placed on the right thigh."
+        ],
+        "grounding_pad_location": [
+            "Right thigh"
+        ],
+        "pre_op_skin_prep_solution": [
+            "Betadine"
+        ],
+        "pre_op_skin_prep_area": [
+            "Left ankle"
+        ],
+        "draping": [
+            "Sterilely draped (knee to foot)"
+        ],
+        "timeout_performed": [
+            "YES"
+        ],
+        "timeout_verified": [
+            "Procedure (left ankle ORIF), patient identity (Michael Turner, MRN 8452201), laterality (left), consent verified."
+        ],
+        "antibiotic_prophylaxis_agent": [
+            "Cefazolin (2 grams at 1:15 PM)"
+        ],
+        "antibiotic_prophylaxis_time": [
+            "Cefazolin was administered at 1:15 PM."
+        ],
+        "dvt_prophylaxis": [
+            "<none>"
+        ]
+    },
+    "intra_op": {
+        "incision_location": [
+            "Lateral ankle incision"
+        ],
+        "incision_type": [
+            "Lateral ankle incision (open)"
+        ],
+        "findings": [
+            "<none>"
+        ],
+        "complications": [
+            "<none>"
+        ],
+        "complication_management": [
+            "<none>"
+        ],
+        "estimated_blood_loss": [
+            "Estimated blood loss: one hundred milliliters"
+        ],
+        "urine_output": [
+            "Minimal (as per the transcript)"
+        ],
+        "fluid_in": [
+            "One liter lactated Ringer's"
+        ],
+        "drain_placed": [
+            "<none>"
+        ],
+        "drain_type": [
+            "<none>"
+        ],
+        "drain_location": [
+            "<none>"
+        ],
+        "tourniquet_used": [
+            "Yes"
+        ],
+        "tourniquet_inflation_time": [
+            "The tourniquet inflation time was at 1:25 PM for 25 minutes (as it was inflated at 1:25 PM and the procedure ended at 2:35 PM)"
+        ],
+        "tourniquet_pressure": [
+            "Tourniquet inflation pressure: 250 mmHg"
+        ],
+        "electrosurgery_used": [
+            "Yes, electrosurgery was used (Bovie)."
+        ],
+        "electrosurgery_type": [
+            "<none>"
+        ],
+        "intra_op_handoff": [
+            "<none>"
+        ],
+        "intra_op_imaging": [
+            "Yes, fluoroscopy was used."
+        ],
+        "intra_op_imaging_type": [
+            "Fluoroscopy was used during the surgery."
+        ]
+    },
+    "medications": {
+        "anesthesia_type": [
+            "General anesthesia"
+        ],
+        "intra_op_medications": [
+            "Propofol, fentanyl, and bupivacaine (local anesthetic)."
+        ],
+        "local_anesthetic_used": [
+            "Yes, bupivacaine at incision site."
+        ],
+        "local_anesthetic_agent": [
+            "Bupivacaine (at the incision site)"
+        ],
+        "local_anesthetic_site": [
+            "At the incision site (lateral ankle)"
+        ],
+        "vasopressor_used": [
+            "<none>"
+        ],
+        "vasopressor_agent": [
+            "<none>"
+        ],
+        "transfusion_given": [
+            "<none>"
+        ],
+        "transfusion_product": [
+            "<none>"
+        ],
+        "transfusion_volume": [
+            "<none>"
+        ]
+    },
+    "supplies_and_equipment": {
+        "implants": [
+            "Synthes plate and screws"
+        ],
+        "implant_manufacturer": [
+            "Synthes"
+        ],
+        "implant_lot_number": [
+            "Synthes plate and screws lot SYN 33421."
+        ],
+        "instruments": [
+            "Drill, screws, plate, Bovie (electrosurgery)"
+        ],
+        "sponge_count_correct": [
+            "Yes"
+        ],
+        "instrument_count_correct": [
+            "Yes, counts correct."
+        ],
+        "sharps_count_correct": [
+            "YES"
+        ]
+    },
+    "specimens": {
+        "specimen_removed": [
+            "<none>"
+        ],
+        "specimen_description": [
+            "<none>"
+        ],
+        "specimen_sent_to_pathology": [
+            "<none>"
+        ],
+        "specimen_label_verified": [
+            "<none>"
+        ],
+        "specimen_laterality": [
+            "<none>"
+        ]
+    },
+    "closure": {
+        "closure_method": [
+            "<none>"
+        ],
+        "closure_layers": [
+            "Fascia, subcutaneous, and skin layers were closed."
+        ],
+        "post_op_skin_care": [
+            "Vicryl deep nylon and dressing splint applied."
+        ],
+        "wound_classification": [
+            "Clean"
+        ]
+    },
+    "post_op": {
+        "patient_condition": [
+            "Patient stable, extubated in OR and transferred to PACU."
+        ],
+        "extubated_in_or": [
+            "Yes"
+        ],
+        "transfer_destination": [
+            "Transferred to PACU."
+        ],
+        "post_op_orders": [
+            "<none>"
+        ]
+    }
+}

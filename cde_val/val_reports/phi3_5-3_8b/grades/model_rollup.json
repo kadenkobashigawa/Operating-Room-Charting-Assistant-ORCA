@@ -1,0 +1,8 @@
+{
+    "model": "phi3.5:3.8b",
+    "total_fields_graded": 400,
+    "correct": 300,
+    "incorrect": 100,
+    "review_needed": 0,
+    "accuracy_pct": 75.0
+}

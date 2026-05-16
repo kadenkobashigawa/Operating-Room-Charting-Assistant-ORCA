@@ -1,0 +1,15 @@
+# Core runtime
+faster-whisper>=1.2
+flask>=3.1
+flask-cors>=6.0
+requests>=2.31
+sounddevice>=0.5
+scipy>=1.13
+numpy>=1.26
+torch>=2.4
+
+# Validation / benchmarking scripts (asr_val.py, cde_val.py)
+pandas>=2.0
+matplotlib>=3.8
+num2words>=0.5
+tqdm>=4.66
