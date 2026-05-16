@@ -92,6 +92,23 @@ Both write outputs to gitignored folders so you can regenerate them locally.
 - All audio and reports stay on the local machine.
 - Files written to `recordings/`, `sessions/`, and `reports/` are gitignored to prevent accidentally committing audio or simulated patient data.
 
+## Credits
+
+The ASR validation pipeline uses the [MedDialog-Audio](https://huggingface.co/datasets/aline-gassenn/MedDialog-Audio) dataset (CC BY-NC 4.0). If you use `asr_val.py` in your own work, please cite:
+
+```bibtex
+@inproceedings{dsw_2025,
+  author    = {Aline Gassenn and Luís Andrade and Douglas Teodoro and José Rodrigues-Jr},
+  title     = {Medical Dialogue Audio Transcription: Dataset and Benchmarking of ASR Models},
+  booktitle = {Anais do VII Dataset Showcase Workshop},
+  year      = {2025},
+  pages     = {71--82},
+  publisher = {SBC},
+  doi       = {10.5753/dsw.2025.248010},
+  url       = {https://sol.sbc.org.br/index.php/dsw/article/view/37199}
+}
+```
+
 ## License
 
 [MIT](LICENSE).
