@@ -6,10 +6,13 @@ __pycache__/
 *.pyc
 *.pyo
 
-# Runtime output — audio recordings and live session/report data
+# Runtime output
 recordings/
 sessions/
 reports/
+
+# Hardware
+hardware/
 
 # macOS
 .DS_Store

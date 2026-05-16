@@ -39,7 +39,6 @@ Everything runs on the local machine — no cloud calls, no external APIs.
 | [report_template_1.json](report_template_1.json) | Schema of fields to extract |
 | [asr_val.py](asr_val.py) | ASR accuracy benchmarking (HF MedDialog-Audio) |
 | [cde_val.py](cde_val.py) | CDE benchmarking across LLMs |
-| [hardware/](hardware/) | STL + G-code for 3D-printed recording device enclosure |
 
 ## Prerequisites
 
@@ -86,10 +85,6 @@ The CDE template ([report_template_1.json](report_template_1.json)) defines the 
 - [cde_val.py](cde_val.py) — Benchmarks several Ollama-hosted LLMs against hand-labeled answer keys in `cde_val/`.
 
 Both write outputs to gitignored folders so you can regenerate them locally.
-
-## Hardware
-
-The [hardware/](hardware/) directory contains STL files and pre-sliced G-code for a 3D-printed enclosure for a Raspberry-Pi-based recording device.
 
 ## Security notes
 
